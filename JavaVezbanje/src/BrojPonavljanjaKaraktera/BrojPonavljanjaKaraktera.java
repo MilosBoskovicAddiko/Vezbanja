@@ -16,12 +16,11 @@ public class BrojPonavljanjaKaraktera {
             unos = sc.nextLine();
         }
 
-        String splitovanNiz[] = unos.split("\\s+");
         ArrayList<Karakteri> karakteriSlova = new ArrayList<>();
 
-        for (int i = 0; i < splitovanNiz.length; i++) {
-            if (splitovanNiz[i].length() == 1) {
-                char trenutniKarakter = splitovanNiz[i].charAt(0);
+        for (int i = 0; i < unos.length(); i++) {
+            if (unos.length() >= 1) {
+                char trenutniKarakter = unos.charAt(i);
 
                 if (Character.isLetter(trenutniKarakter) || Character.isDigit(trenutniKarakter)) {
                     if (karakteriSlova.isEmpty()) {
@@ -38,11 +37,7 @@ public class BrojPonavljanjaKaraktera {
                             karakteriSlova.add(new Karakteri(trenutniKarakter, 1));
                         }
                     }
-                } else {
-                    System.out.println("Uneli ste pogresan karakter " + "\"" + splitovanNiz[i] + "\"");
                 }
-            } else {
-                System.out.println("Uneli ste pogresan karakter " + "\"" + splitovanNiz[i] + "\"");
             }
         }
 
