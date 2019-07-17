@@ -2,6 +2,8 @@ package DvaNizaKaraktera;
 
 import java.util.Scanner;
 
+//TODO - resi problem sa zarezom
+
 public class DvaNizaKaraktera {
     public static void main(String[] args) {
         System.out.print("Unesite prvi niz karaktera: ");
@@ -9,26 +11,15 @@ public class DvaNizaKaraktera {
         String unos1 = sc.nextLine();
         System.out.print("Unesite drugi niz karaktera: ");
         String unos2 = sc.nextLine();
-        String noviNiz = "";
 
-        for(int i=0; i<unos1.length();i++){
-            char trenutnoSlovo = unos1.charAt(i);
-            if(Character.isSpaceChar(trenutnoSlovo) || !Character.isLetter(trenutnoSlovo)){
-                continue;
-            }else{
-                noviNiz = noviNiz+trenutnoSlovo+",";
-            }
-        }
+        String[] slova = unos1.replaceAll("[^a-zA-Z]","").split("(?!^)");
+        String[] cifre = unos2.replaceAll("[^0-9]","").split("(?!^)");
+        String[] konacniNiz = new String[slova.length+cifre.length];
 
-        for(int i=0; i<unos2.length(); i++){
-            char trenutnaCifra = unos2.charAt(i);
-            if(Character.isSpaceChar(trenutnaCifra) || !Character.isDigit(trenutnaCifra)){
-                continue;
-            }else{
-                noviNiz = noviNiz+trenutnaCifra+",";
-            }
+        System.out.print("Elementi niza su: ");
+        for(int i = 0; i < konacniNiz.length; i++){
+            konacniNiz[i] = i<slova.length ? slova[i] : cifre[i-slova.length];
+            System.out.print(konacniNiz[i] + ((i == konacniNiz.length - 1) ? "" : ", "));
         }
-        noviNiz=noviNiz.substring(0,noviNiz.length()-1);
-        System.out.println("Novonastali niz je: "+"\""+noviNiz+"\"");
     }
 }

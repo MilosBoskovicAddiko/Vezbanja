@@ -1,6 +1,9 @@
 package DvaNizaKaraktera;
 
+import java.lang.reflect.Array;
 import java.util.Scanner;
+
+//TODO - resi problem sa zarezom
 
 public class ReciBrojevi {
     public static void main(String[] args) {
@@ -10,28 +13,18 @@ public class ReciBrojevi {
         System.out.print("Unesite drugi niz karaktera: ");
         String unos2 = sc.nextLine();
 
-        String noviNiz1[] = unos1.split("[^a-zA-Z]");
-        String noviNiz2[] = unos2.split("[^0-9]");
+        String[] noviNiz1 = unos1.replaceAll("[^a-zA-Z ]", " ").trim().split("\\s+");
+        String[] noviNiz2 = unos2.replaceAll("[^0-9 ]", " ").trim().split("\\s+");
 
+        String[] konacniNiz = new String[noviNiz1.length + noviNiz2.length];
 
-        String konacniNiz="";
-
-
-        for(int i=0; i<noviNiz1.length;i++){
-            if(noviNiz1[i].equals("")){
-                continue;
-            }
-            konacniNiz=konacniNiz+noviNiz1[i]+",";
+        for (int i = 0; i < konacniNiz.length; i++) {
+            konacniNiz[i] = i <= noviNiz1.length-1 ? noviNiz1[i] : noviNiz2[i-noviNiz1.length];
         }
 
-        for(int i=0; i<noviNiz2.length;i++){
-            if(noviNiz2[i].equals("")){
-                continue;
-            }
-            konacniNiz=konacniNiz+noviNiz2[i]+",";
+        System.out.print("Elementi konacnog niza su: ");
+        for (int i = 0; i < konacniNiz.length; i++) {
+            System.out.print(konacniNiz[i] + (i == konacniNiz.length - 1 ? "" : ", "));
         }
-
-        konacniNiz=konacniNiz.substring(0,konacniNiz.length()-1);
-        System.out.println("Elementi konacnog niza su: "+konacniNiz);
     }
 }

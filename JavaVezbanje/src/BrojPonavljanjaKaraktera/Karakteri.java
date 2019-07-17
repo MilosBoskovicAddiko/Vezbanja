@@ -4,11 +4,10 @@ import java.util.Comparator;
 
 public class Karakteri{
     private char karakter;
-    private int brojPonavljanja;
+    private int brojPonavljanja=1;
 
-    public Karakteri(char karakter, int brojPonavljanja) {
+    public Karakteri(char karakter) {
         this.karakter = karakter;
-        this.brojPonavljanja = brojPonavljanja;
     }
 
     public char getKarakter() {
