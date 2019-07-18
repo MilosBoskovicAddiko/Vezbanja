@@ -26,6 +26,7 @@ Zadatak se sastoji iz dva dela. U prvom delu pod nazivom "DvaNizaKaraktera", sa 
 
 #### Ispisivanje unosa otpozadi
 Unosi se tekst sa standardnog ulaza. Prikazati tekst u obrnutom poretku.
+
 ---
 ## Linkovi
 
