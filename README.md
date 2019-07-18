@@ -1,22 +1,18 @@
 # Vezbanja
----
 
 Ovo je README.md fajl za potrebe vezbanja.
 
 ## Autor
----
 
 Miloš Bošković 
 
 ## Sadrzaj
----
 
 * Broj ponavljanja karaktera
 * Dva niza karaktera
 * Ispisivanje unosa otpozadi
 
 ## Opis zahteva
----
 
 #### Broj ponavljanja karaktera
 Unose se razni karakteri sa standardnog ulaza. Program ispisuje koliko se puta pojavilo neko slovo ili cifra, sortirano prvo po alfanumerickom kriterijumu za slova i cifre rastuce, a zatim i po broju pojavljivanja opadajuce.
@@ -33,7 +29,6 @@ Unosi se tekst sa standardnog ulaza. Prikazati tekst u obrnutom poretku.
 
 ---
 ## Linkovi
----
 
 1. [Broj ponavljanja karaktera](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/BrojPonavljanjaKaraktera)
 2. [Dva niza karaktera](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/DvaNizaKaraktera)
