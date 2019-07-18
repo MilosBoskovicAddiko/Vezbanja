@@ -13,7 +13,7 @@ public class ValidacijaEmaila {
         Scanner skener = new Scanner(System.in);
         String unos = skener.nextLine();
 
-        Pattern patern = Pattern.compile("^([a-zA-Z\\d\\.-_]+)@([a-z\\d-]+)\\.([a-z]{2,8})(\\.[a-z]{2,8})?$");
+        Pattern patern = Pattern.compile("^([a-z\\d])([a-zA-Z\\d\\._-])*@([a-z\\d-]+)\\.([a-z]{2,8})(\\.[a-z]{2,8})?$");
         Matcher matcher = patern.matcher(unos);
 
         System.out.println("Entered email is valid: " + matcher.find());
