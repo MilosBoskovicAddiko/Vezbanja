@@ -10,7 +10,7 @@ Miloš Bošković
 
 * Broj ponavljanja karaktera
 * Dva niza karaktera
-* Ispisivanje unosa otpozadi ()
+* Ispisivanje unosa otpozadi
 
 ## Opis zahteva
 
