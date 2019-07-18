@@ -44,9 +44,9 @@ Potrebno je izvrsiti validaciju broja telefona po sledecem sablonu: ###/###-####
 
 #### Validacija emaila
 Zadatak je samostalno kreirati sablon za validaciju emaila. Kreirani sablon ima sledeci oblik:  
-`Pattern patern = Pattern.compile("^([a-zA-Z\\d\\.-_]+)@([a-z\\d-]+)\\.([a-z]{2,8})(\\.[a-z]{2,8})?$");`
+`Pattern patern = Pattern.compile("^([a-z\\d])([a-zA-Z\\d\\._-])*@([a-z\\d-]+)\\.([a-z]{2,8})(\\.[a-z]{2,8})?$");`
 
-Prevedeno, svaki mail koji pocinje sa malim/velikim slovom, cifrom, tackom, crticom ili donjom crticom(jedno ili vise ponavljanja), nakon cega sledi znak @, nakon njega domen(gmail/yahoo/hotmail/live), koji se moze sastojati iz malih slova, cifara ili crtice (jedno ili vise ponavljanja), nakon toga sledi tacka, i na kraju ekstenzija tipa (co, com, org itd.) iskljucivo od malih slova, u duzini od minimum dva, a najvise 8 karaktera. Poslednji deo je opcionalan jer postoje zemlje sa dodatnom ekstenzijom, otuda znak ? na kraju izraza.
+Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se mogu javiti tacka, crtica(donja), velika/mala slova i cifre (jedno ili vise ponavljanja), nakon cega sledi znak @, nakon njega domen(gmail/yahoo/hotmail/live), koji se moze sastojati iz malih slova, cifara ili crtice (jedno ili vise ponavljanja), nakon toga sledi tacka, i na kraju ekstenzija tipa (co, com, org itd.) iskljucivo od malih slova, u duzini od minimum dva, a najvise 8 karaktera. Poslednji deo je opcionalan jer postoje zemlje sa dodatnom ekstenzijom, otuda znak ? na kraju izraza.
 
 ## Linkovi
 
