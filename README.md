@@ -15,4 +15,4 @@ This is a sample README.md file for my exercises.
 1. [Broj ponavljanja karaktera](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/BrojPonavljanjaKaraktera)
 2. [Dva niza karaktera](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/DvaNizaKaraktera)
 3. [Reci i brojevi](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/DvaNizaKaraktera)
-4. [Ispisivanje unosa otpozadi]
+4. [Ispisivanje unosa otpozadi](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/IspisivanjeUnosaOtpozadi)
