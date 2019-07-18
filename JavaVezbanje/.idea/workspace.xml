@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/IspisivanjeUnosaOtpozadi/IspisivanjeUnosaOtpozadi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IspisivanjeUnosaOtpozadi/IspisivanjeUnosaOtpozadi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/Karakteri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/Karakteri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/SortiranjePoBrojuPonavljanja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/SortiranjePoBrojuPonavljanja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/Tekst zadatka" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DvaNizaKaraktera/DvaNizaKaraktera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DvaNizaKaraktera/DvaNizaKaraktera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DvaNizaKaraktera/ReciBrojevi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DvaNizaKaraktera/ReciBrojevi.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,17 +19,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/IspisivanjeUnosaOtpozadi/IspisivanjeUnosaOtpozadi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,11 +47,12 @@
         <option value="$PROJECT_DIR$/src/MojeVezbanje/Interface_ParentClass/Mains/TestPayIncrease.java" />
         <option value="$PROJECT_DIR$/src/MojeVezbanje/Interface_ParentClass/Mains/TestPayIncreasePolyError.java" />
         <option value="$PROJECT_DIR$/src/MojeVezbanje/JustWithInterface/Contractor.java" />
-        <option value="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/Karakteri.java" />
-        <option value="$PROJECT_DIR$/src/DvaNizaKaraktera/ReciBrojevi.java" />
-        <option value="$PROJECT_DIR$/src/DvaNizaKaraktera/DvaNizaKaraktera.java" />
         <option value="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/BrojPonavljanjaKaraktera.java" />
         <option value="$PROJECT_DIR$/src/IspisivanjeUnosaOtpozadi/IspisivanjeUnosaOtpozadi.java" />
+        <option value="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/Karakteri.java" />
+        <option value="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/SortiranjePoBrojuPonavljanja.java" />
+        <option value="$PROJECT_DIR$/src/DvaNizaKaraktera/DvaNizaKaraktera.java" />
+        <option value="$PROJECT_DIR$/src/DvaNizaKaraktera/ReciBrojevi.java" />
       </list>
     </option>
   </component>
@@ -80,6 +75,11 @@
             <path>
               <item name="JavaVezbanje" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaVezbanje" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaVezbanje" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaVezbanje" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,12 +202,12 @@
       <workItem from="1563268153333" duration="314000" />
       <workItem from="1563268690244" duration="8983000" />
       <workItem from="1563387764565" duration="752000" />
-      <workItem from="1563433957036" duration="3374000" />
+      <workItem from="1563433957036" duration="3731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24068000" />
+    <option name="totallyTimeSpent" value="24425000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -219,10 +219,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1911" y="-9" width="1938" height="1058" extended-state="6" />
-    <editor active="true" />
+    <frame x="1911" y="-9" width="1938" height="1058" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -231,7 +230,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -418,20 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/SortiranjePoBrojuPonavljanja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/SortiranjePoAlfabetnom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StringVariations/StringVariations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-116">
@@ -446,6 +431,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/Tekst zadatka">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/Karakteri.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -453,37 +441,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/BrojPonavljanjaKaraktera.java">
+    <entry file="file://$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/SortiranjePoAlfabetnom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="68">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/Tekst zadatka">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DvaNizaKaraktera/DvaNizaKaraktera.java">
+    <entry file="file://$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/SortiranjePoBrojuPonavljanja.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        <state relative-caret-position="136">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/BrojPonavljanjaKaraktera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IspisivanjeUnosaOtpozadi/IspisivanjeUnosaOtpozadi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DvaNizaKaraktera/ReciBrojevi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IspisivanjeUnosaOtpozadi/IspisivanjeUnosaOtpozadi.java">
+    <entry file="file://$PROJECT_DIR$/src/DvaNizaKaraktera/DvaNizaKaraktera.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="102">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>

@@ -2,9 +2,9 @@ package BrojPonavljanjaKaraktera;
 
 import java.util.Comparator;
 
-public class Karakteri{
+public class Karakteri {
     private char karakter;
-    private int brojPonavljanja=1;
+    private int brojPonavljanja = 1;
 
     public Karakteri(char karakter) {
         this.karakter = karakter;
