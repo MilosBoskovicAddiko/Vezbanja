@@ -11,6 +11,9 @@ Miloš Bošković
 * Broj ponavljanja karaktera
 * Dva niza karaktera
 * Ispisivanje unosa otpozadi
+* Recenice koje sadrze unetu rec
+* Validacija broja telefona
+* Validacija emaila
 
 ## Opis zahteva
 
@@ -28,9 +31,29 @@ Zadatak se sastoji iz dva dela. U prvom delu pod nazivom "DvaNizaKaraktera", sa 
 Unosi se tekst sa standardnog ulaza. Prikazati tekst u obrnutom poretku.
 
 ---
+
+#### Recenice koje sadrze unetu rec
+Treba kreirati listu stringova koja sadrzi neke recenice. Potrebno je kreirati program koji uzima rec od korisnika i prikazuje recenice u kojima se rec pojavljuje (koriscenjem regularnih izraza)
+
+---
+
+#### Validacija broja telefona
+Potrebno je izvrsiti validaciju broja telefona po sledecem sablonu: ###/###-####, tako da na primer, sledeci string bude validan: 123/456-7890
+
+---
+
+#### Validacija emaila
+Zadatak je samostalno kreirati sablon za validaciju emaila. Kreirani sablon ima sledeci oblik:  
+'Pattern patern = Pattern.compile("^([a-zA-Z\\d\\.-_]+)@([a-z\\d-]+)\\.([a-z]{2,8})(\\.[a-z]{2,8})?$");'   
+
+Prevedeno, svaki mail koji pocinje sa malim/velikim slovom, cifrom, tackom, crticom ili donjom crticom(jedno ili vise ponavljanja), nakon cega sledi znak @, nakon njega domen(gmail/yahoo/hotmail/live), koji se moze sastojati iz malih slova, cifara ili crtice (jedno ili vise ponavljanja), nakon toga sledi tacka, i na kraju ekstenzija tipa (co, com, org itd.) iskljucivo od malih slova, u duzini od minimum dva, a najvise 8 karaktera. Poslednji deo je opcionalan jer postoje zemlje sa dodatnom ekstenzijom, otuda znak ? na kraju izraza.
+
 ## Linkovi
 
 1. [Broj ponavljanja karaktera](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/BrojPonavljanjaKaraktera)
 2. [Dva niza karaktera](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/DvaNizaKaraktera)
 3. [Reci i brojevi](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/DvaNizaKaraktera)
 4. [Ispisivanje unosa otpozadi](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/IspisivanjeUnosaOtpozadi)
+5. [Recenice koje sadrze unetu rec](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/JavaRegexPatterni/ReceniceKojeSadrzeUnetuRec)
+6. [Validacija broja telefona](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/JavaRegexPatterni/ValidacijaBrojaTelefona)
+7. [Validacija emaila](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/JavaRegexPatterni/ValidacijaEmaila)
