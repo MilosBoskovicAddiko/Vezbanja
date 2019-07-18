@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/JavaRegexPatterni/ValidacijaEmaila/ValidacijaEmaila.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/JavaRegexPatterni/ValidacijaEmaila/ValidacijaEmaila.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaEmaila/ValidacijaEmaila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaEmaila/ValidacijaEmaila.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaEmaila/ValidacijaEmaila.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="102">
+              <caret line="6" column="154" selection-start-line="6" selection-start-column="154" selection-end-line="6" selection-end-column="154" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -263,12 +261,12 @@
       <workItem from="1563268153333" duration="314000" />
       <workItem from="1563268690244" duration="8983000" />
       <workItem from="1563387764565" duration="752000" />
-      <workItem from="1563433957036" duration="12382000" />
+      <workItem from="1563433957036" duration="12599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33076000" />
+    <option name="totallyTimeSpent" value="33293000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,11 +290,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
@@ -541,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DvaNizaKaraktera/DvaNizaKaraktera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -565,6 +556,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DvaNizaKaraktera/DvaNizaKaraktera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaBrojaTelefona/ValidacijaTelefonskogBroja.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -577,8 +575,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaEmaila/ValidacijaEmaila.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="102">
+          <caret line="6" column="154" selection-start-line="6" selection-start-column="154" selection-end-line="6" selection-end-column="154" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
