@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/Karakteri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/Karakteri.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/SortiranjePoBrojuPonavljanja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/SortiranjePoBrojuPonavljanja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/Tekst zadatka" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DvaNizaKaraktera/DvaNizaKaraktera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DvaNizaKaraktera/DvaNizaKaraktera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DvaNizaKaraktera/ReciBrojevi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DvaNizaKaraktera/ReciBrojevi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRegexPatterni/ReceniceKojeSadrzeUnetuRec/StampajReceniceKojeSadrzeUnetuRec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaBrojaTelefona/ValidacijaTelefonskogBroja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaEmaila/ValidacijaEmaila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/BrojPonavljanjaKaraktera/Tekst zadatka" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +15,62 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaBrojaTelefona/ValidacijaTelefonskogBroja.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaEmaila/ValidacijaEmaila.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/ReceniceKojeSadrzeUnetuRec/StampajReceniceKojeSadrzeUnetuRec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,6 +104,11 @@
         <option value="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/SortiranjePoBrojuPonavljanja.java" />
         <option value="$PROJECT_DIR$/src/DvaNizaKaraktera/DvaNizaKaraktera.java" />
         <option value="$PROJECT_DIR$/src/DvaNizaKaraktera/ReciBrojevi.java" />
+        <option value="$PROJECT_DIR$/src/JavaRegexPatterni/Main.java" />
+        <option value="$PROJECT_DIR$/src/JavaRegexPatterni/Zadatak1/StampajReceniceKojeSadrzeUnetuRec.java" />
+        <option value="$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaBrojaTelefona/ValidacijaTelefonskogBroja.java" />
+        <option value="$PROJECT_DIR$/src/JavaRegexPatterni/ReceniceKojeSadrzeUnetuRec/StampajReceniceKojeSadrzeUnetuRec.java" />
+        <option value="$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaEmaila/ValidacijaEmaila.java" />
       </list>
     </option>
   </component>
@@ -81,6 +137,12 @@
               <item name="JavaVezbanje" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaVezbanje" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaVezbanje" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaRegexPatterni" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -95,6 +157,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/library" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -113,33 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IspisivanjeUnosaOtpozadi">
-    <configuration name="BrojPonavljanjaKaraktera" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BrojPonavljanjaKaraktera.BrojPonavljanjaKaraktera" />
-      <module name="JavaVezbanje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BrojPonavljanjaKaraktera.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DvaNizaKaraktera" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DvaNizaKaraktera.DvaNizaKaraktera" />
-      <module name="JavaVezbanje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DvaNizaKaraktera.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ValidacijaEmaila">
     <configuration name="IspisivanjeUnosaOtpozadi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IspisivanjeUnosaOtpozadi.IspisivanjeUnosaOtpozadi" />
       <module name="JavaVezbanje" />
@@ -153,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReciBrojevi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DvaNizaKaraktera.ReciBrojevi" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaRegexPatterni.Main" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DvaNizaKaraktera.*" />
+          <option name="PATTERN" value="JavaRegexPatterni.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +203,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPayIncreaseInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson7_1.TestPayIncreaseInterface" />
+    <configuration name="StampajReceniceKojeSadrzeUnetuRec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaRegexPatterni.ReceniceKojeSadrzeUnetuRec.StampajReceniceKojeSadrzeUnetuRec" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson7_1.*" />
+          <option name="PATTERN" value="JavaRegexPatterni.ReceniceKojeSadrzeUnetuRec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidacijaEmaila" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaRegexPatterni.ValidacijaEmaila.ValidacijaEmaila" />
+      <module name="JavaVezbanje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaRegexPatterni.ValidacijaEmaila.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidacijaTelefonskogBroja" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaRegexPatterni.ValidacijaBrojaTelefona.ValidacijaTelefonskogBroja" />
+      <module name="JavaVezbanje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaRegexPatterni.ValidacijaBrojaTelefona.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidacijaEmaila" />
+        <item itemvalue="Application.ValidacijaTelefonskogBroja" />
+        <item itemvalue="Application.StampajReceniceKojeSadrzeUnetuRec" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.IspisivanjeUnosaOtpozadi" />
-        <item itemvalue="Application.ReciBrojevi" />
-        <item itemvalue="Application.DvaNizaKaraktera" />
-        <item itemvalue="Application.BrojPonavljanjaKaraktera" />
-        <item itemvalue="Application.TestPayIncreaseInterface" />
       </list>
     </recent_temporary>
   </component>
@@ -202,12 +265,12 @@
       <workItem from="1563268153333" duration="314000" />
       <workItem from="1563268690244" duration="8983000" />
       <workItem from="1563387764565" duration="752000" />
-      <workItem from="1563433957036" duration="3731000" />
+      <workItem from="1563433957036" duration="10672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24425000" />
+    <option name="totallyTimeSpent" value="31366000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -219,7 +282,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1911" y="-9" width="1938" height="1058" extended-state="7" />
+    <frame x="1911" y="-9" width="1938" height="1058" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -230,7 +294,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -241,7 +305,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3293348" />
-      <window_info anchor="bottom" id="Inspection Results" order="13" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3293348" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -483,6 +547,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/ReceniceKojeSadrzeUnetuRec/StampajReceniceKojeSadrzeUnetuRec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaEmaila/ValidacijaEmaila.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaBrojaTelefona/ValidacijaTelefonskogBroja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
