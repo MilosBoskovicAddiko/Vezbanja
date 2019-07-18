@@ -18,12 +18,9 @@ public class ReciBrojevi {
 
         String[] konacniNiz = new String[noviNiz1.length + noviNiz2.length];
 
-        for (int i = 0; i < konacniNiz.length; i++) {
-            konacniNiz[i] = i <= noviNiz1.length - 1 ? noviNiz1[i] : noviNiz2[i - noviNiz1.length];
-        }
-
         System.out.print("Elementi konacnog niza su: ");
         for (int i = 0; i < konacniNiz.length; i++) {
+            konacniNiz[i] = i <= noviNiz1.length - 1 ? noviNiz1[i] : noviNiz2[i - noviNiz1.length];
             System.out.print(konacniNiz[i] + (i == konacniNiz.length - 1 ? "" : ", "));
         }
     }
