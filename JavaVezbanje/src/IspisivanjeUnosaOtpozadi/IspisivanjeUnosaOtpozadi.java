@@ -7,10 +7,10 @@ public class IspisivanjeUnosaOtpozadi {
         System.out.print("Unesite neki tekst: ");
         Scanner skener = new Scanner(System.in);
         String unos = skener.nextLine();
-        String obrnutiUnos="";
-        for(int i = unos.length()-1; i >= 0; i--){
-            obrnutiUnos+=unos.charAt(i);
+        String obrnutiUnos = "";
+        for (int i = unos.length() - 1; i >= 0; i--) {
+            obrnutiUnos += unos.charAt(i);
         }
-        System.out.print("Uneti tekst ispisan otpozadi glasi: "+obrnutiUnos);
+        System.out.print("Uneti tekst ispisan otpozadi glasi: " + obrnutiUnos);
     }
 }
