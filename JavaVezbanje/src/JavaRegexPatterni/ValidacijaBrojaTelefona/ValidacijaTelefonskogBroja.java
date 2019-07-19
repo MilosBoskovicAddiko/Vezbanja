@@ -10,8 +10,8 @@ public class ValidacijaTelefonskogBroja {
         Scanner skener = new Scanner(System.in);
         String unos = skener.nextLine();
 
-        Pattern sablon = Pattern.compile("\\d{3}\\-{1}\\d{3}\\-{1}\\d{4}");
+        Pattern sablon = Pattern.compile("\\d{3}/\\d{3}\\-{1}\\d{4}");
         Matcher mecer = sablon.matcher(unos);
-        System.out.println(mecer.find() ? "Uneti broj odgovara zeljenom formatu" : "Uneti broj NE odgovara zeljenom formatu");
+        System.out.println(mecer.matches() ? "Uneti broj odgovara zeljenom formatu" : "Uneti broj NE odgovara zeljenom formatu");
     }
 }

@@ -16,6 +16,6 @@ public class ValidacijaEmaila {
         Pattern patern = Pattern.compile("^([a-z\\d])([a-zA-Z\\d\\._-])*@([a-z\\d-]+)\\.([a-z]{2,8})(\\.[a-z]{2,8})?$");
         Matcher matcher = patern.matcher(unos);
 
-        System.out.println("Entered email is valid: " + matcher.find());
+        System.out.println("Entered email is valid: " + matcher.matches());
     }
 }
