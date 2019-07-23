@@ -8,6 +8,7 @@ Miloš Bošković
 
 ## Sadrzaj
 
+* Lekcija 3 - Yakov Fain
 * Broj ponavljanja karaktera
 * Dva niza karaktera
 * Ispisivanje unosa otpozadi
@@ -16,6 +17,11 @@ Miloš Bošković
 * Validacija emaila
 
 ## Opis zahteva
+
+#### Lekcija 3 
+Osnovni principi nasledjivanja
+
+---
 
 #### Broj ponavljanja karaktera
 Unose se razni karakteri sa standardnog ulaza. Program ispisuje koliko se puta pojavilo neko slovo ili cifra, sortirano prvo po alfanumerickom kriterijumu za slova i cifre rastuce, a zatim i po broju pojavljivanja opadajuce.
@@ -57,3 +63,4 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 5. [Recenice koje sadrze unetu rec](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/JavaRegexPatterni/ReceniceKojeSadrzeUnetuRec)
 6. [Validacija broja telefona](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/JavaRegexPatterni/ValidacijaBrojaTelefona)
 7. [Validacija emaila](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/JavaRegexPatterni/ValidacijaEmaila)
+8. [Lekcija 3 - Jakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_3)
