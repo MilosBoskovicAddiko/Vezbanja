@@ -10,6 +10,8 @@ Miloš Bošković
 
 * Lekcija 3 - Yakov Fain
 * Lekcija 4 - Yakov Fain
+* Lekcija 6 - Yakov Fain
+* Lekcija 7 - Yakov Fain
 * Broj ponavljanja karaktera
 * Dva niza karaktera
 * Ispisivanje unosa otpozadi
@@ -26,6 +28,16 @@ Osnovni principi nasledjivanja
 
 #### Lekcija 4 
 Metodi klase i konstruktori. Koriscenje kljucne reci *this*, *super*, dometi promenljivih, kljucna rec static
+
+---
+
+#### Lekcija 6
+Paketi, interfejsi i enkapsulacija. Kljucna reci *final*, kastovanje. Primena nasledjivanja i interfejsa. 
+ 
+---
+
+#### Lekcija 7
+Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 
 ---
 
@@ -71,3 +83,6 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 7. [Validacija emaila](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/JavaRegexPatterni/ValidacijaEmaila)
 8. [Lekcija 3 - Jakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_3)
 9. [Lekcija 4 - Yakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_4)
+10. [Lekcija 6 - Yakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_6)
+11. [Lekcija 7 - Yakov Fain - Abstraktna klasa](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_7/AbstractClass)
+12. [Lekcija 7 - Yakov Fain - Interfejs](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_7/Interface)
