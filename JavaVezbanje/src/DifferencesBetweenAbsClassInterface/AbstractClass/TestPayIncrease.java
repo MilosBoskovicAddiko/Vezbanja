@@ -1,4 +1,4 @@
-package MojeVezbanje.AbstractClass;
+package DifferencesBetweenAbsClassInterface.AbstractClass;
 
 public class TestPayIncrease {
     public static void main(String[] args) {

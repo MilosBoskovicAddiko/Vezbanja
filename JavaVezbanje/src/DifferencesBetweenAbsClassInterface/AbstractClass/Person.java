@@ -1,4 +1,4 @@
-package MojeVezbanje.AbstractClass;
+package DifferencesBetweenAbsClassInterface.AbstractClass;
 
 public abstract class Person {
     private String name, address;

@@ -1,4 +1,4 @@
-package MojeVezbanje.JustWithInterface;
+package DifferencesBetweenAbsClassInterface.JustWithInterface;
 
 public class TestPayIncrease {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package MojeVezbanje.AbstractClass;
+package DifferencesBetweenAbsClassInterface.AbstractClass;
 
 public class Contractor extends Person {
     public Contractor(String name) {

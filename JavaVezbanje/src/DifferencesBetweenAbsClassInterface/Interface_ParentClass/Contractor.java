@@ -1,4 +1,4 @@
-package MojeVezbanje.Interface_ParentClass;
+package DifferencesBetweenAbsClassInterface.Interface_ParentClass;
 
 public class Contractor extends Person implements  Payable{
     public Contractor(String name) {

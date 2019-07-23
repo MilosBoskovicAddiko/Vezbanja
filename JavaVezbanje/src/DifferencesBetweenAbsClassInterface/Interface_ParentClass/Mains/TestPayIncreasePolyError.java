@@ -1,6 +1,6 @@
-package MojeVezbanje.Interface_ParentClass.Mains;
+package DifferencesBetweenAbsClassInterface.Interface_ParentClass.Mains;
 
-import MojeVezbanje.Interface_ParentClass.*;
+import DifferencesBetweenAbsClassInterface.Interface_ParentClass.*;
 
 public class TestPayIncreasePolyError {
     public static void main(String[] args) {

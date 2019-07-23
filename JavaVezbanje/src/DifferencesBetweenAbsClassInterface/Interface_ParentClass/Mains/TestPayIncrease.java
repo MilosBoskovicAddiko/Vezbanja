@@ -1,8 +1,8 @@
-package MojeVezbanje.Interface_ParentClass.Mains;
+package DifferencesBetweenAbsClassInterface.Interface_ParentClass.Mains;
 
-import MojeVezbanje.Interface_ParentClass.Contractor;
-import MojeVezbanje.Interface_ParentClass.Employee;
-import MojeVezbanje.Interface_ParentClass.Person;
+import DifferencesBetweenAbsClassInterface.Interface_ParentClass.Contractor;
+import DifferencesBetweenAbsClassInterface.Interface_ParentClass.Employee;
+import DifferencesBetweenAbsClassInterface.Interface_ParentClass.Person;
 
 public class TestPayIncrease {
     public static void main(String[] args) {

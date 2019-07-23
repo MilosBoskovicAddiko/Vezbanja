@@ -1,4 +1,4 @@
-package MojeVezbanje.JustWithInterface;
+package DifferencesBetweenAbsClassInterface.JustWithInterface;
 
 public interface Payable {
     int INCREASE_CAP = 20;

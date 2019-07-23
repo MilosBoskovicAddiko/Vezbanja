@@ -1,4 +1,4 @@
-package MojeVezbanje.Interface_ParentClass;
+package DifferencesBetweenAbsClassInterface.Interface_ParentClass;
 
 public interface Payable {
     int INCREASE_CAP = 20;

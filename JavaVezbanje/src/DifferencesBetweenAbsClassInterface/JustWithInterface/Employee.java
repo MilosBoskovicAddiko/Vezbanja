@@ -1,4 +1,4 @@
-package MojeVezbanje.JustWithInterface;
+package DifferencesBetweenAbsClassInterface.JustWithInterface;
 
 public class Employee implements Payable {
     private String name;
