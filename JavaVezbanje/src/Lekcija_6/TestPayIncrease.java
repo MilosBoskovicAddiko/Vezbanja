@@ -9,12 +9,12 @@ public class TestPayIncrease {
 
         Employee currentEmployee;
         Contractor currentContractor;
-        
-        for(Person person : workers){
-            if(person instanceof Employee){
+
+        for (Person person : workers) {
+            if (person instanceof Employee) {
                 currentEmployee = (Employee) person;
                 currentEmployee.increasePay(30);
-            }else if(person instanceof Contractor){
+            } else if (person instanceof Contractor) {
                 currentContractor = (Contractor) person;
                 currentContractor.increasePay(30);
             }
