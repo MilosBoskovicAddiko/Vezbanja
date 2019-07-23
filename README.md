@@ -9,6 +9,7 @@ Miloš Bošković
 ## Sadrzaj
 
 * Lekcija 3 - Yakov Fain
+* Lekcija 4 - Yakov Fain
 * Broj ponavljanja karaktera
 * Dva niza karaktera
 * Ispisivanje unosa otpozadi
@@ -20,6 +21,11 @@ Miloš Bošković
 
 #### Lekcija 3 
 Osnovni principi nasledjivanja
+
+---
+
+#### Lekcija 4 
+Metodi klase i konstruktori. Koriscenje kljucne reci *this*, *super*, dometi promenljivih, kljucna rec static
 
 ---
 
@@ -64,3 +70,4 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 6. [Validacija broja telefona](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/JavaRegexPatterni/ValidacijaBrojaTelefona)
 7. [Validacija emaila](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/JavaRegexPatterni/ValidacijaEmaila)
 8. [Lekcija 3 - Jakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_3)
+9. [Lekcija 4 - Yakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_4)
