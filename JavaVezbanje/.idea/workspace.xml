@@ -2,7 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_3/NJTax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_3/Tax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_3/TestTax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lesson3_copy/NJTax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lesson3_copy/Tax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lesson3_copy/TestTax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lesson4_copy/Tax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lesson4_copy/TestTax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lesson5_copy/Tax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lesson5_copy/TestTax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lesson7_1/Contractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lesson7_1/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lesson7_1/Payable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lesson7_1/TestPayIncreaseInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/MojeVezbanje/AbstractClass/Contractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/MojeVezbanje/AbstractClass/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/MojeVezbanje/AbstractClass/Person$TestPayIncrease.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/MojeVezbanje/AbstractClass/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/MojeVezbanje/AbstractClass/TestPayIncrease.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/MojeVezbanje/Interface_ParentClass/Contractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/MojeVezbanje/Interface_ParentClass/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/MojeVezbanje/Interface_ParentClass/ForeignContractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/MojeVezbanje/Interface_ParentClass/Mains/TestPayIncrease.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/MojeVezbanje/Interface_ParentClass/Mains/TestPayIncreasePolyError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/MojeVezbanje/Interface_ParentClass/Payable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/MojeVezbanje/Interface_ParentClass/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/MojeVezbanje/JustWithInterface/Contractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/MojeVezbanje/JustWithInterface/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/MojeVezbanje/JustWithInterface/Payable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/MojeVezbanje/JustWithInterface/TestPayIncrease.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson3/NJTax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson3/Tax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson3/TestTax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson4/Tax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson4/TestTax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson5/Arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson5/StringOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson6/Contractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson6/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson6/ForeignContractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson6/MainPackage/TestPayIncrease.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson6/MainPackage/TestPayIncreasePolyError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson6/Payable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson6/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson6_copy/Contractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson6_copy/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson6_copy/ForeignContractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson6_copy/Payable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson6_copy/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson6_copy/mainpackage/TestPayIncrease.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson6_copy/mainpackage/TestPayIncreasePolyError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson7/Contractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson7/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson7/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson7/TestPayIncrease.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson7_1_copy/Contractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson7_1_copy/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson7_1_copy/Payable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson7_1_copy/TestPayIncreaseInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson7_copy/Contractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson7_copy/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson7_copy/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/lesson7_copy/TestPayIncrease.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +93,42 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lekcija_3/Tax.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
+              <folding>
+                <element signature="e#214#215#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lekcija_3/NJTax.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#86#87#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lekcija_3/TestTax.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,6 +168,10 @@
         <option value="$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaEmaila/ValidacijaEmaila.java" />
         <option value="$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaBrojaTelefona/ValidacijaTelefonskogBroja.java" />
         <option value="$PROJECT_DIR$/src/JavaRegexPatterni/Proba/Proba.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_3/Main.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_3/Tax.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_3/NJTax.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_3/TestTax.java" />
       </list>
     </option>
   </component>
@@ -84,8 +187,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaVezbanje" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaVezbanje" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaVezbanje" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaVezbanje" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaVezbanje" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaVezbanje" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lekcija_3" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -116,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BrojPonavljanjaKaraktera">
+  <component name="RunManager" selected="Application.TestTax">
     <configuration name="BrojPonavljanjaKaraktera" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BrojPonavljanjaKaraktera.BrojPonavljanjaKaraktera" />
       <module name="JavaVezbanje" />
@@ -143,12 +267,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StampajReceniceKojeSadrzeUnetuRec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaRegexPatterni.ReceniceKojeSadrzeUnetuRec.StampajReceniceKojeSadrzeUnetuRec" />
+    <configuration name="Tax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_3.Tax" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaRegexPatterni.ReceniceKojeSadrzeUnetuRec.*" />
+          <option name="PATTERN" value="Lekcija_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +280,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidacijaEmaila" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaRegexPatterni.ValidacijaEmaila.ValidacijaEmaila" />
+    <configuration name="TestTax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_3.TestTax" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaRegexPatterni.ValidacijaEmaila.*" />
+          <option name="PATTERN" value="Lekcija_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestTax" />
+        <item itemvalue="Application.Tax" />
         <item itemvalue="Application.BrojPonavljanjaKaraktera" />
         <item itemvalue="Application.Proba" />
         <item itemvalue="Application.ValidacijaTelefonskogBroja" />
-        <item itemvalue="Application.ValidacijaEmaila" />
-        <item itemvalue="Application.StampajReceniceKojeSadrzeUnetuRec" />
       </list>
     </recent_temporary>
   </component>
@@ -213,11 +337,12 @@
       <workItem from="1563779335334" duration="1429000" />
       <workItem from="1563796016882" duration="143000" />
       <workItem from="1563798944667" duration="1996000" />
+      <workItem from="1563862888943" duration="2126000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62825000" />
+    <option name="totallyTimeSpent" value="64951000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -230,8 +355,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1938" height="1058" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11513859" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.116204694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -240,7 +366,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32824427" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32824427" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39694658" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -375,7 +501,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MojeVezbanje/Interface_ParentClass/Mains/TestPayIncrease.java">
+    <entry file="file://$PROJECT_DIR$/src/DifferencesBetweenAbsClassInterface/Interface_ParentClass/Mains/TestPayIncrease.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
@@ -385,14 +511,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MojeVezbanje/JustWithInterface/Contractor.java">
+    <entry file="file://$PROJECT_DIR$/src/DifferencesBetweenAbsClassInterface/JustWithInterface/Contractor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MojeVezbanje/Interface_ParentClass/Mains/TestPayIncreasePolyError.java">
+    <entry file="file://$PROJECT_DIR$/src/DifferencesBetweenAbsClassInterface/Interface_ParentClass/Mains/TestPayIncreasePolyError.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
@@ -482,16 +608,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/Proba/Proba.java" />
-    <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaBrojaTelefona/ValidacijaTelefonskogBroja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaBrojaTelefona/ValidacijaTelefonskogBroja.java" />
     <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/ReceniceKojeSadrzeUnetuRec/StampajReceniceKojeSadrzeUnetuRec.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -523,6 +640,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DifferencesBetweenAbsClassInterface/AbstractClass/Contractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_3/Tax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_3/NJTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_3/TestTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
         </state>
       </provider>
     </entry>
