@@ -8,10 +8,11 @@ Miloš Bošković
 
 ## Sadrzaj
 
-* Lekcija 3 - Yakov Fain
-* Lekcija 4 - Yakov Fain
-* Lekcija 6 - Yakov Fain
-* Lekcija 7 - Yakov Fain
+* Lekcija 3 - Yakov Fain - OOP pomocu Java jezika
+* Lekcija 4 - Yakov Fain - Metodi klase i konstruktori
+* Lekcija 6 - Yakov Fain - Paketi, interfejsi i enkapsulacija
+* Lekcija 7 - Yakov Fain - Programiranje koriscenjem apstraktnih klasa i interfejsa
+* Lekcija 10 - Yakov Fain - Rukovanje greskama
 * Broj ponavljanja karaktera
 * Dva niza karaktera
 * Ispisivanje unosa otpozadi
@@ -38,6 +39,14 @@ Paketi, interfejsi i enkapsulacija. Kljucna reci *final*, kastovanje. Primena na
 
 #### Lekcija 7
 Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
+
+---
+
+#### Lekcija 10
+* Kreiranje sopstvenih izuzetaka
+* Kljucna rec *finally*
+* Hendling pomocu kljucne reci *throw*
+* Try blok sa resursima
 
 ---
 
@@ -74,15 +83,35 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 
 ## Linkovi
 
-1. [Broj ponavljanja karaktera](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/BrojPonavljanjaKaraktera)
-2. [Dva niza karaktera](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/DvaNizaKaraktera)
-3. [Reci i brojevi](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/DvaNizaKaraktera)
-4. [Ispisivanje unosa otpozadi](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/IspisivanjeUnosaOtpozadi)
-5. [Recenice koje sadrze unetu rec](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/JavaRegexPatterni/ReceniceKojeSadrzeUnetuRec)
-6. [Validacija broja telefona](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/JavaRegexPatterni/ValidacijaBrojaTelefona)
-7. [Validacija emaila](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/JavaRegexPatterni/ValidacijaEmaila)
-8. [Lekcija 3 - Jakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_3)
-9. [Lekcija 4 - Yakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_4)
-10. [Lekcija 6 - Yakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_6)
-11. [Lekcija 7 - Yakov Fain - Abstraktna klasa](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_7/AbstractClass)
-12. [Lekcija 7 - Yakov Fain - Interfejs](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_7/Interface)
+[Broj ponavljanja karaktera](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/BrojPonavljanjaKaraktera)
+
+[Dva niza karaktera](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/DvaNizaKaraktera)
+
+[Reci i brojevi](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/DvaNizaKaraktera)
+
+[Ispisivanje unosa otpozadi](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/IspisivanjeUnosaOtpozadi)
+
+[Recenice koje sadrze unetu rec](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/JavaRegexPatterni/ReceniceKojeSadrzeUnetuRec)
+
+[Validacija broja telefona](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/JavaRegexPatterni/ValidacijaBrojaTelefona)
+
+[Validacija emaila](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/JavaRegexPatterni/ValidacijaEmaila)
+
+[Lekcija 3 - Jakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_3)
+
+[Lekcija 4 - Yakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_4)
+
+[Lekcija 6 - Yakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_6)
+
+[Lekcija 7 - Yakov Fain - Abstraktna klasa](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_7/AbstractClass)
+
+[Lekcija 7 - Yakov Fain - Interfejs]
+(https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_7/Interface)
+
+[Lekcija 10 - Yakov Fain - Kreiranje sopstvenih izuzetaka](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_10/CreationOwnException)
+
+[Lekcija 10 - Yakov Fain - Kljucna rec *finally*](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_10/FinallyClasuse)
+
+[Lekcija 10 - Yakov Fain - Hendling pomocu kljucne reci *throw*](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_10/HandlingWithThrow)
+
+[Lekcija 10 - Yakov Fain - Try blok sa resursima](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_10/TryWithResources)
