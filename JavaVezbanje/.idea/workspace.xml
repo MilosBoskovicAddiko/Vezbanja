@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_7/AbstractClass/Contractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_7/AbstractClass/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_7/AbstractClass/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_7/AbstractClass/TestPayIncrease.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_7/Interface/Contractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_7/Interface/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_7/Interface/Payable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_7/Interface/TestPayIncreaseInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_10/CreationOwnException/BikeOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_10/CreationOwnException/PlaceAnOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_10/CreationOwnException/TooManyBikesException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_10/CustomerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_10/FinallyClasuse/UsingFinalyClause.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_10/FinallyClasuse/text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_10/HandlingWithThrow/CustomerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_10/HandlingWithThrow/customerList" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_10/TestStackTrace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_10/TryWithResources/TryWithResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_10/TryWithResources/text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_10/Writings/BufferedWritterTryWithResources.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,49 +43,25 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lekcija_7/Interface/Payable.java">
+        <entry file="file://$PROJECT_DIR$/src/Lekcija_10/TryWithResources/TryWithResources.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="340">
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lekcija_7/Interface/Employee.java">
+        <entry file="file://$PROJECT_DIR$/src/Lekcija_10/Writings/BufferedWritterTryWithResources.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <element signature="e#165#166#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lekcija_7/Interface/Contractor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-              <folding>
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lekcija_7/Interface/TestPayIncreaseInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -96,31 +76,19 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get</find>
+      <find>getMessage()</find>
+      <find>detail</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/StringVariations/StringVariations.java" />
-        <option value="$PROJECT_DIR$/src/lesson6_copy/mainpackage/TestPayIncreasePolyError.java" />
-        <option value="$PROJECT_DIR$/src/lesson3/TestTax.java" />
-        <option value="$PROJECT_DIR$/src/lesson3/NJTax.java" />
-        <option value="$PROJECT_DIR$/src/Lesson5_copy/TestTax.java" />
-        <option value="$PROJECT_DIR$/src/lesson6/MainPackage/TestPayIncreasePolyError.java" />
-        <option value="$PROJECT_DIR$/src/lesson6/MainPackage/TestPayIncrease.java" />
-        <option value="$PROJECT_DIR$/src/lesson6_copy/Contractor.java" />
-        <option value="$PROJECT_DIR$/src/lesson6_copy/mainpackage/TestPayIncrease.java" />
-        <option value="$PROJECT_DIR$/src/Lesson7_1/Contractor.java" />
-        <option value="$PROJECT_DIR$/src/MojeVezbanje/Interface_ParentClass/Mains/TestPayIncrease.java" />
-        <option value="$PROJECT_DIR$/src/MojeVezbanje/Interface_ParentClass/Mains/TestPayIncreasePolyError.java" />
-        <option value="$PROJECT_DIR$/src/MojeVezbanje/JustWithInterface/Contractor.java" />
-        <option value="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/BrojPonavljanjaKaraktera.java" />
-        <option value="$PROJECT_DIR$/src/IspisivanjeUnosaOtpozadi/IspisivanjeUnosaOtpozadi.java" />
-        <option value="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/Karakteri.java" />
-        <option value="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/SortiranjePoBrojuPonavljanja.java" />
-        <option value="$PROJECT_DIR$/src/DvaNizaKaraktera/DvaNizaKaraktera.java" />
-        <option value="$PROJECT_DIR$/src/JavaRegexPatterni/Main.java" />
         <option value="$PROJECT_DIR$/src/JavaRegexPatterni/Zadatak1/StampajReceniceKojeSadrzeUnetuRec.java" />
         <option value="$PROJECT_DIR$/src/DvaNizaKaraktera/ReciBrojevi.java" />
         <option value="$PROJECT_DIR$/src/JavaRegexPatterni/ReceniceKojeSadrzeUnetuRec/StampajReceniceKojeSadrzeUnetuRec.java" />
@@ -150,10 +118,32 @@
         <option value="$PROJECT_DIR$/src/Lekcija_7/Interface/Contractor.java" />
         <option value="$PROJECT_DIR$/src/Lekcija_7/Interface/TestPayIncreaseInterface.java" />
         <option value="$PROJECT_DIR$/src/Lekcija_7/Interface/Employee.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_7/AbstractClass/Person.java" />
+        <option value="$PROJECT_DIR$/src/proba/Main.java" />
+        <option value="$PROJECT_DIR$/src/proba/Payable.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/index.txt" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/index" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/Test.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/TestStackTrace.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/CustomerList.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/UsingFinallyClause.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/Main.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/UsingFinalyClause.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/FinallyClasuse/text" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/HandlingWithThrow/customerList" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/HandlingWithThrow/CustomerList.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/CreationOwnException/ToManyBikesException.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/CreationOwnException/BikeOrder.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/TryWithResources/text" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/TryWithResources/TryWithResources.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/CreationOwnException/PlaceAnOrder.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/CreationOwnException/TooManyBikesException.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/FinallyClasuse/UsingFinalyClause.java" />
+        <option value="$PROJECT_DIR$/src/Lekcija_10/Writings/BufferedWritterTryWithResources.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2018" />
     <option name="y" value="19" />
     <option name="width" value="1938" />
@@ -165,6 +155,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="JavaVezbanje" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JavaVezbanje" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,34 +183,19 @@
               <item name="JavaVezbanje" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaVezbanje" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lekcija_6" type="462c0819:PsiDirectoryNode" />
+              <item name="Lekcija_10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaVezbanje" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaVezbanje" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lekcija_7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaVezbanje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaVezbanje" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lekcija_7" type="462c0819:PsiDirectoryNode" />
-              <item name="AbstractClass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaVezbanje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaVezbanje" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lekcija_7" type="462c0819:PsiDirectoryNode" />
-              <item name="Interface" type="462c0819:PsiDirectoryNode" />
+              <item name="Lekcija_10" type="462c0819:PsiDirectoryNode" />
+              <item name="Writings" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,6 +209,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_10\FinallyClasuse" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Milos Boskovic\Downloads\JavaVezbanje\src" />
     </key>
@@ -238,13 +228,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestPayIncreaseInterface">
-    <configuration name="TestPayIncrease (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_7.AbstractClass.TestPayIncrease" />
+  <component name="RunManager" selected="Application.TryWithResources">
+    <configuration name="BufferedWritterTryWithResources" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_10.Writings.BufferedWritterTryWithResources" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_7.AbstractClass.*" />
+          <option name="PATTERN" value="Lekcija_10.Writings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,12 +242,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPayIncrease" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_6.TestPayIncrease" />
+    <configuration name="CustomerList (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_10.HandlingWithThrow.CustomerList" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_6.*" />
+          <option name="PATTERN" value="Lekcija_10.HandlingWithThrow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,12 +255,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPayIncreaseInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_7.Interface.TestPayIncreaseInterface" />
+    <configuration name="PlaceAnOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_10.CreationOwnException.PlaceAnOrder" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_7.Interface.*" />
+          <option name="PATTERN" value="Lekcija_10.CreationOwnException.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,12 +268,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTax (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_4.TestTax" />
+    <configuration name="TryWithResources" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_10.TryWithResources.TryWithResources" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_4.*" />
+          <option name="PATTERN" value="Lekcija_10.TryWithResources.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,12 +281,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_3.TestTax" />
+    <configuration name="UsingFinalyClause" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_10.FinallyClasuse.UsingFinalyClause" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_3.*" />
+          <option name="PATTERN" value="Lekcija_10.FinallyClasuse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -306,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestPayIncreaseInterface" />
-        <item itemvalue="Application.TestPayIncrease (1)" />
-        <item itemvalue="Application.TestPayIncrease" />
-        <item itemvalue="Application.TestTax (1)" />
-        <item itemvalue="Application.TestTax" />
+        <item itemvalue="Application.TryWithResources" />
+        <item itemvalue="Application.PlaceAnOrder" />
+        <item itemvalue="Application.UsingFinalyClause" />
+        <item itemvalue="Application.CustomerList (1)" />
+        <item itemvalue="Application.BufferedWritterTryWithResources" />
       </list>
     </recent_temporary>
   </component>
@@ -336,11 +326,12 @@
       <workItem from="1563796016882" duration="143000" />
       <workItem from="1563798944667" duration="1996000" />
       <workItem from="1563862888943" duration="5848000" />
+      <workItem from="1563955293845" duration="13412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72453000" />
+    <option name="totallyTimeSpent" value="87095000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -355,7 +346,7 @@
     <frame x="1911" y="-9" width="1938" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.116204694" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11727079" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -363,8 +354,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32824427" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32824427" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39694658" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -431,102 +422,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lesson6_copy/mainpackage/TestPayIncreasePolyError.java" />
-    <entry file="file://$PROJECT_DIR$/src/lesson6/MainPackage/TestPayIncrease.java" />
-    <entry file="file://$PROJECT_DIR$/src/lesson6/MainPackage/TestPayIncreasePolyError.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lesson5_copy/TestTax.java" />
-    <entry file="file://$PROJECT_DIR$/src/lesson3/NJTax.java" />
-    <entry file="file://$PROJECT_DIR$/src/lesson3/TestTax.java" />
-    <entry file="file://$PROJECT_DIR$/src/lesson6_copy/mainpackage/TestPayIncrease.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lesson7_1/Payable.java" />
-    <entry file="file://$PROJECT_DIR$/src/DifferencesBetweenAbsClassInterface/Interface_ParentClass/Mains/TestPayIncrease.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DifferencesBetweenAbsClassInterface/JustWithInterface/Contractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DifferencesBetweenAbsClassInterface/Interface_ParentClass/Mains/TestPayIncreasePolyError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lesson7_1/TestPayIncreaseInterface.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lesson7_1/Contractor.java" />
-    <entry file="file://$PROJECT_DIR$/src/lesson6_copy/Contractor.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StringVariations/StringVariations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/Tekst zadatka" />
-    <entry file="file://$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/Karakteri.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/SortiranjePoAlfabetnom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/SortiranjePoBrojuPonavljanja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/DvaNizaKaraktera/ReciBrojevi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DvaNizaKaraktera/DvaNizaKaraktera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IspisivanjeUnosaOtpozadi/IspisivanjeUnosaOtpozadi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/Proba/Proba.java" />
     <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaBrojaTelefona/ValidacijaTelefonskogBroja.java" />
     <entry file="file://$PROJECT_DIR$/src/JavaRegexPatterni/ReceniceKojeSadrzeUnetuRec/StampajReceniceKojeSadrzeUnetuRec.java">
@@ -622,13 +517,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lekcija_6/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_6/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/Lekcija_6/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -694,32 +583,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lekcija_7/AbstractClass/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lekcija_6/Payable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lekcija_7/Interface/Payable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -732,8 +599,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lekcija_7/Interface/TestPayIncreaseInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -759,6 +626,207 @@
             <element signature="e#249#250#0" expanded="true" />
             <element signature="e#233#234#0" expanded="true" />
             <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_7/Interface/Payable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proba/Payable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proba/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_7/AbstractClass/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_10/index.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_10/index">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_10/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_10/UsingFinallyClause.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-896">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3011#3012#0" expanded="true" />
+            <element signature="e#3058#3059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nesto">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_10/Writings/text">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_10/HandlingWithThrow/customerList">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="375" column="21" selection-start-line="375" selection-start-column="18" selection-end-line="375" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="48" column="65" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_10/TestStackTrace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#79#80#0" expanded="true" />
+            <element signature="e#109#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_10/CustomerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_10/TryWithResources/text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_10/CreationOwnException/BikeOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="100" selection-start-line="30" selection-start-column="100" selection-end-line="30" selection-end-column="100" />
+          <folding>
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_10/CreationOwnException/PlaceAnOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_10/CreationOwnException/TooManyBikesException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_10/FinallyClasuse/text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_10/FinallyClasuse/UsingFinalyClause.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_10/HandlingWithThrow/CustomerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_10/TryWithResources/TryWithResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lekcija_10/Writings/BufferedWritterTryWithResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
