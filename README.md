@@ -105,8 +105,7 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 
 [Lekcija 7 - Yakov Fain - Abstraktna klasa](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_7/AbstractClass)
 
-[Lekcija 7 - Yakov Fain - Interfejs]
-(https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_7/Interface)
+[Lekcija 7 - Yakov Fain - Interfejs](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_7/Interface)
 
 [Lekcija 10 - Yakov Fain - Kreiranje sopstvenih izuzetaka](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_10/CreationOwnException)
 
