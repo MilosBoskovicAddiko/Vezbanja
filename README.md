@@ -13,6 +13,7 @@ Miloš Bošković
 * Lekcija 6 - Yakov Fain - Paketi, interfejsi i enkapsulacija
 * Lekcija 7 - Yakov Fain - Programiranje koriscenjem apstraktnih klasa i interfejsa
 * Lekcija 10 - Yakov Fain - Rukovanje greskama
+* Lekcija 11 - Yakov Fain - Uvod u kolekcije
 * Broj ponavljanja karaktera
 * Dva niza karaktera
 * Ispisivanje unosa otpozadi
@@ -47,6 +48,16 @@ Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 * Kljucna rec *finally*
 * Hendling pomocu kljucne reci *throw*
 * Try blok sa resursima
+
+---
+
+#### Lekcija 11
+* ArrayList i instance of operator
+* Primer koriscenja BitSet-a
+* Enumerator i Iterator
+* LinkedList i ListIterator
+* Ucitavanje properties fajla
+* Uradi sam sekcija
 
 ---
 
@@ -114,3 +125,15 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 [Lekcija 10 - Yakov Fain - Hendling pomocu kljucne reci *throw*](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_10/HandlingWithThrow)
 
 [Lekcija 10 - Yakov Fain - Try blok sa resursima](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_10/TryWithResources)
+
+[Lekcija 11 - Yakov Fain - ArrayList i instance of operator](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/ArrayListAndInstanceOfOperator)
+
+[Lekcija 11 - Yakov Fain - Primer koriscenja BitSet-a](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/BitSetExample)
+
+[Lekcija 11 - Yakov Fain - Enumerator i Iterator](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/EnumeratorAndIterator)
+
+[Lekcija 11 - Yakov Fain - LinkedList i ListIterator](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/LinkedListAndListIterator)
+
+[Lekcija 11 - Yakov Fain - Ucitavanje properties fajla](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/MailmanPropertiesLoadingIntoProperties)
+
+[Lekcija 11 - Yakov Fain - Uradi sam sekcija](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/TryIt)
