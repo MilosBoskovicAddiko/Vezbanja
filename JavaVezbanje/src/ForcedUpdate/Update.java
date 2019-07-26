@@ -8,7 +8,7 @@ public class Update {
     }
 
     public static boolean forceUpdate(OperatingSystem operatingSystem, String currVersion, String minVersion) {
-        switch(operatingSystem){
+        switch (operatingSystem) {
             case IOS:
                 String[] currentVersion = currVersion.split("\\.");
                 String[] minimalVersion = minVersion.split("\\.");
@@ -29,6 +29,8 @@ public class Update {
                 long curVersion = Long.parseLong(currVersion);
                 long minimVersion = Long.parseLong(minVersion);
                 return curVersion < minimVersion;
+            default:
+                return false;
         }
         return false;
     }
