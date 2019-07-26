@@ -45,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ForcedUpdate/Update.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="41" column="19" selection-start-line="25" selection-start-column="16" selection-end-line="41" selection-end-column="19" />
+            <state relative-caret-position="374">
+              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -162,18 +162,6 @@
               <item name="JavaVezbanje" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaVezbanje" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaVezbanje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaVezbanje" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DvaNizaKaraktera" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaVezbanje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaVezbanje" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ForcedUpdate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaVezbanje" type="b2602c69:ProjectViewProjectNode" />
@@ -328,29 +316,11 @@
       <workItem from="1563862888943" duration="5848000" />
       <workItem from="1563955293845" duration="16224000" />
       <workItem from="1564035644968" duration="17508000" />
-      <workItem from="1564121299909" duration="14538000" />
+      <workItem from="1564121299909" duration="15104000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UnitTest - 2019.07.26 at 13h 47m 29s.xml">
-      <configuration name="UnitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTest - 2019.07.26 at 13h 47m 39s.xml">
-      <configuration name="UnitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTest_testUpdate - 2019.07.26 at 13h 50m 19s.xml">
-      <configuration name="UnitTest.testUpdate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTest - 2019.07.26 at 13h 50m 38s.xml">
-      <configuration name="UnitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTest - 2019.07.26 at 13h 50m 48s.xml">
-      <configuration name="UnitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTest - 2019.07.26 at 13h 51m 03s.xml">
-      <configuration name="UnitTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UnitTest - 2019.07.26 at 13h 51m 17s.xml">
       <configuration name="UnitTest" configurationId="JUnit" />
     </history-entry>
@@ -363,9 +333,27 @@
     <history-entry file="UnitTest - 2019.07.26 at 13h 56m 37s.xml">
       <configuration name="UnitTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UnitTest_testUpdate - 2019.07.26 at 14h 00m 28s.xml">
+      <configuration name="UnitTest.testUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTest - 2019.07.26 at 14h 00m 37s.xml">
+      <configuration name="UnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTest_testUpdate - 2019.07.26 at 14h 01m 25s.xml">
+      <configuration name="UnitTest.testUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTest_testUpdate - 2019.07.26 at 14h 04m 46s.xml">
+      <configuration name="UnitTest.testUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTest_testUpdate - 2019.07.26 at 14h 05m 35s.xml">
+      <configuration name="UnitTest.testUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTest_testUpdate - 2019.07.26 at 14h 05m 46s.xml">
+      <configuration name="UnitTest.testUpdate" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121953000" />
+    <option name="totallyTimeSpent" value="122519000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -380,7 +368,7 @@
     <frame x="1911" y="-9" width="1938" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18550107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18550107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -389,7 +377,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3293348" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.32824427" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.32824427" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4978678" weight="0.39694658" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -882,8 +870,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ForcedUpdate/Update.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="41" column="19" selection-start-line="25" selection-start-column="16" selection-end-line="41" selection-end-column="19" />
+        <state relative-caret-position="374">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
         </state>
       </provider>
     </entry>

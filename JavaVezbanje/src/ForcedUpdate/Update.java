@@ -8,7 +8,7 @@ public class Update {
     }
 
     public static boolean forceUpdate(OperatingSystem operatingSystem, String currVersion, String minVersion) {
-        if (operatingSystem.name().equals("IOS")) {
+        if (operatingSystem.equals(OperatingSystem.IOS)) {
             String[] currentVersion = currVersion.split("\\.");
             String[] minimalVersion = minVersion.split("\\.");
             for (int i = 0; i < currentVersion.length; i++) {
@@ -24,7 +24,7 @@ public class Update {
                 }
             }
 
-        } else if (operatingSystem.name().equals("ANDROID")) {
+        } else if (operatingSystem.equals(OperatingSystem.ANDROID)) {
             long currentVersion = Long.parseLong(currVersion);
             long minimalVersion = Long.parseLong(minVersion);
             return currentVersion < minimalVersion;
