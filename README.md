@@ -14,6 +14,7 @@ Miloš Bošković
 * Lekcija 7 - Yakov Fain - Programiranje koriscenjem apstraktnih klasa i interfejsa
 * Lekcija 10 - Yakov Fain - Rukovanje greskama
 * Lekcija 11 - Yakov Fain - Uvod u kolekcije
+* Lekcija 12 - Yakov Fain - Uvod u genericke tipove
 * Forced update
 * Broj ponavljanja karaktera
 * Dva niza karaktera
@@ -59,6 +60,13 @@ Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 * LinkedList i ListIterator
 * Ucitavanje properties fajla
 * Uradi sam sekcija
+
+---
+
+#### Lekcija 12
+* Modifikovani primer genericke kolekcije
+* Primer parametrizovane klase
+* Test Generic Collection
 
 ---
 
@@ -154,3 +162,9 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 [Lekcija 11 - Yakov Fain - Ucitavanje properties fajla](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/MailmanPropertiesLoadingIntoProperties)
 
 [Lekcija 11 - Yakov Fain - Uradi sam sekcija](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/TryIt)
+
+[Lekcija 12 - Yakov Fain - Modifikovani primer genericke kolekcije](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_12/ModifiedTestGenericCollection)
+
+[Lekcija 12 - Yakov Fain - Primer parametrizovane klase](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_12/ParameterizedClassExample)
+
+[Lekcija 12 - Yakov Fain - Test Generic Collection](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_12/TestGenericCollection)
