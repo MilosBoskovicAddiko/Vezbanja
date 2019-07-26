@@ -18,6 +18,8 @@ public class TestGenericType {
         shipment.add(wheel);
 
         List<Products> loaded = shipment.getProducts();
+        System.out.println("Utovarena roba na kamionu: " + loaded);
+
 
         ferry.loadTruck(shipment);
         ferry.unloadToDocks();

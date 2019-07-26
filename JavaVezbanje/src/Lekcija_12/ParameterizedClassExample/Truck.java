@@ -16,4 +16,11 @@ public class Truck<T> {
     public List<T> getProducts() {
         return products;
     }
+
+    @Override
+    public String toString() {
+        return "Truck{" +
+                "products=" + products +
+                '}';
+    }
 }

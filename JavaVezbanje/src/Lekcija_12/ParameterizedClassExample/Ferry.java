@@ -11,11 +11,18 @@ public class Ferry {
 
     public void loadTruck(Truck<? extends Products> truck) {
         load.add(truck);
-        System.out.println("Utovareni kamioni na trajekt: " + truck.getProducts());
+        System.out.println("Utovareni kamioni na trajekt: " + truck);
     }
 
     public List<Truck<? extends Products>> unloadToDocks() {
+        System.out.println("Istovareno sa trajekta: " + load);
         return load;
     }
 
+    @Override
+    public String toString() {
+        return "Ferry{" +
+                "load=" + load +
+                '}';
+    }
 }
