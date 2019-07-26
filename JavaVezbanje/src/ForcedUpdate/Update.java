@@ -11,23 +11,19 @@ public class Update {
         if (operatingSystem.name().equals("IOS")) {
             String[] currentVersion = currVersion.split("\\.");
             String[] minimalVersion = minVersion.split("\\.");
-            if (Integer.parseInt(currentVersion[0]) < Integer.parseInt(minimalVersion[0])) {
-                return true;
-            } else if (Integer.parseInt(currentVersion[0]) > Integer.parseInt(minimalVersion[0])) {
-                return false;
-            } else {
-                if (Integer.parseInt(currentVersion[1]) < Integer.parseInt(minimalVersion[1])) {
+            for (int i = 0; i < currentVersion.length; i++){
+                if(Integer.parseInt(currentVersion[i]) < Integer.parseInt(minimalVersion[i])){
                     return true;
-                } else if (Integer.parseInt(currentVersion[1]) > Integer.parseInt(minimalVersion[1])) {
+                } else if (Integer.parseInt(currentVersion[i]) > Integer.parseInt(minimalVersion[i])){
                     return false;
-                } else {
-                    if (Integer.parseInt(currentVersion[2]) < Integer.parseInt(minimalVersion[2])) {
-                        return true;
-                    } else {
+                } else{
+                    if(i==currentVersion.length-1){
                         return false;
                     }
+                    continue;
                 }
             }
+
         } else if (operatingSystem.name().equals("ANDROID")) {
             long currentVersion = Long.parseLong(currVersion);
             long minimalVersion = Long.parseLong(minVersion);
