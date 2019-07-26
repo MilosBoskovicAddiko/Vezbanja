@@ -8,26 +8,27 @@ public class Update {
     }
 
     public static boolean forceUpdate(OperatingSystem operatingSystem, String currVersion, String minVersion) {
-        if (operatingSystem.equals(OperatingSystem.IOS)) {
-            String[] currentVersion = currVersion.split("\\.");
-            String[] minimalVersion = minVersion.split("\\.");
-            for (int i = 0; i < currentVersion.length; i++) {
-                if (Integer.parseInt(currentVersion[i]) < Integer.parseInt(minimalVersion[i])) {
-                    return true;
-                } else if (Integer.parseInt(currentVersion[i]) > Integer.parseInt(minimalVersion[i])) {
-                    return false;
-                } else {
-                    if (i == currentVersion.length - 1) {
+        switch(operatingSystem){
+            case IOS:
+                String[] currentVersion = currVersion.split("\\.");
+                String[] minimalVersion = minVersion.split("\\.");
+                for (int i = 0; i < currentVersion.length; i++) {
+                    if (Integer.parseInt(currentVersion[i]) < Integer.parseInt(minimalVersion[i])) {
+                        return true;
+                    } else if (Integer.parseInt(currentVersion[i]) > Integer.parseInt(minimalVersion[i])) {
                         return false;
+                    } else {
+                        if (i == currentVersion.length - 1) {
+                            return false;
+                        }
+                        continue;
                     }
-                    continue;
                 }
-            }
-
-        } else if (operatingSystem.equals(OperatingSystem.ANDROID)) {
-            long currentVersion = Long.parseLong(currVersion);
-            long minimalVersion = Long.parseLong(minVersion);
-            return currentVersion < minimalVersion;
+                break;
+            case ANDROID:
+                long curVersion = Long.parseLong(currVersion);
+                long minimVersion = Long.parseLong(minVersion);
+                return curVersion < minimVersion;
         }
         return false;
     }
