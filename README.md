@@ -14,6 +14,7 @@ Miloš Bošković
 * Lekcija 7 - Yakov Fain - Programiranje koriscenjem apstraktnih klasa i interfejsa
 * Lekcija 10 - Yakov Fain - Rukovanje greskama
 * Lekcija 11 - Yakov Fain - Uvod u kolekcije
+* Forced update
 * Broj ponavljanja karaktera
 * Dva niza karaktera
 * Ispisivanje unosa otpozadi
@@ -58,6 +59,20 @@ Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 * LinkedList i ListIterator
 * Ucitavanje properties fajla
 * Uradi sam sekcija
+
+---
+
+#### Forced update
+Potrebno je napisati metodu za forsirani update mobilnih aplikacija, metoda ima tri parametra:
+	verzija operativnog sistema ( iOS ili Android),
+	trenutna verzija aplikacije (salje mobilna aplikacija),
+	min verzija od koje je potrebno forsirati update.
+	
+Ukoliko je trenutna verzija apliakcije veca ili jednaka min verziji vratiti false u suprotnom vratiti true.
+
+Android trenutna/min verzija aplikacije je tipa:  171127233 ili 190718112 sto znaci 2019 godine 07 mesec 18 dan 11,20 min
+
+iOS trenutna/min verzija aplikacije je tipa: 1.1.10 ili 1.10.10 ili 1.1.1
 
 ---
 
@@ -107,6 +122,8 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 [Validacija broja telefona](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/JavaRegexPatterni/ValidacijaBrojaTelefona)
 
 [Validacija emaila](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/JavaRegexPatterni/ValidacijaEmaila)
+
+[Forced Update](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/ForcedUpdate)
 
 [Lekcija 3 - Jakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_3)
 
