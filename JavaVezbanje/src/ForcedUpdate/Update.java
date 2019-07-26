@@ -11,13 +11,13 @@ public class Update {
         if (operatingSystem.name().equals("IOS")) {
             String[] currentVersion = currVersion.split("\\.");
             String[] minimalVersion = minVersion.split("\\.");
-            for (int i = 0; i < currentVersion.length; i++){
-                if(Integer.parseInt(currentVersion[i]) < Integer.parseInt(minimalVersion[i])){
+            for (int i = 0; i < currentVersion.length; i++) {
+                if (Integer.parseInt(currentVersion[i]) < Integer.parseInt(minimalVersion[i])) {
                     return true;
-                } else if (Integer.parseInt(currentVersion[i]) > Integer.parseInt(minimalVersion[i])){
+                } else if (Integer.parseInt(currentVersion[i]) > Integer.parseInt(minimalVersion[i])) {
                     return false;
-                } else{
-                    if(i==currentVersion.length-1){
+                } else {
+                    if (i == currentVersion.length - 1) {
                         return false;
                     }
                     continue;
