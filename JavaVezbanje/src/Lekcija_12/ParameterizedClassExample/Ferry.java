@@ -14,9 +14,11 @@ public class Ferry {
         System.out.println("Utovareni kamioni na trajekt: " + truck);
     }
 
-    public List<Truck<? extends Products>> unloadToDocks() {
-        System.out.println("Istovareno sa trajekta: " + load);
-        return load;
+    public void unloadToDocks(List<? extends Products> ferryTrucks, List<? super Products> dockTrucks) {
+        for(Products products : ferryTrucks){
+            dockTrucks.add(products);
+        }
+        System.out.println("Istovareno sa trajekta: " + dockTrucks);
     }
 
     @Override
