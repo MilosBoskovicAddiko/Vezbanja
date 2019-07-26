@@ -2,17 +2,33 @@ package ForcedUpdate;
 
 public class Update {
 
-    enum OperatingSystem{
+    enum OperatingSystem {
         ANDROID,
         IOS
     }
 
-    public boolean forceUpdate(OperatingSystem operatingSystem, String currVersion, String minVersion){
-        if (operatingSystem.name().equals("IOS")){
-            double currentVersion = Double.parseDouble(currVersion.substring(0,currVersion.indexOf("."))+"."+currVersion.substring(currVersion.indexOf(".")).replaceAll("[\\.0]",""));
-            double minimalVersion = Double.parseDouble(minVersion.substring(0,minVersion.indexOf("."))+"."+minVersion.substring(minVersion.indexOf(".")).replaceAll("[\\.0]",""));
-            return currentVersion < minimalVersion;
-        }else if(operatingSystem.name().equals("ANDROID")){
+    public static boolean forceUpdate(OperatingSystem operatingSystem, String currVersion, String minVersion) {
+        if (operatingSystem.name().equals("IOS")) {
+            String[] currentVersion = currVersion.split("\\.");
+            String[] minimalVersion = minVersion.split("\\.");
+            if (Integer.parseInt(currentVersion[0]) < Integer.parseInt(minimalVersion[0])) {
+                return true;
+            } else if (Integer.parseInt(currentVersion[0]) > Integer.parseInt(minimalVersion[0])) {
+                return false;
+            } else {
+                if (Integer.parseInt(currentVersion[1]) < Integer.parseInt(minimalVersion[1])) {
+                    return true;
+                } else if (Integer.parseInt(currentVersion[1]) > Integer.parseInt(minimalVersion[1])) {
+                    return false;
+                } else {
+                    if (Integer.parseInt(currentVersion[2]) < Integer.parseInt(minimalVersion[2])) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                }
+            }
+        } else if (operatingSystem.name().equals("ANDROID")) {
             long currentVersion = Long.parseLong(currVersion);
             long minimalVersion = Long.parseLong(minVersion);
             return currentVersion < minimalVersion;

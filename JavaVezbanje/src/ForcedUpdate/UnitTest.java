@@ -10,7 +10,7 @@ public class UnitTest {
         Update update = new Update();
 
         // testing for IOS
-        assertEquals(true, update.forceUpdate(Update.OperatingSystem.IOS, "0.0.0", "1.0.0"));      // current < min -> true
+        assertEquals(true, update.forceUpdate(Update.OperatingSystem.IOS, "1.2.0", "1.22.0"));      // current < min -> true
         assertEquals(false, update.forceUpdate(Update.OperatingSystem.IOS, "0.0.1", "0.0.0"));     // current > min -> false
         assertEquals(false, update.forceUpdate(Update.OperatingSystem.IOS, "0.0.0", "0.0.0"));     // current == min -> false
         assertEquals(true, update.forceUpdate(Update.OperatingSystem.IOS, "1.1.1", "20.0.0"));     // current < min -> true
