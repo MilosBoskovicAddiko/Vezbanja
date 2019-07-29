@@ -2,17 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_12/TryIt/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_12/TryIt/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_12/TryIt/TryIt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_13/Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_13/FunctionIBiFunctionInterfejsi/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_13/FunctionIBiFunctionInterfejsi/TestPayIncreaseFunctionInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_13/PristupanjeKolekcijamaPomocuForEachMetoda/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_13/PristupanjeKolekcijamaPomocuForEachMetoda/TestCollectionForEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_13/ProsledjivanjeFunkcijeMetodu/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_13/ProsledjivanjeFunkcijeMetodu/TaxFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_13/ProsledjivanjeFunkcijeMetodu/TestTaxLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_13/TestPayIncreaseLambda/Payable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_13/TestPayIncreaseLambda/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_13/TestPayIncreaseLambda/TestPayIncreaseLambda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/ForcedUpdate/UnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/ForcedUpdate/UnitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/ForcedUpdate/Update.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/ForcedUpdate/Update.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_12/ParameterizedClassExample/Ferry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_12/ParameterizedClassExample/Ferry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_12/ParameterizedClassExample/TestGenericType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_12/ParameterizedClassExample/TestGenericType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/META-INF/JavaVezbanje.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForcedUpdate/UnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForcedUpdate/UnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForcedUpdate/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForcedUpdate/Update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/ForcedUpdate/Update$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/ForcedUpdate/Update$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_12/TryIt/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_12/TryIt/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_12/TryIt/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_12/TryIt/TryIt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lekcija_12/TryIt/EmployeCopier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_12/TryIt/EmployeCopier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lekcija_12/TryIt/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_12/TryIt/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lekcija_13/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lekcija_13/ImperativeVsFunctional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_13/ImperativeVsFunctional.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +80,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -92,13 +102,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UnitTest.testUpdate">
-    <configuration name="ModifiedTestGenericCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_12.ModifiedTestGenericCollection.ModifiedTestGenericCollection" />
+  <component name="RunManager" selected="Application.TestPayIncreaseFunctionInterface">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_13.Kompozicija.Main" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_12.ModifiedTestGenericCollection.*" />
+          <option name="PATTERN" value="Lekcija_13.TestPayIncreaseLambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGenericType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_12.ParameterizedClassExample.TestGenericType" />
+    <configuration name="TestCollectionForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_13.PristupanjeKolekcijamaPomocuForEachMetoda.TestCollectionForEach" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_12.ParameterizedClassExample.*" />
+          <option name="PATTERN" value="Lekcija_13.PristupanjeKolekcijamaPomocuForEachMetoda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryIt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_12.TryIt.TryIt" />
+    <configuration name="TestPayIncreaseFunctionInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_13.FunctionIBiFunctionInterfejsi.TestPayIncreaseFunctionInterface" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_12.TryIt.*" />
+          <option name="PATTERN" value="Lekcija_13.FunctionIBiFunctionInterfejsi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,44 +142,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPayIncreaseLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_13.TestPayIncreaseLambda.TestPayIncreaseLambda" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ForcedUpdate.*" />
+          <option name="PATTERN" value="Lekcija_13.TestPayIncreaseLambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ForcedUpdate" />
-      <option name="MAIN_CLASS_NAME" value="ForcedUpdate.UnitTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPayIncreasePoly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_13.Kompozicija.TestPayIncreasePoly" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ForcedUpdate.*" />
+          <option name="PATTERN" value="Lekcija_13.TestPayIncreaseLambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ForcedUpdate" />
-      <option name="MAIN_CLASS_NAME" value="ForcedUpdate.UnitTest" />
-      <option name="METHOD_NAME" value="testUpdate" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UnitTest.testUpdate" />
-        <item itemvalue="JUnit.UnitTest" />
-        <item itemvalue="Application.TryIt" />
-        <item itemvalue="Application.ModifiedTestGenericCollection" />
-        <item itemvalue="Application.TestGenericType" />
+        <item itemvalue="Application.TestPayIncreaseFunctionInterface" />
+        <item itemvalue="Application.TestPayIncreaseLambda" />
+        <item itemvalue="Application.TestPayIncreasePoly" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestCollectionForEach" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +205,7 @@
       <workItem from="1564121299909" duration="19450000" />
       <workItem from="1564222494848" duration="616000" />
       <workItem from="1564380844602" duration="103000" />
-      <workItem from="1564381254336" duration="4765000" />
+      <workItem from="1564381254336" duration="18929000" />
     </task>
     <servers />
   </component>
