@@ -13,16 +13,20 @@ public class Update {
                 case IOS:
                     String[] currentVersion = currVersion.split("\\.");
                     String[] minimalVersion = minVersion.split("\\.");
-                    for (int i = 0; i < currentVersion.length; i++) {
+                    boolean flag = currentVersion.length < minimalVersion.length;
+                    for (int i = 0; i < (flag ? currentVersion.length : minimalVersion.length); i++) {
                         if (Integer.parseInt(currentVersion[i]) < Integer.parseInt(minimalVersion[i])) {
                             return true;
                         } else if (Integer.parseInt(currentVersion[i]) > Integer.parseInt(minimalVersion[i])) {
                             return false;
                         } else {
-                            if (i == currentVersion.length - 1) {
-                                return false;
+                            if ((i == currentVersion.length - 1 | i == minimalVersion.length - 1) && flag) {
+                                for (int j = currentVersion.length; j < minimalVersion.length; j++) {
+                                    if (Integer.parseInt(minimalVersion[j]) != 0) {
+                                        return true;
+                                    }
+                                }
                             }
-                            continue;
                         }
                     }
                     break;
@@ -34,9 +38,12 @@ public class Update {
                     return false;
             }
         } catch (NullPointerException e) {
-            return false;
+            e.getMessage();
+        } catch (NumberFormatException e) {
+            e.getMessage();
+        } catch (IndexOutOfBoundsException e) {
+            e.getMessage();
         }
-
         return false;
     }
 
