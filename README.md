@@ -15,6 +15,7 @@ Miloš Bošković
 * Lekcija 10 - Yakov Fain - Rukovanje greskama
 * Lekcija 11 - Yakov Fain - Uvod u kolekcije
 * Lekcija 12 - Yakov Fain - Uvod u genericke tipove
+* Lekcija 13 - Yakov Fain - Lambda izrazi u funkcionalno programiranje
 * Forced update
 * Broj ponavljanja karaktera
 * Dva niza karaktera
@@ -67,6 +68,15 @@ Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 * Modifikovani primer genericke kolekcije
 * Primer parametrizovane klase
 * Test Generic Collection
+* TryIt
+
+---
+
+#### Lekcija 13
+* Functional & BiFunctional interfejsi
+* Pristupanje kolekcijama pomocu forEach()
+* Prosledjivanje funkcije metodu
+* TestPayIncrease pomocu lambda izraza
 
 ---
 
@@ -168,3 +178,13 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 [Lekcija 12 - Yakov Fain - Primer parametrizovane klase](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_12/ParameterizedClassExample)
 
 [Lekcija 12 - Yakov Fain - Test Generic Collection](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_12/TestGenericCollection)
+
+[Lekcija 12 - Yakov Fain - TryIt](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_12/TryIt)
+
+[Lekcija 13 - Yakov Fain - Functional&BiFunctionalInterfejsi](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_13/FunctionIBiFunctionInterfejsi)
+
+[Lekcija 13 - Yakov Fain - Pristupanje kolekcijama pomocu forEach()](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_13/PristupanjeKolekcijamaPomocuForEachMetoda)
+
+[Lekcija 13 - Yakov Fain - Prosledjivanje funkcije metodu](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_13/ProsledjivanjeFunkcijeMetodu)
+
+[Lekcija 13 - Yakov Fain  - TestPayIncrease pomocu lambda izraza](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_13/TestPayIncreaseLambda)
