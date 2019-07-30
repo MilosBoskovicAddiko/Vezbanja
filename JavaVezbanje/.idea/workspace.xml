@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ForcedUpdate/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_13/TryIt/Payable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_13/TryIt/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_13/TryIt/TestPayIncreaseLambda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/ForcedUpdate/UnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/ForcedUpdate/UnitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/ForcedUpdate/Update.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/ForcedUpdate/Update.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForcedUpdate/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForcedUpdate/Update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ForcedUpdate/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForcedUpdate/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lekcija_11/BitSetExample/BitSetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_11/BitSetExample/BitSetExample.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +87,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestPayIncreaseLambda (1)">
+  <component name="RunManager" selected="Application.EnumAndIter">
+    <configuration name="CustomerList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_10.HandlingWithThrow.CustomerList" />
+      <module name="JavaVezbanje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lekcija_10.HandlingWithThrow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumAndIter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_11.EnumeratorAndIterator.EnumAndIter" />
+      <module name="JavaVezbanje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lekcija_11.EnumeratorAndIterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestPayIncreaseFunctionInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lekcija_13.FunctionIBiFunctionInterfejsi.TestPayIncreaseFunctionInterface" />
       <module name="JavaVezbanje" />
@@ -119,32 +140,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPayIncreaseLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_13.TestPayIncreaseLambda.TestPayIncreaseLambda" />
-      <module name="JavaVezbanje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lekcija_13.TestPayIncreaseLambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPayIncreasePoly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_13.Kompozicija.TestPayIncreasePoly" />
-      <module name="JavaVezbanje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lekcija_13.TestPayIncreaseLambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UnitTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaVezbanje" />
       <extension name="coverage">
@@ -163,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnumAndIter" />
+        <item itemvalue="Application.CustomerList" />
         <item itemvalue="Application.TestPayIncreaseLambda (1)" />
         <item itemvalue="JUnit.UnitTest.testUpdate" />
         <item itemvalue="Application.TestPayIncreaseFunctionInterface" />
-        <item itemvalue="Application.TestPayIncreaseLambda" />
-        <item itemvalue="Application.TestPayIncreasePoly" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +195,7 @@
       <workItem from="1564380844602" duration="103000" />
       <workItem from="1564381254336" duration="19696000" />
       <workItem from="1564467354978" duration="248000" />
-      <workItem from="1564467865910" duration="4864000" />
+      <workItem from="1564467865910" duration="15401000" />
     </task>
     <servers />
   </component>
@@ -230,15 +225,6 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ForcedUpdate/Update.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="unos1.rep" language="JAVA" />

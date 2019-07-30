@@ -7,12 +7,13 @@ import java.util.BitSet;
  * Bit 0: Kutija sa novcicima je prazna
  * Bit 1: Kutija sa novcicima je do pola puna
  * Bit 2: Kutija sa novcicima je puna
- * Bit 3: Coca-Cola deo u automatu je prazan*/
+ * Bit 3: Kutija sa novcicima je uklonjena
+ * Bit 4: Coca-Cola deo u automatu je prazan*/
 public class BitSetExample {
     public static void main(String[] args) {
         BitSet report = new BitSet();
-        report.set(2);  //The box is empty
-        report.set(4);  //There's no Coca-Cola
+        report.set(2);  // Kutija je prazna
+        report.set(4);  // Nestalo je koka-kole
 
         BitSetExample example = new BitSetExample();
         example.phoneRinging(report);
