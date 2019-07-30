@@ -77,6 +77,7 @@ Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 * Pristupanje kolekcijama pomocu forEach()
 * Prosledjivanje funkcije metodu
 * TestPayIncrease pomocu lambda izraza
+* TryIt
 
 ---
 
@@ -188,3 +189,5 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 [Lekcija 13 - Yakov Fain - Prosledjivanje funkcije metodu](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_13/ProsledjivanjeFunkcijeMetodu)
 
 [Lekcija 13 - Yakov Fain  - TestPayIncrease pomocu lambda izraza](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_13/TestPayIncreaseLambda)
+
+[Lekcija 13 - Yakov Fain  - TryIt](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_13/TryIt)
