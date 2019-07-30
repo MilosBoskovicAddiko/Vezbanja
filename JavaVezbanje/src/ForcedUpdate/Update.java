@@ -8,13 +8,13 @@ public class Update {
     }
 
     public static boolean forceUpdate(OperatingSystem operatingSystem, String currVersion, String minVersion) {
-        if (operatingSystem == null || currVersion.isEmpty() || minVersion.isEmpty()) {
+        if (operatingSystem == null || StringUtils.isEmpty(currVersion) || StringUtils.isEmpty(minVersion)) {
             return false;
         }
         switch (operatingSystem) {
             case IOS:
-                String[] currentVersion = currVersion.split("\\.");
-                String[] minimalVersion = minVersion.split("\\.");
+                String[] currentVersion = currVersion.trim().split("\\.");
+                String[] minimalVersion = minVersion.trim().split("\\.");
                 if (currentVersion.length != minimalVersion.length) {
                     return false;
                 }
