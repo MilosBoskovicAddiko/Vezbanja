@@ -4,8 +4,8 @@
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/PapirKamenMakaze/KamenPapirMakaze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/PapirKamenMakaze/KamenPapirMakaze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/PapirKamenMakaze/TestPapirKamenMakaze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/PapirKamenMakaze/TestPapirKamenMakaze.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PapirKamenMakaze/KamenPapirMakaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PapirKamenMakaze/KamenPapirMakaze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PapirKamenMakaze/TestPapirKamenMakaze.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +201,7 @@
       <workItem from="1564467354978" duration="248000" />
       <workItem from="1564467865910" duration="15401000" />
       <workItem from="1564553215424" duration="9303000" />
-      <workItem from="1564639933672" duration="16652000" />
+      <workItem from="1564639933672" duration="21460000" />
     </task>
     <servers />
   </component>
