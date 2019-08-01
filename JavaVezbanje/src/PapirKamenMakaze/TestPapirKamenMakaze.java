@@ -17,13 +17,13 @@ public class TestPapirKamenMakaze {
     public void TestPKM() {
         //Testira se ispravno dodavanje poena. Ukoliko je igrac pobedio racunar,test vraca *true*. Za svaku drugu varijantu, vraca false.
         assertEquals(false, KamenPapirMakaze.isParametersEnteredCorrectly("papir", 1)); // papir == papir -> false -> covek:1pts, racunar: 1pts
-        assertEquals(false, KamenPapirMakaze.isParametersEnteredCorrectly("Kamen", 1)); // kamen < papir -> false -> covek:0pts, racunar: 2pts
+        assertEquals(false, KamenPapirMakaze.isParametersEnteredCorrectly("kamen", 1)); // kamen < papir -> false -> covek:0pts, racunar: 2pts
         assertEquals(true, KamenPapirMakaze.isParametersEnteredCorrectly("makaze",1)); // makaze > papir -> true -> covek:2pts, racunar:0pts
         assertEquals(true, KamenPapirMakaze.isParametersEnteredCorrectly("papir", 0)); // papir > kamen -> true -> covek:2pts, racunar: 0pts
-        assertEquals(false, KamenPapirMakaze.isParametersEnteredCorrectly("Kamen", 0)); // kamen == kamen -> false -> covek:1pts, racunar: 1pts
+        assertEquals(false, KamenPapirMakaze.isParametersEnteredCorrectly("kamen", 0)); // kamen == kamen -> false -> covek:1pts, racunar: 1pts
         assertEquals(false, KamenPapirMakaze.isParametersEnteredCorrectly("makaze",0)); // makaze < kamen -> false -> covek:0pts, racunar:2pts
         assertEquals(false, KamenPapirMakaze.isParametersEnteredCorrectly("papir", 2)); // papir < makaze -> false -> covek:0pts, racunar: 2pts
-        assertEquals(true, KamenPapirMakaze.isParametersEnteredCorrectly("Kamen", 2)); // kamen > makaze -> true -> covek:2pts, racunar: 0pts
+        assertEquals(true, KamenPapirMakaze.isParametersEnteredCorrectly("kamen", 2)); // kamen > makaze -> true -> covek:2pts, racunar: 0pts
         assertEquals(false, KamenPapirMakaze.isParametersEnteredCorrectly("makaze",2)); // makaze == makaze -> false -> covek:1pts, racunar:1pts
         assertEquals(false,KamenPapirMakaze.isParametersEnteredCorrectly("dsa",2)); // nepravilan unos, vraca false
 

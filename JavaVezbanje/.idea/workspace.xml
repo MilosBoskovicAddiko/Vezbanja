@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/PapirKamenMakaze/TestPapirKamenMakaze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/PapirKamenMakaze/TestPapirKamenMakaze.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PapirKamenMakaze/TestPapirKamenMakaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PapirKamenMakaze/TestPapirKamenMakaze.java" afterDir="false" />
     </list>
@@ -200,7 +199,7 @@
       <workItem from="1564467354978" duration="248000" />
       <workItem from="1564467865910" duration="15401000" />
       <workItem from="1564553215424" duration="9303000" />
-      <workItem from="1564639933672" duration="14830000" />
+      <workItem from="1564639933672" duration="14997000" />
     </task>
     <servers />
   </component>
