@@ -48,7 +48,7 @@ public class KamenPapirMakaze {
 
             System.out.println("Racunar je izabrao: " + computer);
 
-            if (player.equals(computer)) {
+            if (player.equalsIgnoreCase(computer)) {
                 pointsHuman++;
                 pointsComputer++;
             } else if (player.equalsIgnoreCase("kamen") && computer.equalsIgnoreCase("makaze")) {
