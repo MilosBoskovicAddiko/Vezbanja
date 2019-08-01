@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_14/BaferovaniTokovi/BufferedInputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_14/BaferovaniTokovi/citanje" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_14/Povezivanje_GUI_i_IO_Tokova/TaxGuiFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_14/TokoviBajtova/FileInputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_14/TokoviBajtova/FileOutputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_14/TokoviBajtova/citanje" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_14/TokoviBajtova/pisanje" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_14/TokoviKaraktera/InputStreamReaderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_14/TokoviKaraktera/citanje" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PapirKamenMakaze/KamenPapirMakaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PapirKamenMakaze/TestPapirKamenMakaze.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForcedUpdate/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForcedUpdate/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_11/BitSetExample/BitSetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_11/BitSetExample/BitSetExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_11/BitSetExample/BitSetExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_11/BitSetExample/BitSetExample.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,11 +79,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_10\FinallyClasuse" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Milos Boskovic\Downloads\JavaVezbanje\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_14\TokoviBajtova" />
+      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_10\FinallyClasuse" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -87,13 +99,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EnumAndIter">
-    <configuration name="CustomerList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_10.HandlingWithThrow.CustomerList" />
+  <component name="RunManager" selected="JUnit.TestPapirKamenMakaze">
+    <configuration name="BufferedInputStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_14.BaferovaniTokovi.BufferedInputStreamExample" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_10.HandlingWithThrow.*" />
+          <option name="PATTERN" value="Lekcija_14.BaferovaniTokovi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumAndIter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_11.EnumeratorAndIterator.EnumAndIter" />
+    <configuration name="InputStreamReaderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_14.TokoviKaraktera.InputStreamReaderExample" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_11.EnumeratorAndIterator.*" />
+          <option name="PATTERN" value="Lekcija_14.TokoviKaraktera.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPayIncreaseFunctionInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_13.FunctionIBiFunctionInterfejsi.TestPayIncreaseFunctionInterface" />
+    <configuration name="KamenPapirMakaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PapirKamenMakaze.KamenPapirMakaze" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_13.FunctionIBiFunctionInterfejsi.*" />
+          <option name="PATTERN" value="PapirKamenMakaze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,30 +139,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPayIncreaseLambda (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_13.TryIt.TestPayIncreaseLambda" />
+    <configuration name="TestPapirKamenMakaze" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_13.TryIt.*" />
+          <option name="PATTERN" value="PapirKamenMakaze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="PapirKamenMakaze" />
+      <option name="MAIN_CLASS_NAME" value="PapirKamenMakaze.TestPapirKamenMakaze" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPapirKamenMakaze.TestPKM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ForcedUpdate.*" />
+          <option name="PATTERN" value="PapirKamenMakaze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ForcedUpdate" />
-      <option name="MAIN_CLASS_NAME" value="ForcedUpdate.UnitTest" />
-      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="PACKAGE_NAME" value="PapirKamenMakaze" />
+      <option name="MAIN_CLASS_NAME" value="PapirKamenMakaze.TestPapirKamenMakaze" />
+      <option name="METHOD_NAME" value="TestPKM" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EnumAndIter" />
-        <item itemvalue="Application.CustomerList" />
-        <item itemvalue="Application.TestPayIncreaseLambda (1)" />
-        <item itemvalue="JUnit.UnitTest.testUpdate" />
-        <item itemvalue="Application.TestPayIncreaseFunctionInterface" />
+        <item itemvalue="JUnit.TestPapirKamenMakaze" />
+        <item itemvalue="JUnit.TestPapirKamenMakaze.TestPKM" />
+        <item itemvalue="Application.KamenPapirMakaze" />
+        <item itemvalue="Application.InputStreamReaderExample" />
+        <item itemvalue="Application.BufferedInputStreamExample" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +210,8 @@
       <workItem from="1564381254336" duration="19696000" />
       <workItem from="1564467354978" duration="248000" />
       <workItem from="1564467865910" duration="15401000" />
+      <workItem from="1564553215424" duration="9303000" />
+      <workItem from="1564639933672" duration="12421000" />
     </task>
     <servers />
   </component>
