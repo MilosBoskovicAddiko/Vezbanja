@@ -65,7 +65,19 @@ public class KamenPapirMakaze {
                 pointsHuman = pointsHuman + 2;
             }
 
-            isWinnerValid(pointsHuman,pointsComputer);
+            System.out.println("Trenutni broj poena: ");
+            System.out.println("Covek: " + pointsHuman);
+            System.out.println("Masina: " + pointsComputer);
+            System.out.println("-----------------------------------------------------------------");
+            if (pointsComputer != pointsHuman && (pointsHuman >= 21 || pointsComputer >= 21)) {
+                if (pointsComputer > pointsHuman) {
+                    System.out.println("Pobednik je kompijuter.");
+                    System.exit(0);
+                } else {
+                    System.out.println("Cestitamo, vi ste pobedili.");
+                    System.exit(0);
+                }
+            }
         }
     }
 
