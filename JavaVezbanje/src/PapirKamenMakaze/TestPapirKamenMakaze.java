@@ -15,10 +15,17 @@ public class TestPapirKamenMakaze {
 
     @Test
     public void TestPKM() {
-        assertEquals(false, KamenPapirMakaze.isParametersEnteredCorrectly("papir", 1)); //Testira se ispravno dodavanje poena. Ukoliko je igrac pobedio racunar,
-        assertEquals(false, KamenPapirMakaze.isParametersEnteredCorrectly("Kamen", 1)); // test vraca *true*. Za svaku drugu varijantu, vraca false.
-        assertEquals(true, KamenPapirMakaze.isParametersEnteredCorrectly("makaze",1));
-        assertEquals(false,KamenPapirMakaze.isParametersEnteredCorrectly("dsa",2));
+        //Testira se ispravno dodavanje poena. Ukoliko je igrac pobedio racunar,test vraca *true*. Za svaku drugu varijantu, vraca false.
+        assertEquals(false, KamenPapirMakaze.isParametersEnteredCorrectly("papir", 1)); // papir == papir -> false -> covek:1pts, racunar: 1pts
+        assertEquals(false, KamenPapirMakaze.isParametersEnteredCorrectly("Kamen", 1)); // kamen < papir -> false -> covek:0pts, racunar: 2pts
+        assertEquals(true, KamenPapirMakaze.isParametersEnteredCorrectly("makaze",1)); // makaze > papir -> true -> covek:2pts, racunar:0pts
+        assertEquals(true, KamenPapirMakaze.isParametersEnteredCorrectly("papir", 0)); // papir > kamen -> true -> covek:2pts, racunar: 0pts
+        assertEquals(false, KamenPapirMakaze.isParametersEnteredCorrectly("Kamen", 0)); // kamen == kamen -> false -> covek:1pts, racunar: 1pts
+        assertEquals(false, KamenPapirMakaze.isParametersEnteredCorrectly("makaze",0)); // makaze < kamen -> false -> covek:0pts, racunar:2pts
+        assertEquals(false, KamenPapirMakaze.isParametersEnteredCorrectly("papir", 2)); // papir < makaze -> false -> covek:0pts, racunar: 2pts
+        assertEquals(true, KamenPapirMakaze.isParametersEnteredCorrectly("Kamen", 2)); // kamen > makaze -> true -> covek:2pts, racunar: 0pts
+        assertEquals(false, KamenPapirMakaze.isParametersEnteredCorrectly("makaze",2)); // makaze == makaze -> false -> covek:1pts, racunar:1pts
+        assertEquals(false,KamenPapirMakaze.isParametersEnteredCorrectly("dsa",2)); // nepravilan unos, vraca false
 
         assertEquals(true,KamenPapirMakaze.isWinnerValid(21,20)); // Testira se pomocna funkcija isWinnerValid za odredjeni proj poena
         assertEquals(false,KamenPapirMakaze.isWinnerValid(21,21));// ukoliko je covek dostigao 21 poena, a racunar imam manje od 21, vraca se *true*,

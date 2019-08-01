@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/PapirKamenMakaze/TestPapirKamenMakaze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/PapirKamenMakaze/TestPapirKamenMakaze.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PapirKamenMakaze/TestPapirKamenMakaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PapirKamenMakaze/TestPapirKamenMakaze.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,7 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestPapirKamenMakaze">
+  <component name="RunManager" selected="JUnit.TestPapirKamenMakaze.TestPKM">
     <configuration name="BufferedInputStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lekcija_14.BaferovaniTokovi.BufferedInputStreamExample" />
       <module name="JavaVezbanje" />
@@ -159,8 +161,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestPapirKamenMakaze" />
         <item itemvalue="JUnit.TestPapirKamenMakaze.TestPKM" />
+        <item itemvalue="JUnit.TestPapirKamenMakaze" />
         <item itemvalue="Application.KamenPapirMakaze" />
         <item itemvalue="Application.InputStreamReaderExample" />
         <item itemvalue="Application.BufferedInputStreamExample" />
@@ -198,7 +200,7 @@
       <workItem from="1564467354978" duration="248000" />
       <workItem from="1564467865910" duration="15401000" />
       <workItem from="1564553215424" duration="9303000" />
-      <workItem from="1564639933672" duration="12684000" />
+      <workItem from="1564639933672" duration="14830000" />
     </task>
     <servers />
   </component>
