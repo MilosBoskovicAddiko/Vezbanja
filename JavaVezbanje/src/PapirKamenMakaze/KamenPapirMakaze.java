@@ -107,7 +107,7 @@ public class KamenPapirMakaze {
                     break;
             }
 
-            if (player.equals(computer)) {
+            if (player.equalsIgnoreCase(computer)) {
                 pointsHuman++;
                 pointsComputer++;
                 System.out.println("Covek bira: " + player);
