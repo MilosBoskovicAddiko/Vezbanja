@@ -17,6 +17,7 @@ Miloš Bošković
 * Lekcija 12 - Yakov Fain - Uvod u genericke tipove
 * Lekcija 13 - Yakov Fain - Lambda izrazi u funkcionalno programiranje
 * Forced update
+* Kamen - Papir - Makaze
 * Broj ponavljanja karaktera
 * Dva niza karaktera
 * Ispisivanje unosa otpozadi
@@ -95,6 +96,26 @@ iOS trenutna/min verzija aplikacije je tipa: 1.1.10 ili 1.10.10 ili 1.1.1
 
 ---
 
+#### Kamen-Papir-Makaze
+
+Implementirati igru "Kamen, papir, makaze". Interakcija izmedju igraca i aplikacije odvija se preko standardnog ulaza i izlaza.
+
+Igrac i "racunar" biraju jednu od tri mogucnosti: kamen, papir, makaze.
+
+Ukoliko su izabrali isto dobijaju 1 poen. U protivnom, pobednik dobija 2 peoena. Pobednik se racuna na sledeci nacin:
+
+- makaze, papir: makaze
+- kamen, makaze: kamen
+- papir, kamen: papir
+
+Igra se zavrsava kada neko od ucesnika ima 21 poen. Ukoliko se dogodi da u isto vreme oba ucesnika imaju 21 poen , igra se nastavlja dok neko od takmicara ne dobije vise poena od protivnika.
+
+Igra moze da se prekine u svakom momentu ako igrac umesto jedne od tri mogucnosti za izbor unese rec "kraj".
+
+Koorisnicki interfejs i testni scenario su ti dati da ih sam osmislis.
+
+---
+
 #### Broj ponavljanja karaktera
 Unose se razni karakteri sa standardnog ulaza. Program ispisuje koliko se puta pojavilo neko slovo ili cifra, sortirano prvo po alfanumerickom kriterijumu za slova i cifre rastuce, a zatim i po broju pojavljivanja opadajuce.
 
@@ -143,6 +164,8 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 [Validacija emaila](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/JavaRegexPatterni/ValidacijaEmaila)
 
 [Forced Update](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/ForcedUpdate)
+
+[Kamen-Papir-Makaze](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/PapirKamenMakaze)
 
 [Lekcija 3 - Jakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_3)
 
