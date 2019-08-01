@@ -3,9 +3,9 @@ package PapirKamenMakaze;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-
+/* Mislim da je ovo negde dovoljno, jer u suprotnom, jedino sto mi je palo na pamet je da pravim po funkciju za svaki od slucajeva koje sam testirao ovde,
+* te da umesto true/false vracam ocekivani broj poena coveka ili racunara*/
 public class TestPapirKamenMakaze {
-
     /*Izbori racunara koji se odredjuju random f-jom.
     * 0 - kamen
     * 1 - papir
