@@ -90,7 +90,7 @@ public class KamenPapirMakaze {
     }
 
     public static boolean nijeKrajIliTajBrejk(int brojPoenaCovek, int brojPoenaKompijuter) {
-        if ((brojPoenaCovek >= 21 && brojPoenaKompijuter >= 21) || brojPoenaCovek < 21 || brojPoenaKompijuter < 21) {
+        if ((brojPoenaCovek >= 21 && brojPoenaKompijuter >= 21 && brojPoenaCovek==brojPoenaKompijuter) || brojPoenaCovek < 21 || brojPoenaKompijuter < 21) {
             return true;
         }
         return false;

@@ -11,6 +11,8 @@ public class TestKamenPapirMakaze {
         // Test slucajevi za ispitivanje da li se igra tie break ili u slucaju da jos nemamo pobednika
         assertEquals(true, KamenPapirMakaze.nijeKrajIliTajBrejk(15, 15));
         assertEquals(true, KamenPapirMakaze.nijeKrajIliTajBrejk(21, 21));
+        assertEquals(false, KamenPapirMakaze.nijeKrajIliTajBrejk(22, 21));
+        assertEquals(false, KamenPapirMakaze.nijeKrajIliTajBrejk(21, 22));
 
         // Test slucajevi za ispitivanje da li je kraj igre
         assertEquals(true, KamenPapirMakaze.jeKraj(21, 20));

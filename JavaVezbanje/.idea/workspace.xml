@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Papir_Kamen_Makaze/KamenPapirMakaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Papir_Kamen_Makaze/KamenPapirMakaze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Papir_Kamen_Makaze/TestKamenPapirMakaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Papir_Kamen_Makaze/TestKamenPapirMakaze.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +38,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>get</find>
-      <find>getMessage()</find>
-      <find>detail</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -88,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestKamenPapirMakaze.TestPlan">
+  <component name="RunManager" selected="Application.KamenPapirMakaze (1)">
     <configuration name="KamenPapirMakaze (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Papir_Kamen_Makaze.KamenPapirMakaze" />
       <module name="JavaVezbanje" />
@@ -163,9 +155,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KamenPapirMakaze (1)" />
         <item itemvalue="JUnit.TestKamenPapirMakaze.TestPlan" />
         <item itemvalue="JUnit.TestKamenPapirMakaze" />
-        <item itemvalue="Application.KamenPapirMakaze (1)" />
         <item itemvalue="Application.KamenPapirMakaze" />
         <item itemvalue="JUnit.TestPapirKamenMakaze" />
       </list>
@@ -203,7 +195,7 @@
       <workItem from="1564467865910" duration="15401000" />
       <workItem from="1564553215424" duration="9303000" />
       <workItem from="1564639933672" duration="21965000" />
-      <workItem from="1564726354602" duration="12889000" />
+      <workItem from="1564726354602" duration="13137000" />
     </task>
     <servers />
   </component>
