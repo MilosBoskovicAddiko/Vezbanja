@@ -29,7 +29,7 @@ public class KamenPapirMakaze {
         Scanner skener = new Scanner(System.in);
 
         Igrac covek = new Igrac("covek");
-        Igrac kompijuter = new Igrac("kompijuter");
+        Igrac kompjuter = new Igrac("kompjuter");
 
         System.out.println("Dobrodosli u igru \"Kamen-Papir-Makaze\"");
         System.out.println("-----------------------------------------------------------------");
@@ -37,8 +37,8 @@ public class KamenPapirMakaze {
         System.out.println("1. Kamen\n2. Papir\n3. Makaze\n4. Kraj");
         System.out.println("-----------------------------------------------------------------");
 
-        while (nijeKrajIliTajBrejk(covek.getBrojPoena(), kompijuter.getBrojPoena())) {
-            if (jeKraj(covek.getBrojPoena(), kompijuter.getBrojPoena())) {
+        while (nijeKrajIliTajBrejk(covek.getBrojPoena(), kompjuter.getBrojPoena())) {
+            if (jeKraj(covek.getBrojPoena(), kompjuter.getBrojPoena())) {
                 break;
             } else {
                 System.out.print("Unesite broj izbor: ");
@@ -50,35 +50,35 @@ public class KamenPapirMakaze {
                         break;
                     }
 
-                    int izborKompijutera = random.nextInt(3) + 1;
-                    kompijuter.setIzbor(setovanjeIzbora(izborKompijutera));
+                    int izborKompjutera = random.nextInt(3) + 1;
+                    kompjuter.setIzbor(setovanjeIzbora(izborKompjutera));
 
                     System.out.println("Covek je izbarao: " + covek.getIzbor());
-                    System.out.println("Kompijuter je izbarao: " + kompijuter.getIzbor());
+                    System.out.println("Kompjuter je izbarao: " + kompjuter.getIzbor());
 
                     // Imao sam ideju da ovo ubacim u metodu, ali sta god ja stavio kao povratnu vrednost
                     // necu je nigde iskoristiti, a Vlado, ti si mi rekao da to ne radim. Ne znam kako ovo da
                     // ubacio u test case, a da ima smisla
-                    if (kompijuter.getIzbor().equals(covek.getIzbor())) {
+                    if (kompjuter.getIzbor().equals(covek.getIzbor())) {
                         covek.setBrojPoena(covek.getBrojPoena() + 1);
-                        kompijuter.setBrojPoena(kompijuter.getBrojPoena() + 1);
-                    } else if (covek.isKamen() && kompijuter.isMakaze()) {
+                        kompjuter.setBrojPoena(kompjuter.getBrojPoena() + 1);
+                    } else if (covek.isKamen() && kompjuter.isMakaze()) {
                         covek.setBrojPoena(covek.getBrojPoena() + 2);
-                    } else if (covek.isKamen() && kompijuter.isPapir()) {
-                        kompijuter.setBrojPoena(kompijuter.getBrojPoena() + 2);
-                    } else if (covek.isPapir() && kompijuter.isKamen()) {
+                    } else if (covek.isKamen() && kompjuter.isPapir()) {
+                        kompjuter.setBrojPoena(kompjuter.getBrojPoena() + 2);
+                    } else if (covek.isPapir() && kompjuter.isKamen()) {
                         covek.setBrojPoena(covek.getBrojPoena() + 2);
-                    } else if (covek.isPapir() && kompijuter.isMakaze()) {
-                        kompijuter.setBrojPoena(kompijuter.getBrojPoena() + 2);
-                    } else if (covek.isMakaze() && kompijuter.isPapir()) {
+                    } else if (covek.isPapir() && kompjuter.isMakaze()) {
+                        kompjuter.setBrojPoena(kompjuter.getBrojPoena() + 2);
+                    } else if (covek.isMakaze() && kompjuter.isPapir()) {
                         covek.setBrojPoena(covek.getBrojPoena() + 2);
                     } else {
-                        kompijuter.setBrojPoena(kompijuter.getBrojPoena() + 2);
+                        kompjuter.setBrojPoena(kompjuter.getBrojPoena() + 2);
                     }
 
                     System.out.println("Trenutni broj poena: ");
                     System.out.println("Covek: " + covek.getBrojPoena());
-                    System.out.println("Kompijuter: " + kompijuter.getBrojPoena());
+                    System.out.println("Kompjuter: " + kompjuter.getBrojPoena());
                     System.out.println("-----------------------------------------------------------------");
                 } else {
                     System.out.println("Uneli ste ne validan unos!");
