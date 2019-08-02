@@ -165,7 +165,7 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 
 [Forced Update](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/ForcedUpdate)
 
-[Kamen-Papir-Makaze](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/PapirKamenMakaze)
+[Kamen-Papir-Makaze](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Papir_Kamen_Makaze)
 
 [Lekcija 3 - Jakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_3)
 
