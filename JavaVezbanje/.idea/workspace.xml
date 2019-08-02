@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Papir_Kamen_Makaze/TestKamenPapirMakaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Papir_Kamen_Makaze/TestKamenPapirMakaze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Papir_Kamen_Makaze/Igrac.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Papir_Kamen_Makaze/KamenPapirMakaze$MoguciIzbori.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Papir_Kamen_Makaze/KamenPapirMakaze.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Papir_Kamen_Makaze/TestKamenPapirMakaze.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Papir_Kamen_Makaze/Igrac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Papir_Kamen_Makaze/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Papir_Kamen_Makaze/KamenPapirMakaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Papir_Kamen_Makaze/RockPaperScissors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Papir_Kamen_Makaze/TestKamenPapirMakaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Papir_Kamen_Makaze/TestRockPaperScissors.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,20 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KamenPapirMakaze (1)">
-    <configuration name="KamenPapirMakaze (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Papir_Kamen_Makaze.KamenPapirMakaze" />
-      <module name="JavaVezbanje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Papir_Kamen_Makaze.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="KamenPapirMakaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PapirKamenMakaze.KamenPapirMakaze" />
       <module name="JavaVezbanje" />
@@ -107,7 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestKamenPapirMakaze" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RockPaperScissors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Papir_Kamen_Makaze.RockPaperScissors" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
@@ -115,25 +110,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Papir_Kamen_Makaze" />
-      <option name="MAIN_CLASS_NAME" value="Papir_Kamen_Makaze.TestKamenPapirMakaze" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestKamenPapirMakaze.TestPlan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaVezbanje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Papir_Kamen_Makaze.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Papir_Kamen_Makaze" />
-      <option name="MAIN_CLASS_NAME" value="Papir_Kamen_Makaze.TestKamenPapirMakaze" />
-      <option name="METHOD_NAME" value="TestPlan" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,11 +129,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRockPaperScissors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaVezbanje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Papir_Kamen_Makaze.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Papir_Kamen_Makaze" />
+      <option name="MAIN_CLASS_NAME" value="Papir_Kamen_Makaze.TestRockPaperScissors" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRockPaperScissors.TestPlan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaVezbanje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Papir_Kamen_Makaze.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Papir_Kamen_Makaze" />
+      <option name="MAIN_CLASS_NAME" value="Papir_Kamen_Makaze.TestRockPaperScissors" />
+      <option name="METHOD_NAME" value="TestPlan" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KamenPapirMakaze (1)" />
-        <item itemvalue="JUnit.TestKamenPapirMakaze.TestPlan" />
-        <item itemvalue="JUnit.TestKamenPapirMakaze" />
+        <item itemvalue="Application.RockPaperScissors" />
+        <item itemvalue="JUnit.TestRockPaperScissors.TestPlan" />
+        <item itemvalue="JUnit.TestRockPaperScissors" />
         <item itemvalue="Application.KamenPapirMakaze" />
         <item itemvalue="JUnit.TestPapirKamenMakaze" />
       </list>
@@ -195,7 +202,7 @@
       <workItem from="1564467865910" duration="15401000" />
       <workItem from="1564553215424" duration="9303000" />
       <workItem from="1564639933672" duration="21965000" />
-      <workItem from="1564726354602" duration="13137000" />
+      <workItem from="1564726354602" duration="19474000" />
     </task>
     <servers />
   </component>
