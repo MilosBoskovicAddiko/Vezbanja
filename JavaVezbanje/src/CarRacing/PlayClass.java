@@ -20,7 +20,7 @@ public class PlayClass {
         long startTime = System.currentTimeMillis();  // starting race timer
         long endTime;
         double timeElapsed;
-        System.out.println(carRacing.getTrack()[0]);
+        System.out.print(carRacing.getTrack()[0]);
 
         int i = 1;
         while (i < carRacing.getTrack().length) {
@@ -62,7 +62,7 @@ public class PlayClass {
         if (!carRacing.getGameOver()) {
             endTime = System.currentTimeMillis();
             timeElapsed = (endTime - startTime) / 1000.;
-            System.out.println("Congratulations, You win!!!");
+            System.out.println("\nCongratulations, You win!!!");
             System.out.println("Time elapsed: " + timeElapsed + " seconds");
         }
     }
@@ -86,13 +86,13 @@ public class PlayClass {
             endTime = System.currentTimeMillis();
             timeElapsed = (endTime - startTime) / 1000.0;
             carRacing.setTrackLine(i, carRacing.getTrackLine(i).substring(0, currentBoudary) + "X" + carRacing.getTrackLine(i).substring(currentBoudary + 1));
-            System.out.println(carRacing.getTrackLine(i));
-            System.out.println("GAME OVER!!!");
+            System.out.print(carRacing.getTrackLine(i));
+            System.out.println("\nGAME OVER!!!");
             System.out.println("Time elapsed: " + timeElapsed + " seconds");
             carRacing.setGameOver(true);
         } else {
             carRacing.setTrackLine(i, carRacing.getTrackLine(i).substring(0, carRacing.getCurrentIndexOfCar()) + "V" + carRacing.getTrackLine(i).substring(carRacing.getCurrentIndexOfCar() + 1));
-            System.out.println(carRacing.getTrackLine(i));
+            System.out.print(carRacing.getTrackLine(i));
         }
     }
 

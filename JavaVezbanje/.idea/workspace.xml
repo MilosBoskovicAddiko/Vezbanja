@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CarRacing/CarRacing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CarRacing/PlayClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CarRacing/Proba.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/CarRacing/PlayClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/CarRacing/PlayClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/CarRacing/Proba.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/CarRacing/track1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarRacing/PlayClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarRacing/PlayClass.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +187,7 @@
       <workItem from="1564639933672" duration="21965000" />
       <workItem from="1564726354602" duration="19733000" />
       <workItem from="1564867449703" duration="9780000" />
-      <workItem from="1564911569178" duration="4257000" />
+      <workItem from="1564911569178" duration="5222000" />
     </task>
     <servers />
   </component>
