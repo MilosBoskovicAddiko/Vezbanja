@@ -179,6 +179,8 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 
 [Kamen-Papir-Makaze](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Papir_Kamen_Makaze)
 
+[Car Racing](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/CarRacing)
+
 [Lekcija 3 - Jakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_3)
 
 [Lekcija 4 - Yakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_4)
