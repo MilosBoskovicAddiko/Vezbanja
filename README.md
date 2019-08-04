@@ -16,6 +16,7 @@ Miloš Bošković
 * Lekcija 11 - Yakov Fain - Uvod u kolekcije
 * Lekcija 12 - Yakov Fain - Uvod u genericke tipove
 * Lekcija 13 - Yakov Fain - Lambda izrazi u funkcionalno programiranje
+* Car Racing
 * Forced update
 * Kamen - Papir - Makaze
 * Broj ponavljanja karaktera
@@ -79,6 +80,17 @@ Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 * Prosledjivanje funkcije metodu
 * TestPayIncrease pomocu lambda izraza
 * TryIt
+
+---
+
+#### Car Racing
+Potrebno je implementirati logiku igrice Car Racing. 
+
+Kako igrica treba da izgleda i potrebne informacije mogu se naci na linkovima ispod;
+
+[Prikaz igrice](http://staff.www.ltu.se/~qwazi/d0019n/Mars2019/JavaRacingGame.mp4?fbclid=IwAR3mmsAKkHXAZccLNNUvMlVZFE2WD_ZBjadtOhllLCxevgNDTYmRc3cFums)
+
+[Staza](http://staff.www.ltu.se/~qwazi/d0019n/Mars2019/track.txt?fbclid=IwAR3mmsAKkHXAZccLNNUvMlVZFE2WD_ZBjadtOhllLCxevgNDTYmRc3cFums)
 
 ---
 
