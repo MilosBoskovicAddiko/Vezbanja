@@ -103,6 +103,8 @@ public class JumperPlayClass {
     }
 
     /**
+     * Method that checks how many signs are on correct positions
+     *
      * @param player Instance of player class
      * @return How many signs player guessed on correct position
      */
