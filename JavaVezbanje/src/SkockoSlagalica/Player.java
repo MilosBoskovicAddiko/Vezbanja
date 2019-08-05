@@ -8,7 +8,7 @@ public class Player {
     private int points=0;
     private int guessedWell=0;
     private int onCorrectPosition=0;
-    private int onIncorrectPosition=0;
+    public static final int NUMBEROFGUESSES = 6;
 
     public Player() {
         Random random = new Random();
@@ -28,8 +28,12 @@ public class Player {
         this.playersCombination = playersCombination;
     }
 
-    public JumperPlayClass.PossibleChoices[] getComputerChoice() {
+    public JumperPlayClass.PossibleChoices[] getComputersCombination() {
         return computersCombination;
+    }
+
+    public void setComputersCombination(JumperPlayClass.PossibleChoices[] computersCombination) {
+        this.computersCombination = computersCombination;
     }
 
     public int getPoints() {
@@ -56,11 +60,5 @@ public class Player {
         this.onCorrectPosition = onCorrectPosition;
     }
 
-    public int getOnIncorrectPosition() {
-        return onIncorrectPosition;
-    }
 
-    public void setOnIncorrectPosition(int onIncorrectPosition) {
-        this.onIncorrectPosition = onIncorrectPosition;
-    }
 }

@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_14/DataInputStream/DataInputStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_14/DataInputStream/myFile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_14/Povezivanje_GUI_i_IO_Tokova/Tax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_14/TestBufferedReaderNIO/TestBufferedReaderNIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_14/TestFilesPath/TestFilesPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SkockoSlagalica/JumperPlayClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SkockoSlagalica/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/states.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/states.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkockoSlagalica/TestJumper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_14/Povezivanje_GUI_i_IO_Tokova/TaxGuiFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_14/Povezivanje_GUI_i_IO_Tokova/TaxGuiFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_14/Povezivanje_GUI_i_IO_Tokova/TaxGuiFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_14/Povezivanje_GUI_i_IO_Tokova/TaxGuiFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalica/JumperPlayClass$PossibleChoices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalica/JumperPlayClass$PossibleChoices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalica/JumperPlayClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalica/JumperPlayClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalica/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalica/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkockoSlagalica/JumperPlayClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkockoSlagalica/JumperPlayClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkockoSlagalica/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkockoSlagalica/Player.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,26 +93,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JumperPlayClass">
+  <component name="RunManager" selected="JUnit.TestJumper.Test">
     <configuration name="JumperPlayClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SkockoSlagalica.JumperPlayClass" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SkockoSlagalica.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaxGuiFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_14.Povezivanje_GUI_i_IO_Tokova.TaxGuiFile" />
-      <module name="JavaVezbanje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lekcija_14.Povezivanje_GUI_i_IO_Tokova.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,15 +120,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFilesPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_14.TestFilesPath.TestFilesPath" />
+    <configuration name="TestJumper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_14.TestFilesPath.*" />
+          <option name="PATTERN" value="SkockoSlagalica.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="SkockoSlagalica" />
+      <option name="MAIN_CLASS_NAME" value="SkockoSlagalica.TestJumper" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJumper.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaVezbanje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SkockoSlagalica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SkockoSlagalica" />
+      <option name="MAIN_CLASS_NAME" value="SkockoSlagalica.TestJumper" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestJumper.Test" />
+        <item itemvalue="JUnit.TestJumper" />
         <item itemvalue="Application.JumperPlayClass" />
         <item itemvalue="JUnit.TestRockPaperScissors.TestPlan" />
         <item itemvalue="Application.TestBufferedReaderNIO" />
-        <item itemvalue="Application.TestFilesPath" />
-        <item itemvalue="Application.TaxGuiFile" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +213,8 @@
       <workItem from="1564867449703" duration="9780000" />
       <workItem from="1564911569178" duration="5813000" />
       <workItem from="1564986970943" duration="7170000" />
-      <workItem from="1565000595726" duration="8340000" />
+      <workItem from="1565000595726" duration="10852000" />
+      <workItem from="1565023075461" duration="8529000" />
     </task>
     <servers />
   </component>
@@ -246,6 +247,11 @@
         <watch expression="unos2.replaceAll(&quot;[^0-9]&quot;,&quot;&quot;).split(&quot;(?!^)&quot;)" language="JAVA" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaVezbanje$JumperPlayClass.ic" NAME="JumperPlayClass Coverage Results" MODIFIED="1565024150194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SkockoSlagalica.*</FILTER>
+    </SUITE>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
