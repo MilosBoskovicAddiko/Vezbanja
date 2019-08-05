@@ -50,6 +50,7 @@ public class JumperPlayClass {
             if (isHumanWinner(player.getPlayersCombination(), player.getComputersCombination())) {
                 player.setPoints(setPoints(i));
                 System.out.println("Congratulations, You earned " + player.getPoints() + " points!!!");
+                printComputerCombination(player.getComputersCombination());
                 playAgain(scanner);
                 break;
             }
@@ -60,7 +61,7 @@ public class JumperPlayClass {
         }
         if (!isHumanWinner(player.getPlayersCombination(), player.getComputersCombination())) {
             System.out.println("Sorry, You lose!!!");
-            System.out.println("----------------------------------------------------------");
+            printComputerCombination(player.getComputersCombination());
             playAgain(scanner);
         }
     }
@@ -177,6 +178,20 @@ public class JumperPlayClass {
         System.out.print("Your combination is: ");
         for (int i = 0; i < playerCombination.length; i++) {
             System.out.print(playerCombination[i] + (!(i == playerCombination.length - 1) ? ", " : "\n"));
+        }
+        System.out.println("----------------------------------------------------------");
+    }
+
+    /**
+     * Method prints current computer's combination
+     *
+     * @param computerCombination - Computer's combination
+     */
+    public static void printComputerCombination(PossibleChoices[] computerCombination) {
+        System.out.println("----------------------------------------------------------");
+        System.out.print("Computer's combination was: ");
+        for (int i = 0; i < computerCombination.length; i++) {
+            System.out.print(computerCombination[i] + (!(i == computerCombination.length - 1) ? ", " : "\n"));
         }
         System.out.println("----------------------------------------------------------");
     }
