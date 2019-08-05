@@ -16,6 +16,7 @@ Miloš Bošković
 * Lekcija 11 - Yakov Fain - Uvod u kolekcije
 * Lekcija 12 - Yakov Fain - Uvod u genericke tipove
 * Lekcija 13 - Yakov Fain - Lambda izrazi u funkcionalno programiranje
+* Jumper
 * Car Racing
 * Forced update
 * Kamen - Papir - Makaze
@@ -80,6 +81,13 @@ Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 * Prosledjivanje funkcije metodu
 * TestPayIncrease pomocu lambda izraza
 * TryIt
+
+---
+
+#### Jumper
+Zadatak je implementirati u Javi igru skocko u terminalu.
+
+Sest pokusaja: Pogodak iz prvog pokusaja donosi 20 poena, drugog i treceg 15 poena, cetvrtog i petog pokusaja 10 i iz sestog pokusaja 5 poena. 
 
 ---
 
@@ -180,6 +188,8 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 [Kamen-Papir-Makaze](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Papir_Kamen_Makaze)
 
 [Car Racing](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/CarRacing)
+
+[Jumper](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/SkockoSlagalica)
 
 [Lekcija 3 - Jakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_3)
 
