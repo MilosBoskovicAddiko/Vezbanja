@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="" />
+    <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Factoriel/FactorielExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/Factoriel/FactorielExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factoriel/FactorielExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factoriel/FactorielExample.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +208,7 @@
       <workItem from="1565023075461" duration="8766000" />
       <workItem from="1565035768453" duration="1111000" />
       <workItem from="1565037216797" duration="479000" />
-      <workItem from="1565071110112" duration="20988000" />
+      <workItem from="1565071110112" duration="21231000" />
     </task>
     <servers />
   </component>
