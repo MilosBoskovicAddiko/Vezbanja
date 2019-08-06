@@ -11,7 +11,7 @@ public class JumperPlayClass {
 
     public static void main(String[] args) {
         boolean playAgain = true;
-        while(playAgain){
+        while (playAgain) {
             Scanner scanner = new Scanner(System.in);
             PossibleChoices[] playersCombination = new PossibleChoices[4];
             PossibleChoices[] computersCombination = generateComputersCombination();
