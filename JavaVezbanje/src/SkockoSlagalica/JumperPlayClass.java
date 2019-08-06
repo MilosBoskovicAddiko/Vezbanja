@@ -10,22 +10,12 @@ public class JumperPlayClass {
     }
 
     enum PossibleChoices {
-        SKOCKO(1),
-        ZVEZDA(2),
-        KARO(3),
-        PIK(4),
-        HERC(5),
-        TREF(6);
-
-        private final int id;
-
-        PossibleChoices(int id) {
-            this.id = id;
-        }
-
-        public int getId() {
-            return id;
-        }
+        SKOCKO,
+        ZVEZDA,
+        KARO,
+        PIK,
+        HERC,
+        TREF
     }
 
     public static void play() {
@@ -37,7 +27,7 @@ public class JumperPlayClass {
         System.out.println("Your possible choices are: \n1. SKOCKO\n2. ZVEZDA\n3. KARO\n4. PIK\n5. HERC\n6. TREF");
 
         for (int i = 0; i < Player.NUMBEROFGUESSES; i++) {
-            for (int j = 0; j < player.getPlayersCombination().length; ) {
+            for (int j = 0; j < Player.NUMBEROFSIGNS; ) {
                 System.out.print("Enter your choice: ");
                 String input = scanner.nextLine();
                 if (isInputValid(input)) {
@@ -92,8 +82,8 @@ public class JumperPlayClass {
      */
     public static int wellGuessed(Player player) {
         player.setGuessedWell(0);
-        for (int i = 0; i < player.getComputersCombination().length; i++) {
-            for (int j = 0; j < player.getPlayersCombination().length; j++) {
+        for (int i = 0; i < Player.NUMBEROFSIGNS; i++) {
+            for (int j = 0; j < Player.NUMBEROFSIGNS; j++) {
                 if (player.getComputersCombination()[i] == player.getPlayersCombination()[j]) {
                     player.setGuessedWell(player.getGuessedWell() + 1);
                     break;
@@ -111,7 +101,7 @@ public class JumperPlayClass {
      */
     public static int onCorrectPosition(Player player) {
         player.setOnCorrectPosition(0);
-        for (int i = 0; i < player.getComputersCombination().length; i++) {
+        for (int i = 0; i < Player.NUMBEROFSIGNS; i++) {
             if (player.getComputersCombination()[i].equals(player.getPlayersCombination()[i])) {
                 player.setOnCorrectPosition(player.getOnCorrectPosition() + 1);
             }
@@ -152,6 +142,7 @@ public class JumperPlayClass {
     public static PossibleChoices setChoices(int choice) {
         switch (choice) {
             case 1:
+            default:
                 return PossibleChoices.SKOCKO;
             case 2:
                 return PossibleChoices.ZVEZDA;
@@ -163,8 +154,6 @@ public class JumperPlayClass {
                 return PossibleChoices.HERC;
             case 6:
                 return PossibleChoices.TREF;
-            default:
-                return null;
         }
     }
 
@@ -176,7 +165,7 @@ public class JumperPlayClass {
     public static void printGuess(PossibleChoices[] playerCombination) {
         System.out.println("----------------------------------------------------------");
         System.out.print("Your combination is: ");
-        for (int i = 0; i < playerCombination.length; i++) {
+        for (int i = 0; i < Player.NUMBEROFSIGNS; i++) {
             System.out.print(playerCombination[i] + (!(i == playerCombination.length - 1) ? ", " : "\n"));
         }
         System.out.println("----------------------------------------------------------");
@@ -190,7 +179,7 @@ public class JumperPlayClass {
     public static void printComputerCombination(PossibleChoices[] computerCombination) {
         System.out.println("----------------------------------------------------------");
         System.out.print("Computer's combination was: ");
-        for (int i = 0; i < computerCombination.length; i++) {
+        for (int i = 0; i < Player.NUMBEROFSIGNS; i++) {
             System.out.print(computerCombination[i] + (!(i == computerCombination.length - 1) ? ", " : "\n"));
         }
         System.out.println("----------------------------------------------------------");

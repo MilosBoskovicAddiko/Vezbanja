@@ -5,18 +5,17 @@ import java.util.Random;
 public class Player {
     private JumperPlayClass.PossibleChoices[] playersCombination = new JumperPlayClass.PossibleChoices[4];
     private JumperPlayClass.PossibleChoices[] computersCombination = new JumperPlayClass.PossibleChoices[4];
-    private int points=0;
-    private int guessedWell=0;
-    private int onCorrectPosition=0;
+    private int points = 0;
+    private int guessedWell = 0;
+    private int onCorrectPosition = 0;
     public static final int NUMBEROFGUESSES = 6;
+    public static final int NUMBEROFSIGNS = 4;
 
     public Player() {
         Random random = new Random();
-        int i = 0;
-        while (i < computersCombination.length) {
+        for (int i = 0; i < computersCombination.length; i++) {
             int choice = random.nextInt(6);
             computersCombination[i] = JumperPlayClass.PossibleChoices.values()[choice];
-            i++;
         }
     }
 
