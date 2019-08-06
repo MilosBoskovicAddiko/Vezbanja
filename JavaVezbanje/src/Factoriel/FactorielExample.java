@@ -8,7 +8,7 @@ public class FactorielExample {
         Scanner scanner = new Scanner(System.in);
         boolean flag = true;
         while (flag){
-            System.out.print("Enter some long: ");
+            System.out.print("Enter some number: ");
             String input = scanner.nextLine();
             try {
                 long number = Long.parseLong(input);

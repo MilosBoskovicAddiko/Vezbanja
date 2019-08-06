@@ -18,7 +18,7 @@ public class JumperPlayClass {
 
             System.out.println("Welcome to the Jumper!!!");
             System.out.println("You have 6 tries to guess the right combination");
-            System.out.println("Your possible choices are: \n1. SKOCKO\n2. ZVEZDA\n3. KARO\n4. PIK\n5. HERC\n6. TREF");
+            System.out.println("Your possible choices are: \n1. SKOCKO\n2. ZVEZDA\n3. KARO\n4. PIK\n5. HERC\n6. TREF\n");
 
             for (int i = 0; i < NUMBEROFGUESSES; i++) {
                 for (int j = 0; j < NUMBEROFSIGNS; ) {

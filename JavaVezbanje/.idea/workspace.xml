@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SkockoSlagalicaVerzija2/JumperPlay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalica/JumperPlayClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalica/JumperPlayClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkockoSlagalica/JumperPlayClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkockoSlagalica/JumperPlayClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkockoSlagalicaVerzija2/JumperPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkockoSlagalicaVerzija2/JumperPlay.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,13 +90,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FactorielExample">
+  <component name="RunManager" selected="Application.JumperPlay">
     <configuration name="FactorielExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Factoriel.FactorielExample" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Factoriel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JumperPlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkockoSlagalicaVerzija2.JumperPlay" />
+      <module name="JavaVezbanje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SkockoSlagalicaVerzija2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,21 +143,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJumper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaVezbanje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SkockoSlagalica.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SkockoSlagalica" />
-      <option name="MAIN_CLASS_NAME" value="SkockoSlagalica.TestJumper" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestJumper.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaVezbanje" />
       <extension name="coverage">
@@ -161,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FactorielExample" />
+        <item itemvalue="Application.JumperPlay" />
         <item itemvalue="Application.JumperPlayClass" />
+        <item itemvalue="Application.FactorielExample" />
         <item itemvalue="JUnit.TestJumper.Test" />
         <item itemvalue="Application.TestBufferedReaderNIO" />
-        <item itemvalue="JUnit.TestJumper" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +209,7 @@
       <workItem from="1565023075461" duration="8766000" />
       <workItem from="1565035768453" duration="1111000" />
       <workItem from="1565037216797" duration="479000" />
-      <workItem from="1565071110112" duration="19312000" />
+      <workItem from="1565071110112" duration="20747000" />
     </task>
     <servers />
   </component>
