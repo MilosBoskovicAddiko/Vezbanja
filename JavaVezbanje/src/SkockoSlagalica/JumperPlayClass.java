@@ -9,17 +9,9 @@ public class JumperPlayClass {
         play();
     }
 
-    enum PossibleChoices {
-        SKOCKO,
-        ZVEZDA,
-        KARO,
-        PIK,
-        HERC,
-        TREF
-    }
-
     public static void play() {
         Player player = new Player();
+        Computer computer = new Computer();
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Welcome to the Jumper!!!");
@@ -37,21 +29,21 @@ public class JumperPlayClass {
             }
             printGuess(player.getPlayersCombination());
 
-            if (isHumanWinner(player.getPlayersCombination(), player.getComputersCombination())) {
+            if (isHumanWinner(player.getPlayersCombination(), computer.getComputersCombination())) {
                 player.setPoints(setPoints(i));
                 System.out.println("Congratulations, You earned " + player.getPoints() + " points!!!");
-                printComputerCombination(player.getComputersCombination());
+                printComputerCombination(computer.getComputersCombination());
                 playAgain(scanner);
                 break;
             }
 
-            System.out.println("You have " + onCorrectPosition(player) + " signs on correct position!");
-            System.out.println("Tou have " + wellGuessed(player) + " well guessed signs!");
+            System.out.println("You have " + onCorrectPosition(player, computer) + " signs on correct position!");
+            System.out.println("Tou have " + wellGuessed(player, computer) + " well guessed signs!");
             System.out.println("----------------------------------------------------------");
         }
-        if (!isHumanWinner(player.getPlayersCombination(), player.getComputersCombination())) {
+        if (!isHumanWinner(player.getPlayersCombination(), computer.getComputersCombination())) {
             System.out.println("Sorry, You lose!!!");
-            printComputerCombination(player.getComputersCombination());
+            printComputerCombination(computer.getComputersCombination());
             playAgain(scanner);
         }
     }
@@ -80,11 +72,11 @@ public class JumperPlayClass {
      * @param player Instance of player class
      * @return Number of well guessed signs
      */
-    public static int wellGuessed(Player player) {
+    public static int wellGuessed(Player player, Computer computer) {
         player.setGuessedWell(0);
         for (int i = 0; i < Player.NUMBEROFSIGNS; i++) {
             for (int j = 0; j < Player.NUMBEROFSIGNS; j++) {
-                if (player.getComputersCombination()[i] == player.getPlayersCombination()[j]) {
+                if (computer.getComputersCombination()[i] == player.getPlayersCombination()[j]) {
                     player.setGuessedWell(player.getGuessedWell() + 1);
                     break;
                 }
@@ -99,10 +91,10 @@ public class JumperPlayClass {
      * @param player Instance of player class
      * @return How many signs player guessed on correct position
      */
-    public static int onCorrectPosition(Player player) {
+    public static int onCorrectPosition(Player player, Computer computer) {
         player.setOnCorrectPosition(0);
         for (int i = 0; i < Player.NUMBEROFSIGNS; i++) {
-            if (player.getComputersCombination()[i].equals(player.getPlayersCombination()[i])) {
+            if (computer.getComputersCombination()[i].equals(player.getPlayersCombination()[i])) {
                 player.setOnCorrectPosition(player.getOnCorrectPosition() + 1);
             }
         }

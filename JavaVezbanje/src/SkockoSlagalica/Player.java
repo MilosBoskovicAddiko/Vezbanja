@@ -1,10 +1,7 @@
 package SkockoSlagalica;
 
-import java.util.Random;
-
 public class Player {
-    private JumperPlayClass.PossibleChoices[] playersCombination = new JumperPlayClass.PossibleChoices[4];
-    private JumperPlayClass.PossibleChoices[] computersCombination = new JumperPlayClass.PossibleChoices[4];
+    private PossibleChoices[] playersCombination = new PossibleChoices[4];
     private int points = 0;
     private int guessedWell = 0;
     private int onCorrectPosition = 0;
@@ -12,27 +9,14 @@ public class Player {
     public static final int NUMBEROFSIGNS = 4;
 
     public Player() {
-        Random random = new Random();
-        for (int i = 0; i < computersCombination.length; i++) {
-            int choice = random.nextInt(6);
-            computersCombination[i] = JumperPlayClass.PossibleChoices.values()[choice];
-        }
     }
 
-    public JumperPlayClass.PossibleChoices[] getPlayersCombination() {
+    public PossibleChoices[] getPlayersCombination() {
         return playersCombination;
     }
 
-    public void setPlayersCombination(JumperPlayClass.PossibleChoices[] playersCombination) {
+    public void setPlayersCombination(PossibleChoices[] playersCombination) {
         this.playersCombination = playersCombination;
-    }
-
-    public JumperPlayClass.PossibleChoices[] getComputersCombination() {
-        return computersCombination;
-    }
-
-    public void setComputersCombination(JumperPlayClass.PossibleChoices[] computersCombination) {
-        this.computersCombination = computersCombination;
     }
 
     public int getPoints() {
