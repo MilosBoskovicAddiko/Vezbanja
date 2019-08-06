@@ -5,6 +5,9 @@ import java.util.Scanner;
 
 public class JumperPlayClass {
 
+    public static final int NUMBEROFGUESSES = 6;
+    public static final int NUMBEROFSIGNS = 4;
+
     public static void main(String[] args) {
         play();
     }
@@ -18,8 +21,8 @@ public class JumperPlayClass {
         System.out.println("You have 6 tries to guess the right combination");
         System.out.println("Your possible choices are: \n1. SKOCKO\n2. ZVEZDA\n3. KARO\n4. PIK\n5. HERC\n6. TREF");
 
-        for (int i = 0; i < Player.NUMBEROFGUESSES; i++) {
-            for (int j = 0; j < Player.NUMBEROFSIGNS; ) {
+        for (int i = 0; i < NUMBEROFGUESSES; i++) {
+            for (int j = 0; j < NUMBEROFSIGNS; ) {
                 System.out.print("Enter your choice: ");
                 String input = scanner.nextLine();
                 if (isInputValid(input)) {
@@ -74,8 +77,8 @@ public class JumperPlayClass {
      */
     public static int wellGuessed(Player player, Computer computer) {
         player.setGuessedWell(0);
-        for (int i = 0; i < Player.NUMBEROFSIGNS; i++) {
-            for (int j = 0; j < Player.NUMBEROFSIGNS; j++) {
+        for (int i = 0; i < NUMBEROFSIGNS; i++) {
+            for (int j = 0; j < NUMBEROFSIGNS; j++) {
                 if (computer.getComputersCombination()[i] == player.getPlayersCombination()[j]) {
                     player.setGuessedWell(player.getGuessedWell() + 1);
                     break;
@@ -93,7 +96,7 @@ public class JumperPlayClass {
      */
     public static int onCorrectPosition(Player player, Computer computer) {
         player.setOnCorrectPosition(0);
-        for (int i = 0; i < Player.NUMBEROFSIGNS; i++) {
+        for (int i = 0; i < NUMBEROFSIGNS; i++) {
             if (computer.getComputersCombination()[i].equals(player.getPlayersCombination()[i])) {
                 player.setOnCorrectPosition(player.getOnCorrectPosition() + 1);
             }
@@ -157,7 +160,7 @@ public class JumperPlayClass {
     public static void printGuess(PossibleChoices[] playerCombination) {
         System.out.println("----------------------------------------------------------");
         System.out.print("Your combination is: ");
-        for (int i = 0; i < Player.NUMBEROFSIGNS; i++) {
+        for (int i = 0; i < NUMBEROFSIGNS; i++) {
             System.out.print(playerCombination[i] + (!(i == playerCombination.length - 1) ? ", " : "\n"));
         }
         System.out.println("----------------------------------------------------------");
@@ -171,7 +174,7 @@ public class JumperPlayClass {
     public static void printComputerCombination(PossibleChoices[] computerCombination) {
         System.out.println("----------------------------------------------------------");
         System.out.print("Computer's combination was: ");
-        for (int i = 0; i < Player.NUMBEROFSIGNS; i++) {
+        for (int i = 0; i < NUMBEROFSIGNS; i++) {
             System.out.print(computerCombination[i] + (!(i == computerCombination.length - 1) ? ", " : "\n"));
         }
         System.out.println("----------------------------------------------------------");

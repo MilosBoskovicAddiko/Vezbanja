@@ -5,8 +5,6 @@ public class Player {
     private int points = 0;
     private int guessedWell = 0;
     private int onCorrectPosition = 0;
-    public static final int NUMBEROFGUESSES = 6;
-    public static final int NUMBEROFSIGNS = 4;
 
     public Player() {
     }
