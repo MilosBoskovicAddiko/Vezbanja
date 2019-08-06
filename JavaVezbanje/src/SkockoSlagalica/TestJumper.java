@@ -9,10 +9,6 @@ public class TestJumper {
     public void Test() {
 
         // Tests for wellGuessed(Player player)
-        Player player = new Player();
-        Computer computer = new Computer();
-
-
         PossibleChoices[] computerCombination = {
                 PossibleChoices.PIK,
                 PossibleChoices.KARO,
@@ -49,37 +45,22 @@ public class TestJumper {
                 PossibleChoices.TREF,
                 PossibleChoices.ZVEZDA};
 
-        computer.setComputersCombination(computerCombination);
-        player.setPlayersCombination(humanCombination1);
-        assertEquals(0, JumperPlayClass.wellGuessed(player, computer)); // human = {skocko, skocko, skocko, skocko} | computer = {pik, karo, tref, zvezda}
-
-        player.setPlayersCombination(humanCombination2);
-        assertEquals(1, JumperPlayClass.wellGuessed(player, computer)); // human = {karo, karo, karo, karo} | computer = {pik, karo, tref, zvezda}
-
-        player.setPlayersCombination(humanCombination3);
-        assertEquals(2, JumperPlayClass.wellGuessed(player, computer)); // human = {karo, karo, tref, karo} | computer = {pik, karo, tref, zvezda}
-
-        player.setPlayersCombination(humanCombination4);
-        assertEquals(3, JumperPlayClass.wellGuessed(player, computer)); // human = {pik, karo, tref, skocko} | computer = {pik, karo, tref, zvezda}
-
-        player.setPlayersCombination(humanCombination5);
-        assertEquals(4, JumperPlayClass.wellGuessed(player, computer)); // human = {pik, karo, tref, zvezda} | computer = {pik, karo, tref, zvezda}
+        assertEquals(0, JumperPlayClass.wellGuessed(humanCombination1, computerCombination)); // human = {skocko, skocko, skocko, skocko} | computer = {pik, karo, tref, zvezda}
+        assertEquals(1, JumperPlayClass.wellGuessed(humanCombination2, computerCombination)); // human = {karo, karo, karo, karo} | computer = {pik, karo, tref, zvezda}
+        assertEquals(2, JumperPlayClass.wellGuessed(humanCombination3, computerCombination)); // human = {karo, karo, tref, karo} | computer = {pik, karo, tref, zvezda}
+        assertEquals(3, JumperPlayClass.wellGuessed(humanCombination4, computerCombination)); // human = {pik, karo, tref, skocko} | computer = {pik, karo, tref, zvezda}
+        assertEquals(4, JumperPlayClass.wellGuessed(humanCombination5, computerCombination)); // human = {pik, karo, tref, zvezda} | computer = {pik, karo, tref, zvezda}
 
         // Test for onCorrectPosition(Player player)
-        player.setPlayersCombination(humanCombination1);
-        assertEquals(0, JumperPlayClass.onCorrectPosition(player, computer)); // human = {skocko, skocko, skocko, skocko} | computer = {pik, karo, tref, zvezda}
-        player.setPlayersCombination(humanCombination2);
-        assertEquals(1, JumperPlayClass.onCorrectPosition(player, computer)); // human = {karo, karo, karo, karo} | computer = {pik, karo, tref, zvezda}
-        player.setPlayersCombination(humanCombination3);
-        assertEquals(2, JumperPlayClass.onCorrectPosition(player, computer)); // human = {karo, karo, tref, karo} | computer = {pik, karo, tref, zvezda}
-        player.setPlayersCombination(humanCombination4);
-        assertEquals(3, JumperPlayClass.onCorrectPosition(player, computer)); // human = {pik, karo, tref, skocko} | computer = {pik, karo, tref, zvezda}
-        player.setPlayersCombination(humanCombination5);
-        assertEquals(4, JumperPlayClass.onCorrectPosition(player, computer)); // human = {pik, karo, tref, zvezda} | computer = {pik, karo, tref, zvezda}
+        assertEquals(0, JumperPlayClass.onCorrectPosition(humanCombination1, computerCombination)); // human = {skocko, skocko, skocko, skocko} | computer = {pik, karo, tref, zvezda}
+        assertEquals(1, JumperPlayClass.onCorrectPosition(humanCombination2, computerCombination)); // human = {karo, karo, karo, karo} | computer = {pik, karo, tref, zvezda}
+        assertEquals(2, JumperPlayClass.onCorrectPosition(humanCombination3, computerCombination)); // human = {karo, karo, tref, karo} | computer = {pik, karo, tref, zvezda}
+        assertEquals(3, JumperPlayClass.onCorrectPosition(humanCombination4, computerCombination)); // human = {pik, karo, tref, skocko} | computer = {pik, karo, tref, zvezda}
+        assertEquals(4, JumperPlayClass.onCorrectPosition(humanCombination5, computerCombination)); // human = {pik, karo, tref, zvezda} | computer = {pik, karo, tref, zvezda}
 
         // Tests for isHumanWinner(PossibleChoices humanCombination, PossibleChoices computerCombinatio)
-        assertEquals(true, JumperPlayClass.isHumanWinner(humanCombination5, computerCombination)); // human = {pik, karo, tref, zvezda} | computer = {pik, karo, tref, zvezda}
-        assertEquals(false, JumperPlayClass.isHumanWinner(humanCombination1, computerCombination)); // human = {skocko, skocko, skocko, skocko} | computer = {pik, karo, tref, zvezda}
+        assertEquals(true, JumperPlayClass.isCombinationCorrect(humanCombination5, computerCombination)); // human = {pik, karo, tref, zvezda} | computer = {pik, karo, tref, zvezda}
+        assertEquals(false, JumperPlayClass.isCombinationCorrect(humanCombination1, computerCombination)); // human = {skocko, skocko, skocko, skocko} | computer = {pik, karo, tref, zvezda}
 
         // Tests for isInputValid(String input)
         assertEquals(false, JumperPlayClass.isInputValid("0"));

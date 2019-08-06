@@ -1,6 +1,7 @@
 package SkockoSlagalica;
 
 import java.util.Arrays;
+import java.util.Random;
 import java.util.Scanner;
 
 public class JumperPlayClass {
@@ -13,9 +14,9 @@ public class JumperPlayClass {
     }
 
     public static void play() {
-        Player player = new Player();
-        Computer computer = new Computer();
         Scanner scanner = new Scanner(System.in);
+        PossibleChoices[] playersCombination = new PossibleChoices[4];
+        PossibleChoices[] computersCombination = generateComputersCombination();
 
         System.out.println("Welcome to the Jumper!!!");
         System.out.println("You have 6 tries to guess the right combination");
@@ -26,29 +27,44 @@ public class JumperPlayClass {
                 System.out.print("Enter your choice: ");
                 String input = scanner.nextLine();
                 if (isInputValid(input)) {
-                    player.getPlayersCombination()[j] = setChoices(Integer.parseInt(input));
+                    playersCombination[j] = setChoices(Integer.parseInt(input));
                     j++;
                 }
             }
-            printGuess(player.getPlayersCombination());
+            printGuess(playersCombination);
 
-            if (isHumanWinner(player.getPlayersCombination(), computer.getComputersCombination())) {
-                player.setPoints(setPoints(i));
-                System.out.println("Congratulations, You earned " + player.getPoints() + " points!!!");
-                printComputerCombination(computer.getComputersCombination());
+            if (isCombinationCorrect(playersCombination, computersCombination)) {
+                int points = setPoints(i);
+                System.out.println("Congratulations, You earned " + points + " points!!!");
+                printComputerCombination(computersCombination);
                 playAgain(scanner);
                 break;
             }
 
-            System.out.println("You have " + onCorrectPosition(player, computer) + " signs on correct position!");
-            System.out.println("Tou have " + wellGuessed(player, computer) + " well guessed signs!");
+            System.out.println("You have " + onCorrectPosition(playersCombination, computersCombination) + " signs on correct position!");
+            System.out.println("Tou have " + wellGuessed(playersCombination, computersCombination) + " well guessed signs!");
             System.out.println("----------------------------------------------------------");
         }
-        if (!isHumanWinner(player.getPlayersCombination(), computer.getComputersCombination())) {
+        if (!isCombinationCorrect(playersCombination, computersCombination)) {
             System.out.println("Sorry, You lose!!!");
-            printComputerCombination(computer.getComputersCombination());
+            printComputerCombination(computersCombination);
             playAgain(scanner);
         }
+    }
+
+    /**
+     * Method that generates computer's combination
+     *
+     * @return Return random generated combination
+     */
+    private static PossibleChoices[] generateComputersCombination() {
+        PossibleChoices[] computersCombination = new PossibleChoices[4];
+        Random random = new Random();
+        for (int i = 0; i < computersCombination.length; i++) {
+            int choice = random.nextInt(6);
+            computersCombination[i] = PossibleChoices.values()[choice];
+        }
+        return computersCombination;
     }
 
     /**
@@ -72,36 +88,38 @@ public class JumperPlayClass {
     /**
      * Method that checks how many signs player guessed well, no matter on position
      *
-     * @param player Instance of player class
+     * @param playersCombination Player's combination for current guess
+     * @param computersCombination Computer's generated combination
      * @return Number of well guessed signs
      */
-    public static int wellGuessed(Player player, Computer computer) {
-        player.setGuessedWell(0);
+    public static int wellGuessed(PossibleChoices[] playersCombination, PossibleChoices[] computersCombination) {
+        int guessedWell = 0;
         for (int i = 0; i < NUMBEROFSIGNS; i++) {
             for (int j = 0; j < NUMBEROFSIGNS; j++) {
-                if (computer.getComputersCombination()[i] == player.getPlayersCombination()[j]) {
-                    player.setGuessedWell(player.getGuessedWell() + 1);
+                if (computersCombination[i] == playersCombination[j]) {
+                    guessedWell++;
                     break;
                 }
             }
         }
-        return player.getGuessedWell();
+        return guessedWell;
     }
 
     /**
      * Method that checks how many signs are on correct positions
      *
-     * @param player Instance of player class
+     * @param playersCombination Player's combination for current guess
+     * @param computersCombination Computer's generated combination
      * @return How many signs player guessed on correct position
      */
-    public static int onCorrectPosition(Player player, Computer computer) {
-        player.setOnCorrectPosition(0);
+    public static int onCorrectPosition(PossibleChoices[] playersCombination, PossibleChoices[] computersCombination) {
+        int onCorrectPosition = 0;
         for (int i = 0; i < NUMBEROFSIGNS; i++) {
-            if (computer.getComputersCombination()[i].equals(player.getPlayersCombination()[i])) {
-                player.setOnCorrectPosition(player.getOnCorrectPosition() + 1);
+            if (computersCombination[i].equals(playersCombination[i])) {
+                onCorrectPosition++;
             }
         }
-        return player.getOnCorrectPosition();
+        return onCorrectPosition;
     }
 
     /**
@@ -112,7 +130,7 @@ public class JumperPlayClass {
      * @return <code>true</code> if two arrays are completely same (same values are on same positions).
      * Otherwise, <code>false</code>
      */
-    public static boolean isHumanWinner(PossibleChoices[] humanGuess, PossibleChoices[] computerChoice) {
+    public static boolean isCombinationCorrect(PossibleChoices[] humanGuess, PossibleChoices[] computerChoice) {
         return Arrays.equals(humanGuess, computerChoice);
     }
 
@@ -125,7 +143,10 @@ public class JumperPlayClass {
      */
     public static boolean isInputValid(String input) {
         char[] choice = input.toCharArray();
-        return choice.length == 1 && Character.isDigit(choice[0]) && Character.getNumericValue(choice[0]) >= 1 && Character.getNumericValue(choice[0]) <= 6;
+        return choice.length == 1 &&
+                Character.isDigit(choice[0]) &&
+                Character.getNumericValue(choice[0]) >= 1 &&
+                Character.getNumericValue(choice[0]) <= 6;
     }
 
     /**
@@ -161,7 +182,7 @@ public class JumperPlayClass {
         System.out.println("----------------------------------------------------------");
         System.out.print("Your combination is: ");
         for (int i = 0; i < NUMBEROFSIGNS; i++) {
-            System.out.print(playerCombination[i] + (!(i == playerCombination.length - 1) ? ", " : "\n"));
+            System.out.print(playerCombination[i] + (i != playerCombination.length - 1 ? ", " : "\n"));
         }
         System.out.println("----------------------------------------------------------");
     }
@@ -175,7 +196,7 @@ public class JumperPlayClass {
         System.out.println("----------------------------------------------------------");
         System.out.print("Computer's combination was: ");
         for (int i = 0; i < NUMBEROFSIGNS; i++) {
-            System.out.print(computerCombination[i] + (!(i == computerCombination.length - 1) ? ", " : "\n"));
+            System.out.print(computerCombination[i] + (i != computerCombination.length - 1 ? ", " : "\n"));
         }
         System.out.println("----------------------------------------------------------");
     }
