@@ -38,9 +38,10 @@ public class FactorielExample {
 
     @Test
     public void Test(){
-        assertEquals(-120,factoriel(-5));
-        assertEquals(-1,factoriel(-1));
-        assertEquals(1,factoriel(0));
-        assertEquals(1,factoriel(1));
+        assertEquals(-120l,factoriel(-5));
+        assertEquals(-1l,factoriel(-1));
+        assertEquals(1l,factoriel(0));
+        assertEquals(1l,factoriel(1));
+        assertEquals(7034535277573963776l, factoriel(25));
     }
 }
