@@ -98,8 +98,8 @@ public class TestJumper {
         assertEquals(JumperPlayClass.PossibleChoices.PIK, JumperPlayClass.setChoices(4));
         assertEquals(JumperPlayClass.PossibleChoices.HERC, JumperPlayClass.setChoices(5));
         assertEquals(JumperPlayClass.PossibleChoices.TREF, JumperPlayClass.setChoices(6));
-        assertEquals(null, JumperPlayClass.setChoices(0));
-        assertEquals(null, JumperPlayClass.setChoices(7));
+        assertEquals(JumperPlayClass.PossibleChoices.SKOCKO, JumperPlayClass.setChoices(0));
+        assertEquals(JumperPlayClass.PossibleChoices.SKOCKO, JumperPlayClass.setChoices(7));
 
         // Tests for setPoints(int counter)
         assertEquals(20, JumperPlayClass.setPoints(0)); // first try

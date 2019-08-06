@@ -92,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JumperPlayClass">
+  <component name="RunManager" selected="JUnit.TestJumper.Test">
     <configuration name="JumperPlayClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SkockoSlagalica.JumperPlayClass" />
       <module name="JavaVezbanje" />
@@ -168,8 +168,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JumperPlayClass" />
         <item itemvalue="JUnit.TestJumper.Test" />
+        <item itemvalue="Application.JumperPlayClass" />
         <item itemvalue="JUnit.TestJumper" />
         <item itemvalue="JUnit.TestRockPaperScissors.TestPlan" />
         <item itemvalue="Application.TestBufferedReaderNIO" />
