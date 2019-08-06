@@ -8,12 +8,12 @@ public class FactorielExample {
         Scanner scanner = new Scanner(System.in);
         boolean flag = true;
         while (flag){
-            System.out.print("Enter some number: ");
+            System.out.print("Enter some integer: ");
             String input = scanner.nextLine();
             try {
-                long number = Long.parseLong(input);
+                int number = Integer.parseInt(input);
                 long fact = factoriel(number);
-                System.out.println("Factoriel of " + number + " is " + fact);
+                System.out.println(number + "! = " + fact);
                 flag = false;
 
             } catch (NumberFormatException nfe) {
@@ -23,9 +23,9 @@ public class FactorielExample {
 
     }
 
-    public static long factoriel(long number) {
+    public static long factoriel(int number) {
         long result = 1;
-        for (long i = number; i >= 1; i--) {
+        for (int i = number; i >= 1; i--) {
             result = result * i;
         }
         return result;
