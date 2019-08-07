@@ -12,12 +12,27 @@ public class JumperPlay {
     public static final int[] points = {20, 15, 15, 10, 10, 5};
 
     public enum PossibleChoices {
-        SKOCKO,
-        ZVEZDA,
-        KARO,
-        PIK,
-        HERC,
-        TREF
+        SKOCKO(1),
+        ZVEZDA(2),
+        KARO(3),
+        PIK(4),
+        HERC(5),
+        TREF(6);
+
+        private final int id;
+
+        PossibleChoices(int id) {
+            this.id = id;
+        }
+
+        public static PossibleChoices getId(int id) {
+            for (PossibleChoices p : values()) {
+                if (p.id == id) {
+                    return p;
+                }
+            }
+            return SKOCKO;
+        }
     }
 
     public static void main(String[] args) {
@@ -51,8 +66,8 @@ public class JumperPlay {
                 if (isCombinationCorrect(playersCombination, computersCombination)) {
                     int points = setPoints(i);
                     System.out.println("Congratulations, You earned " + points + " points!!!");
-                    System.out.print("Computer's combination was: ");
-                    printCombination(computersCombination);
+                    //System.out.print("Computer's combination was: ");
+                    //printCombination(computersCombination);
                     break;
                 }
 
@@ -124,21 +139,7 @@ public class JumperPlay {
     }
 
     public static PossibleChoices setChoices(int choice) {
-        switch (choice) {
-            case 1:
-            default:
-                return PossibleChoices.SKOCKO;
-            case 2:
-                return PossibleChoices.ZVEZDA;
-            case 3:
-                return PossibleChoices.KARO;
-            case 4:
-                return PossibleChoices.PIK;
-            case 5:
-                return PossibleChoices.HERC;
-            case 6:
-                return PossibleChoices.TREF;
-        }
+        return PossibleChoices.getId(choice);
     }
 
     private static void printSeparatorLine() {

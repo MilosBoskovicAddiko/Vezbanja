@@ -36,14 +36,14 @@ public class JumperPlayClass {
                 printSeparatorLine();
                 System.out.print("Your combination is: ");
                 printCombination(playersCombination);
-                //System.out.print("Computer's combination was: ");
-                //printCombination(computersCombination);
+                System.out.print("Computer's combination was: ");
+                printCombination(computersCombination);
 
                 if (isCombinationCorrect(playersCombination, computersCombination)) {
                     int points = setPoints(i);
                     System.out.println("Congratulations, You earned " + points + " points!!!");
-                    System.out.print("Computer's combination was: ");
-                    printCombination(computersCombination);
+                    //System.out.print("Computer's combination was: ");
+                    //printCombination(computersCombination);
                     break;
                 }
 
@@ -113,21 +113,7 @@ public class JumperPlayClass {
     }
 
     public static PossibleChoices setChoices(int choice) {
-        switch (choice) {
-            case 1:
-            default:
-                return PossibleChoices.SKOCKO;
-            case 2:
-                return PossibleChoices.ZVEZDA;
-            case 3:
-                return PossibleChoices.KARO;
-            case 4:
-                return PossibleChoices.PIK;
-            case 5:
-                return PossibleChoices.HERC;
-            case 6:
-                return PossibleChoices.TREF;
-        }
+        return PossibleChoices.getId(choice);
     }
 
     public static void printCombination(PossibleChoices[] playerCombination) {
@@ -144,4 +130,5 @@ public class JumperPlayClass {
     public static int setPoints(int guessCounter) {
         return points[guessCounter];
     }
+
 }
