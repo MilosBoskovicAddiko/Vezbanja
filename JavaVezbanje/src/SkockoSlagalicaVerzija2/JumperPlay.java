@@ -60,14 +60,14 @@ public class JumperPlay {
                 printSeparatorLine();
                 System.out.print("Your combination is: ");
                 printCombination(playersCombination);
-                System.out.print("Computer's combination was: ");
-                printCombination(computersCombination);
+                //System.out.print("Computer's combination was: ");
+                //printCombination(computersCombination);
 
                 if (isCombinationCorrect(playersCombination, computersCombination)) {
                     int points = setPoints(i);
                     System.out.println("Congratulations, You earned " + points + " points!!!");
-                    //System.out.print("Computer's combination was: ");
-                    //printCombination(computersCombination);
+                    System.out.print("Computer's combination was: ");
+                    printCombination(computersCombination);
                     break;
                 }
 

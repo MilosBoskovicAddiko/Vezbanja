@@ -4,10 +4,9 @@
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalica/JumperPlayClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalica/JumperPlayClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalica/PossibleChoices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalica/PossibleChoices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalicaVerzija2/JumperPlay$PossibleChoices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalicaVerzija2/JumperPlay$PossibleChoices.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalicaVerzija2/JumperPlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalicaVerzija2/JumperPlay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkockoSlagalica/JumperPlayClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkockoSlagalica/JumperPlayClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkockoSlagalica/PossibleChoices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkockoSlagalica/PossibleChoices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkockoSlagalicaVerzija2/JumperPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkockoSlagalicaVerzija2/JumperPlay.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +91,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JumperPlay">
+  <component name="RunManager" selected="JUnit.TestJumper.Test">
     <configuration name="FactorielExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Factoriel.FactorielExample" />
       <module name="JavaVezbanje" />
@@ -132,22 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorielExample.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaVezbanje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Factoriel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Factoriel" />
-      <option name="MAIN_CLASS_NAME" value="Factoriel.FactorielExample" />
-      <option name="METHOD_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestFactoriel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaVezbanje" />
       <extension name="coverage">
@@ -163,13 +146,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestJumper.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaVezbanje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SkockoSlagalica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SkockoSlagalica" />
+      <option name="MAIN_CLASS_NAME" value="SkockoSlagalica.TestJumper" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestJumper.Test" />
         <item itemvalue="Application.JumperPlay" />
         <item itemvalue="Application.JumperPlayClass" />
         <item itemvalue="Application.FactorielExample" />
         <item itemvalue="JUnit.TestFactoriel" />
-        <item itemvalue="JUnit.FactorielExample.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +213,7 @@
       <workItem from="1565035768453" duration="1111000" />
       <workItem from="1565037216797" duration="479000" />
       <workItem from="1565071110112" duration="22071000" />
-      <workItem from="1565160593022" duration="10432000" />
+      <workItem from="1565160593022" duration="11438000" />
     </task>
     <servers />
   </component>
