@@ -45,6 +45,8 @@ public class JumperPlay {
                 printSeparatorLine();
                 System.out.print("Your combination is: ");
                 printCombination(playersCombination);
+                System.out.print("Computer's combination was: ");
+                printCombination(computersCombination);
 
                 if (isCombinationCorrect(playersCombination, computersCombination)) {
                     int points = setPoints(i);
@@ -55,7 +57,7 @@ public class JumperPlay {
                 }
 
                 int numOfRedCircles = onCorrectPosition(playersCombination, computersCombination);
-                int numOfYellowCircles = wellGuessed(playersCombination, computersCombination) - numOfRedCircles;
+                int numOfYellowCircles = NUMBEROFSIGNS - numOfRedCircles;
                 System.out.println("Number of red circles: " + numOfRedCircles);
                 System.out.println("Number of yellow circles: " + numOfYellowCircles);
                 printSeparatorLine();

@@ -48,7 +48,7 @@ public class JumperPlayClass {
                 }
 
                 int numOfRedCircles = onCorrectPosition(playersCombination, computersCombination);
-                int numOfYellowCircles = wellGuessed(playersCombination, computersCombination) - numOfRedCircles;
+                int numOfYellowCircles = NUMBEROFSIGNS - numOfRedCircles;
                 System.out.println("Number of red circles: " + numOfRedCircles);
                 System.out.println("Number of yellow circles: " + numOfYellowCircles);
                 printSeparatorLine();
