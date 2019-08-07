@@ -86,13 +86,8 @@ public class JumperPlay {
 
             System.out.print("Do You want to play again? Y (to play again) ? ");
             String playAgainInput = scanner.nextLine();
-            switch (playAgainInput) {
-                case "y":
-                case "Y":
-                    break;
-                default:
-                    playAgain = false;
-                    break;
+            if (!("Y".equals(playAgainInput.toUpperCase()))) {
+                playAgain = false;
             }
         }
     }
