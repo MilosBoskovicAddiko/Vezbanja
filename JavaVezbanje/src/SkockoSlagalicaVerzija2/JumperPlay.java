@@ -52,7 +52,7 @@ public class JumperPlay {
                     System.out.print("Enter your choice: ");
                     String input = scanner.nextLine();
                     if (isInputValid(input)) {
-                        playersCombination[j] = setChoices(Integer.parseInt(input));
+                        playersCombination[j] = PossibleChoices.getById(Integer.parseInt(input));
                         j++;
                     }
                 }
@@ -130,10 +130,6 @@ public class JumperPlay {
 
     public static boolean isInputValid(String input) {
         return choices.contains(input);
-    }
-
-    public static PossibleChoices setChoices(int choice) {
-        return PossibleChoices.getById(choice);
     }
 
     private static void printSeparatorLine() {

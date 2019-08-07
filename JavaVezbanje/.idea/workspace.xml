@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalica/JumperPlayClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalica/JumperPlayClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalica/TestJumper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalica/TestJumper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalicaVerzija2/JumperPlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalicaVerzija2/JumperPlay.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SkockoSlagalica/JumperPlayClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkockoSlagalica/JumperPlayClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkockoSlagalica/TestJumper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkockoSlagalica/TestJumper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SkockoSlagalicaVerzija2/JumperPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkockoSlagalicaVerzija2/JumperPlay.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -215,7 +210,7 @@
       <workItem from="1565035768453" duration="1111000" />
       <workItem from="1565037216797" duration="479000" />
       <workItem from="1565071110112" duration="22071000" />
-      <workItem from="1565160593022" duration="15240000" />
+      <workItem from="1565160593022" duration="15484000" />
     </task>
     <servers />
   </component>
