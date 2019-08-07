@@ -74,15 +74,5 @@ public class TestJumper {
         assertEquals(false, JumperPlayClass.isInputValid("62"));
         assertEquals(false, JumperPlayClass.isInputValid("ds"));
         assertEquals(false, JumperPlayClass.isInputValid("/"));
-
-        // Tests for setChoices(int choice)
-        assertEquals(PossibleChoices.SKOCKO, JumperPlayClass.setChoices(1));
-        assertEquals(PossibleChoices.ZVEZDA, JumperPlayClass.setChoices(2));
-        assertEquals(PossibleChoices.KARO, JumperPlayClass.setChoices(3));
-        assertEquals(PossibleChoices.PIK, JumperPlayClass.setChoices(4));
-        assertEquals(PossibleChoices.HERC, JumperPlayClass.setChoices(5));
-        assertEquals(PossibleChoices.TREF, JumperPlayClass.setChoices(6));
-        assertEquals(PossibleChoices.SKOCKO, JumperPlayClass.setChoices(0));
-        assertEquals(PossibleChoices.SKOCKO, JumperPlayClass.setChoices(7));
     }
 }
