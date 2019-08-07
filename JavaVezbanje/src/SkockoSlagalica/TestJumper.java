@@ -84,16 +84,5 @@ public class TestJumper {
         assertEquals(PossibleChoices.TREF, JumperPlayClass.setChoices(6));
         assertEquals(PossibleChoices.SKOCKO, JumperPlayClass.setChoices(0));
         assertEquals(PossibleChoices.SKOCKO, JumperPlayClass.setChoices(7));
-
-        // Tests for setPoints(int counter)
-        assertEquals(20,JumperPlayClass.setPoints(0)); // first try
-        assertEquals(15,JumperPlayClass.setPoints(1)); // second try
-        assertEquals(15,JumperPlayClass.setPoints(2)); // third try
-        assertEquals(10,JumperPlayClass.setPoints(3)); // fourth try
-        assertEquals(10,JumperPlayClass.setPoints(4)); // fifth try
-        assertEquals(5,JumperPlayClass.setPoints(5)); // sixth try
-
-
     }
-
 }

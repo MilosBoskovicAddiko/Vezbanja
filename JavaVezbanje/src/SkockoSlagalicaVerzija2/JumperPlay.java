@@ -64,8 +64,7 @@ public class JumperPlay {
                 //printCombination(computersCombination);
 
                 if (isCombinationCorrect(playersCombination, computersCombination)) {
-                    int points = setPoints(i);
-                    System.out.println("Congratulations, You earned " + points + " points!!!");
+                    System.out.println("Congratulations, You earned " + points[i] + " points!!!");
                     System.out.print("Computer's combination was: ");
                     printCombination(computersCombination);
                     break;
@@ -146,9 +145,5 @@ public class JumperPlay {
             System.out.print(playerCombination[i] + (i != playerCombination.length - 1 ? ", " : "\n"));
         }
         printSeparatorLine();
-    }
-
-    public static int setPoints(int guessCounter) {
-        return points[guessCounter];
     }
 }
