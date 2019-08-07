@@ -9,7 +9,8 @@ public class JumperPlayClass {
 
     public static final int NUMBEROFGUESSES = 6;
     public static final int NUMBEROFSIGNS = 4;
-    public static final ArrayList<Integer> choices = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6));
+    public static final ArrayList choices = new ArrayList(Arrays.asList("1", "2", "3", "4", "5", "6"));
+    public static final int[] points = {20,15,15,10,10,5};
 
     public static void main(String[] args) {
         boolean playAgain = true;
@@ -46,8 +47,10 @@ public class JumperPlayClass {
                     break;
                 }
 
-                System.out.println("You have " + onCorrectPosition(playersCombination, computersCombination) + " signs on correct position!");
-                System.out.println("You have " + wellGuessed(playersCombination, computersCombination) + " well guessed signs!");
+                int onCorrectPosition = onCorrectPosition(playersCombination, computersCombination);
+                int onIncorrectPosition = wellGuessed(playersCombination, computersCombination) - onCorrectPosition;
+                System.out.println("You have " + onCorrectPosition + " signs on correct position!");
+                System.out.println("You have " + onIncorrectPosition + " signs on incorrect position!");
                 printSeparatorLine();
             }
             if (!isCombinationCorrect(playersCombination, computersCombination)) {
@@ -106,8 +109,7 @@ public class JumperPlayClass {
     }
 
     public static boolean isInputValid(String input) {
-        char[] choice = input.toCharArray();
-        return choice.length == 1 && Character.isDigit(choice[0]) && choices.contains(Character.getNumericValue(choice[0]));
+        return choices.contains(input);
     }
 
     public static PossibleChoices setChoices(int choice) {
@@ -140,19 +142,6 @@ public class JumperPlayClass {
     }
 
     public static int setPoints(int guessCounter) {
-        switch (guessCounter) {
-            case 0:
-                return 20;
-            case 1:
-            case 2:
-                return 15;
-            case 3:
-            case 4:
-                return 10;
-            case 5:
-                return 5;
-            default:
-                return -1;
-        }
+        return points[guessCounter];
     }
 }

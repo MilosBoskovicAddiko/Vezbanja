@@ -14,9 +14,9 @@ public class FactorielExample {
                 long fact = factoriel(number);
                 System.out.println(number + "! = " + fact);
             } else {
-                throw new InvalidNumberException("There's no factoriel for negative numbers!");
+                System.out.println("There's no factoriel for negative numbers!!!");
             }
-        } catch (NumberFormatException | InvalidNumberException nfe) {
+        } catch (NumberFormatException nfe) {
             System.out.println("Your input is not valid!!!" + nfe.getMessage());
         }
     }
