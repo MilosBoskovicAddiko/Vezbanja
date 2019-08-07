@@ -47,10 +47,10 @@ public class JumperPlayClass {
                     break;
                 }
 
-                int onCorrectPosition = onCorrectPosition(playersCombination, computersCombination);
-                int onIncorrectPosition = wellGuessed(playersCombination, computersCombination) - onCorrectPosition;
-                System.out.println("You have " + onCorrectPosition + " signs on correct position!");
-                System.out.println("You have " + onIncorrectPosition + " signs on incorrect position!");
+                int numOfRedCircles = onCorrectPosition(playersCombination, computersCombination);
+                int numOfYellowCircles = wellGuessed(playersCombination, computersCombination) - numOfRedCircles;
+                System.out.println("Number of red circles: " + numOfRedCircles);
+                System.out.println("Number of yellow circles: " + numOfYellowCircles);
                 printSeparatorLine();
             }
             if (!isCombinationCorrect(playersCombination, computersCombination)) {
