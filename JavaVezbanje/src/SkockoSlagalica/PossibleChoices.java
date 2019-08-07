@@ -14,7 +14,7 @@ public enum PossibleChoices {
         this.id = id;
     }
 
-    public static PossibleChoices getId(int id) {
+    public static PossibleChoices getById(int id) {
         for (PossibleChoices p : values()) {
             if (p.id == id) {
                 return p;

@@ -25,7 +25,7 @@ public class JumperPlay {
             this.id = id;
         }
 
-        public static PossibleChoices getId(int id) {
+        public static PossibleChoices getById(int id) {
             for (PossibleChoices p : values()) {
                 if (p.id == id) {
                     return p;
@@ -139,7 +139,7 @@ public class JumperPlay {
     }
 
     public static PossibleChoices setChoices(int choice) {
-        return PossibleChoices.getId(choice);
+        return PossibleChoices.getById(choice);
     }
 
     private static void printSeparatorLine() {

@@ -113,7 +113,7 @@ public class JumperPlayClass {
     }
 
     public static PossibleChoices setChoices(int choice) {
-        return PossibleChoices.getId(choice);
+        return PossibleChoices.getById(choice);
     }
 
     public static void printCombination(PossibleChoices[] playerCombination) {
