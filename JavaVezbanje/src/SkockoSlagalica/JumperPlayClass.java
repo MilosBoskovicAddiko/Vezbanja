@@ -33,6 +33,7 @@ public class JumperPlayClass {
                         j++;
                     }
                 }
+
                 printSeparatorLine();
                 System.out.print("Your combination is: ");
                 printCombination(playersCombination);
@@ -52,15 +53,16 @@ public class JumperPlayClass {
                 System.out.println("Number of yellow circles: " + numOfYellowCircles);
                 printSeparatorLine();
             }
+
             if (!isCombinationCorrect(playersCombination, computersCombination)) {
                 System.out.println("Sorry, You lose!!!");
                 System.out.print("Computer's combination was: ");
                 printCombination(computersCombination);
             }
+
             System.out.print("Do You want to play again? Y (to play again) ? ");
             String playAgainInput = scanner.nextLine();
             playAgain = playAgainInput.toUpperCase().equals("Y");
-
         }
     }
 

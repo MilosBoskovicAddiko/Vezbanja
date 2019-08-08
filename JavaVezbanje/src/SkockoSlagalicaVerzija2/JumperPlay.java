@@ -85,9 +85,7 @@ public class JumperPlay {
 
             System.out.print("Do You want to play again? Y (to play again) ? ");
             String playAgainInput = scanner.nextLine();
-            if (!("Y".equals(playAgainInput.toUpperCase()))) {
-                playAgain = false;
-            }
+            playAgain = playAgainInput.toUpperCase().equals("Y");
         }
     }
 
