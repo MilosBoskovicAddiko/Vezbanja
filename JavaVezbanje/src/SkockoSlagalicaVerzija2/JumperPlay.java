@@ -17,7 +17,8 @@ public class JumperPlay {
         KARO(3),
         PIK(4),
         HERC(5),
-        TREF(6);
+        TREF(6),
+        UNKNOWN(7);
 
         private final int id;
 
@@ -104,7 +105,7 @@ public class JumperPlay {
         for (int i = 0; i < NUMBEROFSIGNS; i++) {
             for (int j = 0; j < NUMBEROFSIGNS; j++) {
                 if (computersCombination[i] == playersCombination[j]) {
-                    playersCombination[j] = null;
+                    playersCombination[j] = PossibleChoices.UNKNOWN;
                     guessedWell++;
                     break;
                 }

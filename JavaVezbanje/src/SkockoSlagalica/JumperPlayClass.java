@@ -81,7 +81,7 @@ public class JumperPlayClass {
         for (int i = 0; i < NUMBEROFSIGNS; i++) {
             for (int j = 0; j < NUMBEROFSIGNS; j++) {
                 if (computersCombination[i] == playersCombination[j]) {
-                    playersCombination[j] = null;
+                    playersCombination[j] = PossibleChoices.UNKNOWN;
                     guessedWell++;
                     break;
                 }

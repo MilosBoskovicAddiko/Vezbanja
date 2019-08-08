@@ -6,7 +6,8 @@ public enum PossibleChoices {
     KARO(3),
     PIK(4),
     HERC(5),
-    TREF(6);
+    TREF(6),
+    UNKNOWN(7);
 
     private final int id;
 
