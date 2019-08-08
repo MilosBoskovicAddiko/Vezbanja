@@ -1,9 +1,6 @@
 package DvaNizaKaraktera;
 
-import java.lang.reflect.Array;
 import java.util.Scanner;
-
-//TODO - resi problem sa zarezom
 
 public class ReciBrojevi {
     public static void main(String[] args) {

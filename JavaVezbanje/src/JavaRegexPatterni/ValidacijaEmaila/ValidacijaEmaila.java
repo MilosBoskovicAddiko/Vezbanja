@@ -4,8 +4,6 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-//TODO - Pitati Vladu kako napisati regex koji ce pocinjati iskljucivo sa malim slovima ili cifrom, a u nastavku moze imati znakove poput -_.A-Z karaktere
-
 public class ValidacijaEmaila {
 
     public static void main(String[] args) {

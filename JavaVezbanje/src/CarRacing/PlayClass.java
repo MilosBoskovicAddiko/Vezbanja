@@ -2,7 +2,6 @@ package CarRacing;
 
 import java.util.Scanner;
 
-//TODO - prebaci na citanje iz fajla
 public class PlayClass {
 
     public static void main(String[] args) {

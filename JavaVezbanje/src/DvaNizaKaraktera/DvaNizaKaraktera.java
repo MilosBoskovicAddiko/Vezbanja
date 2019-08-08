@@ -2,8 +2,6 @@ package DvaNizaKaraktera;
 
 import java.util.Scanner;
 
-//TODO - resi problem sa zarezom
-
 public class DvaNizaKaraktera {
     public static void main(String[] args) {
         System.out.print("Unesite prvi niz karaktera: ");
