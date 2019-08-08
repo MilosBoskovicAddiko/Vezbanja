@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaVezbanje.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/someOutputFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_14/TestBufferedReaderNIO/BufferedWritterNIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_14/TryIt_ReadingZipFiles/TestZipInputStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkockoSlagalica/JumperPlayClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkockoSlagalica/JumperPlayClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkockoSlagalica/PossibleChoices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkockoSlagalica/PossibleChoices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkockoSlagalicaVerzija2/JumperPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkockoSlagalicaVerzija2/JumperPlay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkockoSlagalicaVerzija3/JumperPlayVer3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkockoSlagalicaVerzija3/JumperPlayVer3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarRacing/PlayClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarRacing/PlayClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states.bak" beforeDir="false" afterPath="$PROJECT_DIR$/states.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states.txt" beforeDir="false" afterPath="$PROJECT_DIR$/states.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,13 +95,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JumperPlay">
-    <configuration name="FactorielExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Factoriel.FactorielExample" />
+  <component name="RunManager" selected="Application.TestZipInputStream">
+    <configuration name="BufferedWritterNIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_14.TestBufferedReaderNIO.BufferedWritterNIO" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Factoriel.*" />
+          <option name="PATTERN" value="Lekcija_14.TestBufferedReaderNIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumperPlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SkockoSlagalicaVerzija2.JumperPlay" />
+    <configuration name="PlayClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CarRacing.PlayClass" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SkockoSlagalicaVerzija2.*" />
+          <option name="PATTERN" value="CarRacing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumperPlayClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SkockoSlagalica.JumperPlayClass" />
+    <configuration name="TaxGuiFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_14.Povezivanje_GUI_i_IO_Tokova.TaxGuiFile" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SkockoSlagalica.*" />
+          <option name="PATTERN" value="Lekcija_14.Povezivanje_GUI_i_IO_Tokova.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumperPlayVer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SkockoSlagalicaVerzija3.JumperPlayVer3" />
+    <configuration name="TestFilesPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_14.TestFilesPath.TestFilesPath" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SkockoSlagalicaVerzija3.*" />
+          <option name="PATTERN" value="Lekcija_14.TestFilesPath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,29 +148,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJumper.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestZipInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_14.TryIt_ReadingZipFiles.TestZipInputStream" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SkockoSlagalica.*" />
+          <option name="PATTERN" value="Lekcija_14.TryIt_ReadingZipFiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SkockoSlagalica" />
-      <option name="MAIN_CLASS_NAME" value="SkockoSlagalica.TestJumper" />
-      <option name="METHOD_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JumperPlay" />
-        <item itemvalue="Application.JumperPlayVer3" />
-        <item itemvalue="Application.JumperPlayClass" />
-        <item itemvalue="JUnit.TestJumper.Test" />
-        <item itemvalue="Application.FactorielExample" />
+        <item itemvalue="Application.TestZipInputStream" />
+        <item itemvalue="Application.TestFilesPath" />
+        <item itemvalue="Application.TaxGuiFile" />
+        <item itemvalue="Application.BufferedWritterNIO" />
+        <item itemvalue="Application.PlayClass" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +213,7 @@
       <workItem from="1565037216797" duration="479000" />
       <workItem from="1565071110112" duration="22071000" />
       <workItem from="1565160593022" duration="15944000" />
-      <workItem from="1565247685201" duration="5162000" />
+      <workItem from="1565247685201" duration="9128000" />
     </task>
     <servers />
   </component>

@@ -24,8 +24,8 @@ public class PlayClass {
 
         int i = 1;
         while (i < carRacing.getTrack().length) {
-            carRacing.setCurrentLeftBoudary(carRacing.getTrackLine(i).indexOf("*")); // keep track of current left boundary of the road
-            carRacing.setCurrentRightBoundary(carRacing.getTrackLine(i).lastIndexOf("*")); // keep track of current right boundary of the road
+            carRacing.setCurrentLeftBoudary(carRacing.getTrackLine(i).indexOf("*")); // keep track.txt of current left boundary of the road
+            carRacing.setCurrentRightBoundary(carRacing.getTrackLine(i).lastIndexOf("*")); // keep track.txt of current right boundary of the road
             char[] input = scanner.nextLine().toCharArray();
 
             if (isInputValid(input)) {
