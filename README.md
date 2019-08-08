@@ -17,6 +17,7 @@ Miloš Bošković
 * Lekcija 12 - Yakov Fain - Uvod u genericke tipove
 * Lekcija 13 - Yakov Fain - Lambda izrazi u funkcionalno programiranje
 * Lekcija 14 - Yakov Fain - Ulazno - izlazni tokovi
+* Lekcija 15 - Jakov Fain - Java serijalizacija
 * Jumper
 * Jumper version 2
 * Jumper version 3
@@ -96,6 +97,15 @@ Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 * Tokovi bajtova
 * Tokovi karaktera
 * TryIt - Citanje ZIP fajlova
+
+---
+
+#### Lekcija 15
+* Externalizable interfejs
+* Object Input Stream
+* Object Output Stream
+* Serijalizacija u polje bajtova
+* TryIt
 
 ---
 
@@ -299,3 +309,15 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 [Lekcija 14 - Tokovi karaktera](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_14/TokoviKaraktera)
 
 [Lekcija 14 - TryIt - Citanje ZIP fajlova](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_14/TryIt_ReadingZipFiles)
+
+[Lekcija 15 - Externalizable interfejs](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_15/ExtrenalizableInterface)
+
+[Lekcija 15 - Object Input Stream](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_15/ObjectInputStream)
+
+[Lekcija 15 - Object Output Stream](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_15/ObjectOutputStream)
+
+[Lekcija 15 - Serijalizacija u polje bajtova](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_15/SerijalizacijaUPoljeBajtova)
+
+[Lekcija 15 - TryIt]()
+
+
