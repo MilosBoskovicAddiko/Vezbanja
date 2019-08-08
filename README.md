@@ -18,6 +18,7 @@ Miloš Bošković
 * Lekcija 13 - Yakov Fain - Lambda izrazi u funkcionalno programiranje
 * Jumper
 * Jumper version 2
+* Jumper version 3
 * Car Racing
 * Forced update
 * Kamen - Papir - Makaze
@@ -102,6 +103,19 @@ Sest pokusaja: Pogodak iz prvog pokusaja donosi 20 poena, drugog i treceg 15 poe
 Stampa broj crvenih krugova, i broj zutih krugova.
 
 Sve u jednoj klasi!
+
+---
+
+#### Jumper version 3
+Zadatak je implementirati u Javi igru skocko u terminalu.
+
+Sest pokusaja: Pogodak iz prvog pokusaja donosi 20 poena, drugog i treceg 15 poena, cetvrtog i petog pokusaja 10 i iz sestog pokusaja 5 poena. 
+
+Stampa broj crvenih krugova, i broj zutih krugova.
+
+Sve u jednoj klasi!
+
+STAMPA OBOJENE KRUZICE!
 
 ---
 
@@ -206,6 +220,8 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 [Jumper](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/SkockoSlagalica)
 
 [Jumper version 2](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/SkockoSlagalicaVerzija2) 
+
+[Jumper version 3](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/SkockoSlagalicaVerzija3) 
 
 [Lekcija 3 - Jakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_3)
 
