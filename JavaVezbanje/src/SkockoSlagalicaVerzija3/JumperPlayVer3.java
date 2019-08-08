@@ -1,16 +1,42 @@
-package SkockoSlagalica;
+package SkockoSlagalicaVerzija3;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class JumperPlayClass {
-
+public class JumperPlayVer3 {
+    public static final String ANSI_RESET = "\u001B[0m";
+    public static final String ANSI_RED = "\u001B[31m";
+    public static final String ANSI_YELLOW = "\u001B[33m";
     public static final int NUMBEROFGUESSES = 6;
     public static final int NUMBEROFSIGNS = 4;
     public static final ArrayList choices = new ArrayList(Arrays.asList("1", "2", "3", "4", "5", "6"));
     public static final int[] points = {20, 15, 15, 10, 10, 5};
+
+    public enum PossibleChoices {
+        SKOCKO(1),
+        ZVEZDA(2),
+        KARO(3),
+        PIK(4),
+        HERC(5),
+        TREF(6);
+
+        private final int id;
+
+        PossibleChoices(int id) {
+            this.id = id;
+        }
+
+        public static PossibleChoices getById(int id) {
+            for (PossibleChoices p : values()) {
+                if (p.id == id) {
+                    return p;
+                }
+            }
+            return SKOCKO;
+        }
+    }
 
     public static void main(String[] args) {
         boolean playAgain = true;
@@ -37,8 +63,8 @@ public class JumperPlayClass {
                 printSeparatorLine();
                 System.out.print("Your combination is: ");
                 printCombination(playersCombination);
-                //System.out.print("Computer's combination was: ");
-                //printCombination(computersCombination);
+                System.out.print("Computer's combination was: ");
+                printCombination(computersCombination);
 
                 if (isCombinationCorrect(playersCombination, computersCombination)) {
                     System.out.println("Congratulations, You earned " + points[i] + " points!!!");
@@ -49,8 +75,17 @@ public class JumperPlayClass {
 
                 int numOfRedCircles = onCorrectPosition(playersCombination, computersCombination);
                 int numOfYellowCircles = wellGuessed(playersCombination, computersCombination) - numOfRedCircles;
-                System.out.println("Number of red circles: " + numOfRedCircles);
-                System.out.println("Number of yellow circles: " + numOfYellowCircles);
+                int missedSigns = NUMBEROFSIGNS - numOfRedCircles - numOfYellowCircles;
+                for (int j = 0; j < numOfRedCircles; j++) {
+                    System.out.print(ANSI_RED + "O" + ANSI_RESET + " ");
+                }
+                for (int j = 0; j < numOfYellowCircles; j++) {
+                    System.out.print(ANSI_YELLOW + "O" + ANSI_RESET + " ");
+                }
+                for (int j = 0; j < missedSigns; j++) {
+                    System.out.print("O ");
+                }
+                System.out.println();
                 printSeparatorLine();
             }
 
@@ -108,14 +143,14 @@ public class JumperPlayClass {
         return choices.contains(input);
     }
 
+    private static void printSeparatorLine() {
+        System.out.println("----------------------------------------------------------");
+    }
+
     public static void printCombination(PossibleChoices[] playerCombination) {
         for (int i = 0; i < NUMBEROFSIGNS; i++) {
             System.out.print(playerCombination[i] + (i != playerCombination.length - 1 ? ", " : "\n"));
         }
         printSeparatorLine();
-    }
-
-    private static void printSeparatorLine() {
-        System.out.println("----------------------------------------------------------");
     }
 }

@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SkockoSlagalicaVerzija3/JumperPlayVer3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalica/JumperPlayClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalica/JumperPlayClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalicaVerzija2/JumperPlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/SkockoSlagalicaVerzija2/JumperPlay.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SkockoSlagalica/JumperPlayClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkockoSlagalica/JumperPlayClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SkockoSlagalicaVerzija2/JumperPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkockoSlagalicaVerzija2/JumperPlay.java" afterDir="false" />
     </list>
@@ -64,16 +68,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Milos Boskovic\Downloads\JavaVezbanje\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="SkockoSlagalicaVerzija3" />
+      <recent name="Lekcija_14.Povezivanje_GUI_i_IO_Tokova" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje" />
       <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_14\TokoviBajtova" />
       <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_10\FinallyClasuse" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Lekcija_14.Povezivanje_GUI_i_IO_Tokova" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Milos Boskovic\Downloads\JavaVezbanje\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -88,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JumperPlayClass">
+  <component name="RunManager" selected="Application.JumperPlayVer3">
     <configuration name="FactorielExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Factoriel.FactorielExample" />
       <module name="JavaVezbanje" />
@@ -128,17 +133,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFactoriel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JumperPlayVer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkockoSlagalicaVerzija3.JumperPlayVer3" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Factoriel.*" />
+          <option name="PATTERN" value="SkockoSlagalicaVerzija3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Factoriel" />
-      <option name="MAIN_CLASS_NAME" value="Factoriel.TestFactoriel" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JumperPlayVer3" />
         <item itemvalue="Application.JumperPlayClass" />
         <item itemvalue="Application.JumperPlay" />
         <item itemvalue="JUnit.TestJumper.Test" />
         <item itemvalue="Application.FactorielExample" />
-        <item itemvalue="JUnit.TestFactoriel" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +214,7 @@
       <workItem from="1565037216797" duration="479000" />
       <workItem from="1565071110112" duration="22071000" />
       <workItem from="1565160593022" duration="15944000" />
-      <workItem from="1565247685201" duration="355000" />
+      <workItem from="1565247685201" duration="4164000" />
     </task>
     <servers />
   </component>
