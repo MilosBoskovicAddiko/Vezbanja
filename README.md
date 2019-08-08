@@ -16,6 +16,7 @@ Miloš Bošković
 * Lekcija 11 - Yakov Fain - Uvod u kolekcije
 * Lekcija 12 - Yakov Fain - Uvod u genericke tipove
 * Lekcija 13 - Yakov Fain - Lambda izrazi u funkcionalno programiranje
+* Lekcija 14 - Yakov Fain - Ulazno - izlazni tokovi
 * Jumper
 * Jumper version 2
 * Jumper version 3
@@ -83,6 +84,18 @@ Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 * Prosledjivanje funkcije metodu
 * TestPayIncrease pomocu lambda izraza
 * TryIt
+
+---
+
+#### Lekcija 14
+* Baferovani tokovi
+* Data Input Stream
+* Povezivanje GUI i IO tokova
+* TestBufferedReaderNIO
+* TestFilesPath
+* Tokovi bajtova
+* Tokovi karaktera
+* TryIt - Citanje ZIP fajlova
 
 ---
 
@@ -229,44 +242,60 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 
 [Lekcija 6 - Yakov Fain](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_6)
 
-[Lekcija 7 - Yakov Fain - Abstraktna klasa](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_7/AbstractClass)
+[Lekcija 7 - Abstraktna klasa](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_7/AbstractClass)
 
-[Lekcija 7 - Yakov Fain - Interfejs](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_7/Interface)
+[Lekcija 7 - Interfejs](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_7/Interface)
 
-[Lekcija 10 - Yakov Fain - Kreiranje sopstvenih izuzetaka](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_10/CreationOwnException)
+[Lekcija 10 - Kreiranje sopstvenih izuzetaka](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_10/CreationOwnException)
 
-[Lekcija 10 - Yakov Fain - Kljucna rec *finally*](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_10/FinallyClasuse)
+[Lekcija 10 - Kljucna rec *finally*](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_10/FinallyClasuse)
 
-[Lekcija 10 - Yakov Fain - Hendling pomocu kljucne reci *throw*](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_10/HandlingWithThrow)
+[Lekcija 10 - Hendling pomocu kljucne reci *throw*](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_10/HandlingWithThrow)
 
-[Lekcija 10 - Yakov Fain - Try blok sa resursima](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_10/TryWithResources)
+[Lekcija 10- Try blok sa resursima](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_10/TryWithResources)
 
-[Lekcija 11 - Yakov Fain - ArrayList i instance of operator](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/ArrayListAndInstanceOfOperator)
+[Lekcija 11 - ArrayList i instance of operator](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/ArrayListAndInstanceOfOperator)
 
-[Lekcija 11 - Yakov Fain - Primer koriscenja BitSet-a](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/BitSetExample)
+[Lekcija 11 - Primer koriscenja BitSet-a](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/BitSetExample)
 
-[Lekcija 11 - Yakov Fain - Enumerator i Iterator](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/EnumeratorAndIterator)
+[Lekcija 11 - Enumerator i Iterator](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/EnumeratorAndIterator)
 
-[Lekcija 11 - Yakov Fain - LinkedList i ListIterator](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/LinkedListAndListIterator)
+[Lekcija 11 - LinkedList i ListIterator](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/LinkedListAndListIterator)
 
-[Lekcija 11 - Yakov Fain - Ucitavanje properties fajla](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/MailmanPropertiesLoadingIntoProperties)
+[Lekcija 11 - Ucitavanje properties fajla](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/MailmanPropertiesLoadingIntoProperties)
 
-[Lekcija 11 - Yakov Fain - Uradi sam sekcija](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/TryIt)
+[Lekcija 11 - Uradi sam sekcija](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_11/TryIt)
 
-[Lekcija 12 - Yakov Fain - Modifikovani primer genericke kolekcije](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_12/ModifiedTestGenericCollection)
+[Lekcija 12 - Modifikovani primer genericke kolekcije](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_12/ModifiedTestGenericCollection)
 
-[Lekcija 12 - Yakov Fain - Primer parametrizovane klase](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_12/ParameterizedClassExample)
+[Lekcija 12 - Primer parametrizovane klase](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_12/ParameterizedClassExample)
 
-[Lekcija 12 - Yakov Fain - Test Generic Collection](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_12/TestGenericCollection)
+[Lekcija 12 - Test Generic Collection](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_12/TestGenericCollection)
 
-[Lekcija 12 - Yakov Fain - TryIt](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_12/TryIt)
+[Lekcija 12 - TryIt](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_12/TryIt)
 
-[Lekcija 13 - Yakov Fain - Functional&BiFunctionalInterfejsi](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_13/FunctionIBiFunctionInterfejsi)
+[Lekcija 13 - Functional&BiFunctionalInterfejsi](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_13/FunctionIBiFunctionInterfejsi)
 
-[Lekcija 13 - Yakov Fain - Pristupanje kolekcijama pomocu forEach()](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_13/PristupanjeKolekcijamaPomocuForEachMetoda)
+[Lekcija 13 - Pristupanje kolekcijama pomocu forEach()](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_13/PristupanjeKolekcijamaPomocuForEachMetoda)
 
-[Lekcija 13 - Yakov Fain - Prosledjivanje funkcije metodu](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_13/ProsledjivanjeFunkcijeMetodu)
+[Lekcija 13 - Prosledjivanje funkcije metodu](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_13/ProsledjivanjeFunkcijeMetodu)
 
-[Lekcija 13 - Yakov Fain  - TestPayIncrease pomocu lambda izraza](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_13/TestPayIncreaseLambda)
+[Lekcija 13 - TestPayIncrease pomocu lambda izraza](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_13/TestPayIncreaseLambda)
 
-[Lekcija 13 - Yakov Fain  - TryIt](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_13/TryIt)
+[Lekcija 13 - TryIt](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_13/TryIt)
+
+[Lekcija 14 - Baferovani tokovi](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_14/BaferovaniTokovi)
+
+[Lekcija 14 - Data Input Stream](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_14/DataInputStream)
+
+[Lekcija 14 - Povezivanje GUI i IO tokova](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_14/Povezivanje_GUI_i_IO_Tokova) 
+
+[Lekcija 14 - TestBufferedReaderNIO](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_14/TestBufferedReaderNIO)
+
+[Lekcija 14 - TestFilesPath](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_14/TestFilesPath)
+
+[Lekcija 14 - Tokovi bajtova](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_14/TokoviBajtova)
+
+[Lekcija 14 - Tokovi karaktera](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_14/TokoviKaraktera)
+
+[Lekcija 14 - TryIt - Citanje ZIP fajlova](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_14/TryIt_ReadingZipFiles)
