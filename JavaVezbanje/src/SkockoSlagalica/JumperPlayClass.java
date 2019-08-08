@@ -10,7 +10,7 @@ public class JumperPlayClass {
     public static final int NUMBEROFGUESSES = 6;
     public static final int NUMBEROFSIGNS = 4;
     public static final ArrayList choices = new ArrayList(Arrays.asList("1", "2", "3", "4", "5", "6"));
-    public static final int[] points = {20,15,15,10,10,5};
+    public static final int[] points = {20, 15, 15, 10, 10, 5};
 
     public static void main(String[] args) {
         boolean playAgain = true;
@@ -59,11 +59,8 @@ public class JumperPlayClass {
             }
             System.out.print("Do You want to play again? Y (to play again) ? ");
             String playAgainInput = scanner.nextLine();
-            if (playAgainInput.toUpperCase().equals("Y")) {
-                playAgain = true;
-            } else {
-                playAgain = false;
-            }
+            playAgain = playAgainInput.toUpperCase().equals("Y");
+
         }
     }
 
