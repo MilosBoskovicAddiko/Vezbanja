@@ -2,28 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BestEmployee.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeeExternalization.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_15/ExtrenalizableInterface/ClassAExternalization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_15/ExtrenalizableInterface/ClassBExternalization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_15/ExtrenalizableInterface/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_15/ObjectInputStream/ClassB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_15/ObjectOutputStream/ClassA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_15/ObjectOutputStream/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_15/SerijalizacijaUPoljeBajtova/ClassA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_15/SerijalizacijaUPoljeBajtova/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preferences.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_15/TryIt/MyCustomizableGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_15/TryIt/UserPreferences.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/CarRacing/PlayClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/CarRacing/PlayClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/DvaNizaKaraktera/DvaNizaKaraktera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/DvaNizaKaraktera/DvaNizaKaraktera.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/DvaNizaKaraktera/ReciBrojevi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/DvaNizaKaraktera/ReciBrojevi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/JavaRegexPatterni/ValidacijaEmaila/ValidacijaEmaila.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/JavaRegexPatterni/ValidacijaEmaila/ValidacijaEmaila.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_14/Povezivanje_GUI_i_IO_Tokova/Tax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_14/Povezivanje_GUI_i_IO_Tokova/Tax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_4/Tax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_4/Tax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarRacing/PlayClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarRacing/PlayClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DvaNizaKaraktera/DvaNizaKaraktera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DvaNizaKaraktera/DvaNizaKaraktera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DvaNizaKaraktera/ReciBrojevi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DvaNizaKaraktera/ReciBrojevi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaEmaila/ValidacijaEmaila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaRegexPatterni/ValidacijaEmaila/ValidacijaEmaila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_14/Povezivanje_GUI_i_IO_Tokova/TaxGuiFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_14/Povezivanje_GUI_i_IO_Tokova/TaxGuiFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_15/ObjectInputStream/ClassB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_15/ObjectInputStream/ClassB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lekcija_14/Povezivanje_GUI_i_IO_Tokova/TaxGuiFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_14/Povezivanje_GUI_i_IO_Tokova/TaxGuiFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lekcija_15/ObjectInputStream/ClassB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_15/ObjectInputStream/ClassB.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,46 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClassA (1)">
-    <configuration name="ClassA (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_15.SerijalizacijaUPoljeBajtova.ClassA" />
-      <module name="JavaVezbanje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lekcija_15.SerijalizacijaUPoljeBajtova.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClassA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_15.ObjectOutputStream.ClassA" />
-      <module name="JavaVezbanje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lekcija_15.ObjectOutputStream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClassAExternalization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_15.ExtrenalizableInterface.ClassAExternalization" />
-      <module name="JavaVezbanje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lekcija_15.ExtrenalizableInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MyCustomizableGUI">
     <configuration name="ClassB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lekcija_15.ObjectInputStream.ClassB" />
       <module name="JavaVezbanje" />
@@ -176,13 +123,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyCustomizableGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_15.TryIt.MyCustomizableGUI" />
+      <module name="JavaVezbanje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lekcija_15.TryIt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaxGuiFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_14.Povezivanje_GUI_i_IO_Tokova.TaxGuiFile" />
+      <module name="JavaVezbanje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lekcija_14.Povezivanje_GUI_i_IO_Tokova.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestZipInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_14.TryIt_ReadingZipFiles.TestZipInputStream" />
+      <module name="JavaVezbanje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lekcija_14.TryIt_ReadingZipFiles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClassA (1)" />
-        <item itemvalue="Application.ClassBExternalization" />
-        <item itemvalue="Application.ClassAExternalization" />
+        <item itemvalue="Application.MyCustomizableGUI" />
+        <item itemvalue="Application.TaxGuiFile" />
         <item itemvalue="Application.ClassB" />
-        <item itemvalue="Application.ClassA" />
+        <item itemvalue="Application.TestZipInputStream" />
+        <item itemvalue="Application.ClassBExternalization" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +214,8 @@
       <workItem from="1565037216797" duration="479000" />
       <workItem from="1565071110112" duration="22071000" />
       <workItem from="1565160593022" duration="15944000" />
-      <workItem from="1565247685201" duration="15344000" />
+      <workItem from="1565247685201" duration="15824000" />
+      <workItem from="1565334429249" duration="4350000" />
     </task>
     <servers />
   </component>
@@ -252,6 +239,15 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Lekcija_15/TryIt/MyCustomizableGUI.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="unos1.rep" language="JAVA" />

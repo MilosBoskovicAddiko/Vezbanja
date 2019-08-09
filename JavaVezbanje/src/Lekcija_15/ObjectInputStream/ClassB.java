@@ -14,7 +14,9 @@ public class ClassB {
              ObjectInputStream oIn = new ObjectInputStream(fIn);) {
 
             Employee bestEmployee =  (Employee) oIn.readObject();
-            System.out.println(bestEmployee);
+            System.out.println(bestEmployee.fName);
+            System.out.println(bestEmployee.lName);
+            System.out.println(bestEmployee.salary); // It's zero 'cause field salary hasn't been serialized
 
         } catch (IOException | ClassNotFoundException ioe) {
             ioe.printStackTrace();

@@ -31,7 +31,7 @@ public class TaxGuiFile extends JFrame {
     JButton bReset = new JButton("Reset");
 
     TaxGuiFile() {
-        lblGrIncome = new JLabel("Fross Income: ");
+        lblGrIncome = new JLabel("Gross Income: ");
         GridLayout gr = new GridLayout(5, 2, 1, 1);
         setLayout(gr);
 
