@@ -17,8 +17,9 @@ Miloš Bošković
 * Lekcija 12 - Yakov Fain - Uvod u genericke tipove
 * Lekcija 13 - Yakov Fain - Lambda izrazi u funkcionalno programiranje
 * Lekcija 14 - Yakov Fain - Ulazno - izlazni tokovi
-* Lekcija 15 - Jakov Fain - Java serijalizacija
-* Lekcija 16 - jakov Fain - Osnove mreznog programiranja
+* Lekcija 15 - Yakov Fain - Java serijalizacija
+* Lekcija 16 - Yakov Fain - Osnove mreznog programiranja
+* Lekcija 17 - Yakov Fain - Konkurentnost i visenitno izvrsavanje
 * Jumper
 * Jumper version 2
 * Jumper version 3
@@ -115,6 +116,18 @@ Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 * File Download
 * Program za berzanske kvote
 * TryIt - Socket
+
+---
+
+#### Lekcija 17
+* Bez nasledjivana
+* Klasa Thread
+* Povezivanje tredova
+* Runnable interfejs
+* Wait & Notify
+* Uklanjane tredova
+* Upravljanje tredovima pomocu Executor radnog okvira
+* Zaustavljanje izvrsavanja niti
 
 ---
 
@@ -336,5 +349,21 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 [Lekcija 16 - Program za berzanske kvote](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_16/ProgramZaBerzanskeKvote)
 
 [Lekcija 16 - TryIt - Socket](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_16/TryIt_Socket)
+
+[Lekcija 17 - Bez nasledjivana](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_17/BezNasledjivanje)
+
+[Lekcija 17 - Klasa Thread](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_17/KlasaThred)
+
+[Lekcija 17 - Povezivanje tredova](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_17/PovezivanjeThreadova)
+
+[Lekcija 17 - Runnable interfejs](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_17/RunnableInterface)
+
+[Lekcija 17 - Wait & Notify](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_17/TestLambdaWaitNotify)
+
+[Lekcija 17 - Uklanjane tredova](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_17/UklanjanjeNiti)
+
+[Lekcija 17 - Upravljanje tredovima pomocu Executor radnog okvira](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_17/UpravljanjeNitimaPomocuExecutorRadnogOkvira)
+
+[Lekcija 17 - Zaustavljanje izvrsavanja niti](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_17/ZaustavljanjeIzvrsavanjaNiti)
 
 
