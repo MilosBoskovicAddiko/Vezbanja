@@ -18,6 +18,7 @@ Miloš Bošković
 * Lekcija 13 - Yakov Fain - Lambda izrazi u funkcionalno programiranje
 * Lekcija 14 - Yakov Fain - Ulazno - izlazni tokovi
 * Lekcija 15 - Jakov Fain - Java serijalizacija
+* Lekcija 16 - jakov Fain - Osnove mreznog programiranja
 * Jumper
 * Jumper version 2
 * Jumper version 3
@@ -106,6 +107,14 @@ Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 * Object Output Stream
 * Serijalizacija u polje bajtova
 * TryIt
+
+---
+
+#### Lekcija 16
+* Citanje sa googla
+* File Download
+* Program za berzanske kvote
+* TryIt - Socket
 
 ---
 
@@ -319,5 +328,13 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 [Lekcija 15 - Serijalizacija u polje bajtova](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_15/SerijalizacijaUPoljeBajtova)
 
 [Lekcija 15 - TryIt](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_15/TryIt)
+
+[Lekcija 16 - Citanje Sa Google-a](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_16/CitanjeSaGoogle)
+
+[Lekcija 16 - File Download](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_16/FileDownload)
+
+[Lekcija 16 - Program za berzanske kvote](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_16/ProgramZaBerzanskeKvote)
+
+[Lekcija 16 - TryIt - Socket](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_16/TryIt_Socket)
 
 
