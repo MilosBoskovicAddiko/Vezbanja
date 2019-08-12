@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_16/TryIt_Socket/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_16/TryIt_Socket/SocketQuoteServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/BezNasledjivanje/TestThreadsLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/KlasaThred/MarketNews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/KlasaThred/Portfolio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/KlasaThred/TestThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/PovezivanjeThreadova/TestThreadLambdaJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/RunnableInterface/MarketNews2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/RunnableInterface/Portfolio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/RunnableInterface/TestThreads2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/TestLambdaWaitNotify/TestLambdaWaitNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/UklanjanjeNiti/KillTheThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/UklanjanjeNiti/PortfolioVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/UpravljanjeNitimaPomocuExecutorRadnogOkvira/TestCallableThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/ZaustavljanjeIzvrsavanjaNiti/TestThreadsLambda2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/ProbanjeTerminala/TerminalExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_16/Socket/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_16/Socket/SocketQuoteServer.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,13 +105,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Berza" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_16.ProgramZaBerzanskeKvote.Berza" />
+  <component name="RunManager" selected="Application.TestCallableThreads">
+    <configuration name="KillTheThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_17.UklanjanjeNiti.KillTheThread" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_16.ProgramZaBerzanskeKvote.*" />
+          <option name="PATTERN" value="Lekcija_17.UklanjanjeNiti.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_16.TryIt_Socket.Client" />
+    <configuration name="TestCallableThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_17.UpravljanjeNitimaPomocuExecutorRadnogOkvira.TestCallableThreads" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_16.TryIt_Socket.*" />
+          <option name="PATTERN" value="Lekcija_17.UpravljanjeNitimaPomocuExecutorRadnogOkvira.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketQuoteServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_16.TryIt_Socket.SocketQuoteServer" />
+    <configuration name="TestLambdaWaitNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_17.TestLambdaWaitNotify.TestLambdaWaitNotify" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_16.TryIt_Socket.*" />
+          <option name="PATTERN" value="Lekcija_17.TestLambdaWaitNotify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockQuote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_16.ProgramZaBerzanskeKvote.StockQuote" />
+    <configuration name="TestThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_17.KlasaThred.TestThreads" />
       <module name="JavaVezbanje" />
-      <option name="PROGRAM_PARAMETERS" value="AAPL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_16.ProgramZaBerzanskeKvote.*" />
+          <option name="PATTERN" value="Lekcija_17.KlasaThred.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TerminalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProbanjeTerminala.TerminalExample" />
+    <configuration name="TestThreads2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_17.RunnableInterface.TestThreads2" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProbanjeTerminala.*" />
+          <option name="PATTERN" value="Lekcija_17.RunnableInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,19 +172,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Berza" />
-      <item itemvalue="Application.StockQuote" />
-      <item itemvalue="Application.TerminalExample" />
-      <item itemvalue="Application.SocketQuoteServer" />
-      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.KillTheThread" />
+      <item itemvalue="Application.TestLambdaWaitNotify" />
+      <item itemvalue="Application.TestThreads2" />
+      <item itemvalue="Application.TestThreads" />
+      <item itemvalue="Application.TestCallableThreads" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.SocketQuoteServer" />
-        <item itemvalue="Application.TerminalExample" />
-        <item itemvalue="Application.StockQuote" />
-        <item itemvalue="Application.Berza" />
+        <item itemvalue="Application.TestCallableThreads" />
+        <item itemvalue="Application.TestThreads" />
+        <item itemvalue="Application.TestLambdaWaitNotify" />
+        <item itemvalue="Application.TestThreads2" />
+        <item itemvalue="Application.KillTheThread" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +232,7 @@
       <workItem from="1565160593022" duration="15944000" />
       <workItem from="1565247685201" duration="15824000" />
       <workItem from="1565334429249" duration="13889000" />
-      <workItem from="1565589995358" duration="4217000" />
+      <workItem from="1565589995358" duration="17030000" />
     </task>
     <servers />
   </component>
