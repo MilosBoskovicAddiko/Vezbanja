@@ -20,6 +20,7 @@ Miloš Bošković
 * Lekcija 15 - Yakov Fain - Java serijalizacija
 * Lekcija 16 - Yakov Fain - Osnove mreznog programiranja
 * Lekcija 17 - Yakov Fain - Konkurentnost i visenitno izvrsavanje
+* Lekcija 20 - Yakov Fain - Stream API interfejs
 * Jumper
 * Jumper version 2
 * Jumper version 3
@@ -128,6 +129,14 @@ Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 * Uklanjane tredova
 * Upravljanje tredovima pomocu Executor radnog okvira
 * Zaustavljanje izvrsavanja niti
+
+---
+
+#### Lekcija 20
+* Lazy Streams
+* Osnove tokova
+* Sortiranje tokova
+* Sortiranje Java kolekcija
 
 ---
 
@@ -366,4 +375,8 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 
 [Lekcija 17 - Zaustavljanje izvrsavanja niti](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_17/ZaustavljanjeIzvrsavanjaNiti)
 
-
+[Lekcija 20 - Lazy Streams](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_20/LazyStreams)
+[Lekcija 20 - Osnove tokova](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_20/OsnoveTokova)
+[Lekcija 20 - Sortiranje tokova](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_20/SortiranjeJavaKolekcija)
+[Lekcija 20 - Sortiranje Java kolekcija]()
+https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_20/SortiranjeTokova
