@@ -1,9 +1,6 @@
 package BrojPonavljanjaKaraktera;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Queue;
-import java.util.Scanner;
+import java.util.*;
 
 public class BrojPonavljanjaKaraktera {
     public static void main(String[] args) {
@@ -34,17 +31,20 @@ public class BrojPonavljanjaKaraktera {
             }
         }
 
-        Collections.sort(karakteriSlova, new SortiranjePoAlfabetnom());
+        /*Collections.sort(karakteriSlova, new SortiranjePoAlfabetnom());
 
         for (int i = 0; i < karakteriSlova.size(); i++) {
             System.out.println(karakteriSlova.get(i).toString());
-        }
+        }*/
+        karakteriSlova.stream().sorted(Comparator.comparing(Karakteri::getKarakter)).forEach(System.out::println);
 
         System.out.println("----------------------------------------");
-        Collections.sort(karakteriSlova, new SortiranjePoBrojuPonavljanja());
+        /*Collections.sort(karakteriSlova, new SortiranjePoBrojuPonavljanja());
 
         for (int i = 0; i < karakteriSlova.size(); i++) {
             System.out.println(karakteriSlova.get(i).toString());
-        }
+        }*/
+        karakteriSlova.stream().sorted(Comparator.comparing(Karakteri::getBrojPonavljanja).reversed()).forEach(System.out::println);
+
     }
 }

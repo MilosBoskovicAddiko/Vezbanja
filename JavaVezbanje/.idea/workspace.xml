@@ -2,22 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/BezNasledjivanje/TestThreadsLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/KlasaThred/MarketNews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/KlasaThred/Portfolio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/KlasaThred/TestThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/PovezivanjeThreadova/TestThreadLambdaJoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/RunnableInterface/MarketNews2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/RunnableInterface/Portfolio2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/RunnableInterface/TestThreads2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/TestLambdaWaitNotify/TestLambdaWaitNotify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/UklanjanjeNiti/KillTheThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/UklanjanjeNiti/PortfolioVolatile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/UpravljanjeNitimaPomocuExecutorRadnogOkvira/TestCallableThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_17/ZaustavljanjeIzvrsavanjaNiti/TestThreadsLambda2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/LazyStreams/Beer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/LazyStreams/LazyStreamsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/OsnoveTokova/Beer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/OsnoveTokova/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/SortiranjeJavaKolekcija/ComparableInterface/Beer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/SortiranjeJavaKolekcija/ComparableInterface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/SortiranjeJavaKolekcija/ComparatorInterface/Beer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/SortiranjeJavaKolekcija/ComparatorInterface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/SortiranjeTokova/Beer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/SortiranjeTokova/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_16/Socket/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_16/Socket/SocketQuoteServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/BrojPonavljanjaKaraktera/BrojPonavljanjaKaraktera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/BrojPonavljanjaKaraktera/BrojPonavljanjaKaraktera.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/BrojPonavljanjaKaraktera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/BrojPonavljanjaKaraktera.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,25 +69,27 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/LocalizationLocal.git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaFXExample" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Milos Boskovic\Downloads\JavaVezbanje\src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Lekcija_15.SerijalizacijaUPoljeBajtova" />
-      <recent name="SkockoSlagalicaVerzija3" />
-      <recent name="Lekcija_14.Povezivanje_GUI_i_IO_Tokova" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje" />
       <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_14\TokoviBajtova" />
       <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_10\FinallyClasuse" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lekcija_20.SortiranjeTokova" />
+      <recent name="Lekcija_20.SortiranjeJavaKolekcija.ComparatorInterface" />
+      <recent name="Lekcija_20.SortiranjeJavaKolekcija.ComparableInterface" />
+      <recent name="Lekcija_20.LazyStreams" />
+      <recent name="Lekcija_15.SerijalizacijaUPoljeBajtova" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Milos Boskovic\Downloads\JavaVezbanje\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -105,13 +104,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestCallableThreads">
-    <configuration name="KillTheThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_17.UklanjanjeNiti.KillTheThread" />
+  <component name="RunManager" selected="Application.BrojPonavljanjaKaraktera">
+    <configuration name="BrojPonavljanjaKaraktera" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BrojPonavljanjaKaraktera.BrojPonavljanjaKaraktera" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_17.UklanjanjeNiti.*" />
+          <option name="PATTERN" value="BrojPonavljanjaKaraktera.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCallableThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_17.UpravljanjeNitimaPomocuExecutorRadnogOkvira.TestCallableThreads" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_20.SortiranjeJavaKolekcija.ComparableInterface.Main" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_17.UpravljanjeNitimaPomocuExecutorRadnogOkvira.*" />
+          <option name="PATTERN" value="Lekcija_20.SortiranjeJavaKolekcija.ComparableInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLambdaWaitNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_17.TestLambdaWaitNotify.TestLambdaWaitNotify" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_20.SortiranjeJavaKolekcija.ComparatorInterface.Main" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_17.TestLambdaWaitNotify.*" />
+          <option name="PATTERN" value="Lekcija_20.SortiranjeJavaKolekcija.ComparatorInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_17.KlasaThred.TestThreads" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_20.SortiranjeTokova.Main" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_17.KlasaThred.*" />
+          <option name="PATTERN" value="Lekcija_20.SortiranjeTokova.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThreads2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_17.RunnableInterface.TestThreads2" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_20.OsnoveTokova.Main" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_17.RunnableInterface.*" />
+          <option name="PATTERN" value="Lekcija_20.OsnoveTokova.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,19 +171,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.KillTheThread" />
-      <item itemvalue="Application.TestLambdaWaitNotify" />
-      <item itemvalue="Application.TestThreads2" />
-      <item itemvalue="Application.TestThreads" />
-      <item itemvalue="Application.TestCallableThreads" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.BrojPonavljanjaKaraktera" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestCallableThreads" />
-        <item itemvalue="Application.TestThreads" />
-        <item itemvalue="Application.TestLambdaWaitNotify" />
-        <item itemvalue="Application.TestThreads2" />
-        <item itemvalue="Application.KillTheThread" />
+        <item itemvalue="Application.BrojPonavljanjaKaraktera" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +231,11 @@
       <workItem from="1565160593022" duration="15944000" />
       <workItem from="1565247685201" duration="15824000" />
       <workItem from="1565334429249" duration="13889000" />
-      <workItem from="1565589995358" duration="17030000" />
+      <workItem from="1565589995358" duration="17771000" />
+      <workItem from="1565676289234" duration="2817000" />
+      <workItem from="1565762747187" duration="1781000" />
+      <workItem from="1565771599185" duration="440000" />
+      <workItem from="1565772900247" duration="9812000" />
     </task>
     <servers />
   </component>
