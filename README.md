@@ -137,6 +137,10 @@ Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 * Osnove tokova
 * Sortiranje tokova
 * Sortiranje Java kolekcija
+* Koriscenje Stream API interfejsa i IO-Tokovima
+* Ostali izvori tokova
+* Prekidanje izvrsavanja
+* TryIt
 
 ---
 
@@ -383,3 +387,10 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 
 [Lekcija 20 - Sortiranje Java kolekcija](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_20/SortiranjeJavaKolekcija)
 
+[Lekcija 20 - Koriscenje Stream API interfejsa i IO-Tokovima](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_20/KoriscenjeStreamAPIInterfejsaSaIOTokovima)
+
+[Lekcija 20 - Ostali izvori tokova](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_20/OstaliIzvoriRokova)
+
+[Lekcija 20 - Prekidanje izvrsavanja](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_20/PrekidanjeIzvrsavanja)
+
+[Lekcija 20 - TryIt](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_20/TryIt)
