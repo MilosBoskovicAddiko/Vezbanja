@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/LazyStreams/Beer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/LazyStreams/LazyStreamsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/OsnoveTokova/Beer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/OsnoveTokova/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/SortiranjeJavaKolekcija/ComparableInterface/Beer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/SortiranjeJavaKolekcija/ComparableInterface/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/SortiranjeJavaKolekcija/ComparatorInterface/Beer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/SortiranjeJavaKolekcija/ComparatorInterface/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/SortiranjeTokova/Beer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/SortiranjeTokova/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/KoriscenjeStreamAPIInterfejsaSaIOTokovima/WebSiteReaderStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/OstaliIzvoriRokova/StreamOfDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/PrekidanjeIzvrsavanja/Examples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/TryIt/StreamOfDates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/BrojPonavljanjaKaraktera/BrojPonavljanjaKaraktera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/BrojPonavljanjaKaraktera/BrojPonavljanjaKaraktera.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/BrojPonavljanjaKaraktera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BrojPonavljanjaKaraktera/BrojPonavljanjaKaraktera.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BrojPonavljanjaKaraktera">
+  <component name="RunManager" selected="Application.StreamOfDates (1)">
     <configuration name="BrojPonavljanjaKaraktera" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BrojPonavljanjaKaraktera.BrojPonavljanjaKaraktera" />
       <module name="JavaVezbanje" />
@@ -118,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_20.SortiranjeJavaKolekcija.ComparableInterface.Main" />
+    <configuration name="Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_20.PrekidanjeIzvrsavanja.Examples" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_20.SortiranjeJavaKolekcija.ComparableInterface.*" />
+          <option name="PATTERN" value="Lekcija_20.PrekidanjeIzvrsavanja.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_20.SortiranjeJavaKolekcija.ComparatorInterface.Main" />
+    <configuration name="StreamOfDates (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_20.TryIt.StreamOfDates" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_20.SortiranjeJavaKolekcija.ComparatorInterface.*" />
+          <option name="PATTERN" value="Lekcija_20.TryIt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_20.SortiranjeTokova.Main" />
+    <configuration name="StreamOfDates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_20.OstaliIzvoriRokova.StreamOfDates" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_20.SortiranjeTokova.*" />
+          <option name="PATTERN" value="Lekcija_20.OstaliIzvoriRokova.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_20.OsnoveTokova.Main" />
+    <configuration name="WebSiteReaderStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_20.KoriscenjeStreamAPIInterfejsaSaIOTokovima.WebSiteReaderStream" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_20.OsnoveTokova.*" />
+          <option name="PATTERN" value="Lekcija_20.KoriscenjeStreamAPIInterfejsaSaIOTokovima.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,19 +163,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.BrojPonavljanjaKaraktera" />
+      <item itemvalue="Application.StreamOfDates" />
+      <item itemvalue="Application.WebSiteReaderStream" />
+      <item itemvalue="Application.Examples" />
+      <item itemvalue="Application.StreamOfDates (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamOfDates (1)" />
+        <item itemvalue="Application.Examples" />
+        <item itemvalue="Application.WebSiteReaderStream" />
+        <item itemvalue="Application.StreamOfDates" />
         <item itemvalue="Application.BrojPonavljanjaKaraktera" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +227,8 @@
       <workItem from="1565676289234" duration="2817000" />
       <workItem from="1565762747187" duration="1781000" />
       <workItem from="1565771599185" duration="440000" />
-      <workItem from="1565772900247" duration="9812000" />
+      <workItem from="1565772900247" duration="10069000" />
+      <workItem from="1565850008934" duration="10418000" />
     </task>
     <servers />
   </component>
