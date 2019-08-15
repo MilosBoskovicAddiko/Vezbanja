@@ -376,7 +376,10 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 [Lekcija 17 - Zaustavljanje izvrsavanja niti](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_17/ZaustavljanjeIzvrsavanjaNiti)
 
 [Lekcija 20 - Lazy Streams](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_20/LazyStreams)
+
 [Lekcija 20 - Osnove tokova](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_20/OsnoveTokova)
-[Lekcija 20 - Sortiranje tokova](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_20/SortiranjeJavaKolekcija)
-[Lekcija 20 - Sortiranje Java kolekcija]()
-https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_20/SortiranjeTokova
+
+[Lekcija 20 - Sortiranje tokova](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_20/SortiranjeTokova)
+
+[Lekcija 20 - Sortiranje Java kolekcija](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_20/SortiranjeJavaKolekcija)
+
