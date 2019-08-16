@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/KoriscenjeStreamAPIInterfejsaSaIOTokovima/WebSiteReaderStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/OstaliIzvoriRokova/StreamOfDates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/PrekidanjeIzvrsavanja/Examples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_20/TryIt/StreamOfDates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +57,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaFXExample" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Lekcija_17/WaitNotifyExample2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -96,13 +92,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamOfDates (1)">
-    <configuration name="BrojPonavljanjaKaraktera" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BrojPonavljanjaKaraktera.BrojPonavljanjaKaraktera" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_20.PrekidanjeIzvrsavanja.Examples" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BrojPonavljanjaKaraktera.*" />
+          <option name="PATTERN" value="Lekcija_20.PrekidanjeIzvrsavanja.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_20.PrekidanjeIzvrsavanja.Examples" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_17.WaitNotifyExample2.Main" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_20.PrekidanjeIzvrsavanja.*" />
+          <option name="PATTERN" value="Lekcija_17.WaitNotifyExample2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamOfDates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_20.OstaliIzvoriRokova.StreamOfDates" />
+    <configuration name="TestLambdaWaitNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_17.TestLambdaWaitNotify.TestLambdaWaitNotify" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_20.OstaliIzvoriRokova.*" />
+          <option name="PATTERN" value="Lekcija_17.TestLambdaWaitNotify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,19 +159,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BrojPonavljanjaKaraktera" />
-      <item itemvalue="Application.StreamOfDates" />
       <item itemvalue="Application.WebSiteReaderStream" />
       <item itemvalue="Application.Examples" />
       <item itemvalue="Application.StreamOfDates (1)" />
+      <item itemvalue="Application.TestLambdaWaitNotify" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamOfDates (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestLambdaWaitNotify" />
         <item itemvalue="Application.Examples" />
+        <item itemvalue="Application.StreamOfDates (1)" />
         <item itemvalue="Application.WebSiteReaderStream" />
-        <item itemvalue="Application.StreamOfDates" />
-        <item itemvalue="Application.BrojPonavljanjaKaraktera" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +224,8 @@
       <workItem from="1565762747187" duration="1781000" />
       <workItem from="1565771599185" duration="440000" />
       <workItem from="1565772900247" duration="10069000" />
-      <workItem from="1565850008934" duration="10418000" />
+      <workItem from="1565850008934" duration="12778000" />
+      <workItem from="1565936903642" duration="2387000" />
     </task>
     <servers />
   </component>
