@@ -129,6 +129,7 @@ Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 * Uklanjane tredova
 * Upravljanje tredovima pomocu Executor radnog okvira
 * Zaustavljanje izvrsavanja niti
+* Wait&Notify primer Baelung
 
 ---
 
@@ -372,6 +373,8 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 [Lekcija 17 - Runnable interfejs](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_17/RunnableInterface)
 
 [Lekcija 17 - Wait & Notify](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_17/TestLambdaWaitNotify)
+
+[Lekcija 17 - Wait & Notify - Baelung](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_17/WaitNotifyExample2)
 
 [Lekcija 17 - Uklanjane tredova](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_17/UklanjanjeNiti)
 
