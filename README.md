@@ -21,6 +21,7 @@ Miloš Bošković
 * Lekcija 16 - Yakov Fain - Osnove mreznog programiranja
 * Lekcija 17 - Yakov Fain - Konkurentnost i visenitno izvrsavanje
 * Lekcija 20 - Yakov Fain - Stream API interfejs
+* Lekcija 21 - Yakov Fain - JDBC Driver
 * Jumper
 * Jumper version 2
 * Jumper version 3
@@ -141,6 +142,11 @@ Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 * Koriscenje Stream API interfejsa i IO-Tokovima
 * Ostali izvori tokova
 * Prekidanje izvrsavanja
+* TryIt
+
+---
+
+#### Lekcija 21
 * TryIt
 
 ---
@@ -397,3 +403,5 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 [Lekcija 20 - Prekidanje izvrsavanja](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_20/PrekidanjeIzvrsavanja)
 
 [Lekcija 20 - TryIt](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_20/TryIt)
+
+[Lekcija 21 - TryIt](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_21/TryIt)
