@@ -2,7 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_3_5_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-core-5.4.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jandex-2.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_21/BookList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_21/BookList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_21/TryIt/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_21/TryIt/Portfolio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaVezbanje.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaVezbanje.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_14/Povezivanje_GUI_i_IO_Tokova/Tax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_14/Povezivanje_GUI_i_IO_Tokova/Tax.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_4/Tax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_4/Tax.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +63,8 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="FxmlFile" />
+        <option value="hibernate-configuration-5.2" />
+        <option value="hibernate-main-5.2" />
         <option value="Class" />
       </list>
     </option>
@@ -57,17 +86,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Lekcija_17/WaitNotifyExample2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-5.1.48/mysql-connector-java-5.1.48.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje" />
-      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_14\TokoviBajtova" />
-      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_10\FinallyClasuse" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_17\WaitNotifyExample2" />
+      <recent name="C:\Users\Milos Boskovic\Downloads\JavaVezbanje\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Lekcija_20.SortiranjeTokova" />
@@ -76,8 +107,10 @@
       <recent name="Lekcija_20.LazyStreams" />
       <recent name="Lekcija_15.SerijalizacijaUPoljeBajtova" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Milos Boskovic\Downloads\JavaVezbanje\src" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje" />
+      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_14\TokoviBajtova" />
+      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_10\FinallyClasuse" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -92,13 +125,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_20.PrekidanjeIzvrsavanja.Examples" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="BookList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_21.BookList" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_20.PrekidanjeIzvrsavanja.*" />
+          <option name="PATTERN" value="Lekcija_21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_17.WaitNotifyExample2.Main" />
+    <configuration name="BookList2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_21.BookList2" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_17.WaitNotifyExample2.*" />
+          <option name="PATTERN" value="Lekcija_21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +152,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamOfDates (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_20.TryIt.StreamOfDates" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="JavaVezbanje" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_21.TryIt.Main" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_20.TryIt.*" />
+          <option name="PATTERN" value="Lekcija_21.TryIt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,25 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLambdaWaitNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_17.TestLambdaWaitNotify.TestLambdaWaitNotify" />
+    <configuration name="TestThreadsLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_17.BezNasledjivanje.TestThreadsLambda" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_17.TestLambdaWaitNotify.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebSiteReaderStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_20.KoriscenjeStreamAPIInterfejsaSaIOTokovima.WebSiteReaderStream" />
-      <module name="JavaVezbanje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lekcija_20.KoriscenjeStreamAPIInterfejsaSaIOTokovima.*" />
+          <option name="PATTERN" value="Lekcija_17.BezNasledjivanje.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,19 +186,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WebSiteReaderStream" />
-      <item itemvalue="Application.Examples" />
-      <item itemvalue="Application.StreamOfDates (1)" />
-      <item itemvalue="Application.TestLambdaWaitNotify" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.TestThreadsLambda" />
+      <item itemvalue="Application.BookList" />
+      <item itemvalue="Application.BookList2" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TestLambdaWaitNotify" />
-        <item itemvalue="Application.Examples" />
-        <item itemvalue="Application.StreamOfDates (1)" />
-        <item itemvalue="Application.WebSiteReaderStream" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.BookList2" />
+        <item itemvalue="Application.BookList" />
+        <item itemvalue="Application.TestThreadsLambda" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +252,10 @@
       <workItem from="1565771599185" duration="440000" />
       <workItem from="1565772900247" duration="10069000" />
       <workItem from="1565850008934" duration="12778000" />
-      <workItem from="1565936903642" duration="2387000" />
+      <workItem from="1565936903642" duration="2983000" />
+      <workItem from="1566281226221" duration="846000" />
+      <workItem from="1566282981322" duration="6019000" />
+      <workItem from="1566301270024" duration="2644000" />
     </task>
     <servers />
   </component>
