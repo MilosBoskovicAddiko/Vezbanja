@@ -22,6 +22,7 @@ Miloš Bošković
 * Lekcija 17 - Yakov Fain - Konkurentnost i visenitno izvrsavanje
 * Lekcija 20 - Yakov Fain - Stream API interfejs
 * Lekcija 21 - Yakov Fain - JDBC Driver
+* Lekcija 23 - Yakov Fain - Refleksija i anotacije
 * Jumper
 * Jumper version 2
 * Jumper version 3
@@ -147,6 +148,14 @@ Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 ---
 
 #### Lekcija 21
+* TryIt
+
+---
+
+#### Lekcija 23.
+* HRBrowser
+* Refleksija
+* Suppress Warning anotacija
 * TryIt
 
 ---
@@ -405,3 +414,11 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 [Lekcija 20 - TryIt](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_20/TryIt)
 
 [Lekcija 21 - TryIt](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_21/TryIt)
+
+[Lekcija 23 - HRBrowser](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_23_Anotacije_Refleksija/HRBrowser)
+
+[Lekcija 23 - Refleksija](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_23_Anotacije_Refleksija/Reflection)
+
+[Lekcija 23 - Suppress Warning anotacija](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_23_Anotacije_Refleksija/SuppressWarningDemo)
+
+[Lekcija 23 - TryIt](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_23_Anotacije_Refleksija/TryIt)
