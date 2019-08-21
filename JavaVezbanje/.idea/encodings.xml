@@ -2,11 +2,11 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/BestEmployee.ser" charset="windows-1252" />
-    <file url="file://$PROJECT_DIR$/src/Lekcija_14/TokoviBajtova/pisanje" charset="windows-1252" />
-    <file url="file://$PROJECT_DIR$/src/Lekcija_17/WaitNotifyExample2/Data.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/Lekcija_17/WaitNotifyExample2/Main.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/Lekcija_17/WaitNotifyExample2/Receiver.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/Lekcija_17/WaitNotifyExample2/Sender.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Lekcija_14_IO_Streams/TokoviBajtova/pisanje" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/WaitNotifyExample2/Data.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/WaitNotifyExample2/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/WaitNotifyExample2/Receiver.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/WaitNotifyExample2/Sender.java" charset="UTF-8" />
     <file url="PROJECT" charset="windows-1252" />
   </component>
 </project>
