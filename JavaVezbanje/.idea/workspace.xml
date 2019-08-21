@@ -2,153 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_12_Genericki_Tipovi/ParameterizedClassExample/Products/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_23_Anotacije_Refleksija/HRBrowser/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_23_Anotacije_Refleksija/HRBrowser/LibraryBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_23_Anotacije_Refleksija/Reflection/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_23_Anotacije_Refleksija/Reflection/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_23_Anotacije_Refleksija/Reflection/ReflectionSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_23_Anotacije_Refleksija/SuppressWarningDemo/SuppressWarningDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_23_Anotacije_Refleksija/TryIt/DBParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_23_Anotacije_Refleksija/TryIt/DBParamProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_23_Anotacije_Refleksija/TryIt/MyDBWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_23_Anotacije_Refleksija/HRBrowser/MyJDBCExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestEmployee.ser" beforeDir="false" afterPath="$PROJECT_DIR$/BestEmployee.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_21/TryIt/Portfolio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_21/TryIt/Portfolio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preferences.ser" beforeDir="false" afterPath="$PROJECT_DIR$/preferences.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_10/CreationOwnException/BikeOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_10_Exception_Handling/CreationOwnException/BikeOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_10/CreationOwnException/PlaceAnOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_10_Exception_Handling/CreationOwnException/PlaceAnOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_10/CreationOwnException/TooManyBikesException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_10_Exception_Handling/CreationOwnException/TooManyBikesException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_10/CustomerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_10_Exception_Handling/CustomerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_10/FinallyClasuse/UsingFinalyClause.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_10_Exception_Handling/FinallyClasuse/UsingFinalyClause.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_10/FinallyClasuse/text" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_10_Exception_Handling/FinallyClasuse/text" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_10/HandlingWithThrow/CustomerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_10_Exception_Handling/HandlingWithThrow/CustomerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_10/HandlingWithThrow/customerList" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_10_Exception_Handling/HandlingWithThrow/customerList" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_10/TestStackTrace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_10_Exception_Handling/TestStackTrace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_10/TryWithResources/TryWithResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_10_Exception_Handling/TryWithResources/TryWithResources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_10/TryWithResources/text" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_10_Exception_Handling/TryWithResources/text" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_10/Writings/BufferedWritterTryWithResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_10_Exception_Handling/Writings/BufferedWritterTryWithResources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_10/Writings/text" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_10_Exception_Handling/Writings/text" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_11/ArrayListAndInstanceOfOperator/ArrayListWithInstanceOf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_11_Kolekcije/ArrayListAndInstanceOfOperator/ArrayListWithInstanceOf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_11/BitSetExample/BitSetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_11_Kolekcije/BitSetExample/BitSetExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_11/EnumeratorAndIterator/EnumAndIter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_11_Kolekcije/EnumeratorAndIterator/EnumAndIter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_11/LinkedListAndListIterator/LinkedListWithIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_11_Kolekcije/LinkedListAndListIterator/LinkedListWithIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_11/MailmanPropertiesLoadingIntoProperties/MailmanPropertiesLoadingIntoProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_11_Kolekcije/MailmanPropertiesLoadingIntoProperties/MailmanPropertiesLoadingIntoProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_11/MailmanPropertiesLoadingIntoProperties/mailman.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_11_Kolekcije/MailmanPropertiesLoadingIntoProperties/mailman.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_11/TryIt/LinkedListAndIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_11_Kolekcije/TryIt/LinkedListAndIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_12/ModifiedTestGenericCollection/ModifiedTestGenericCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_12_Genericki_Tipovi/ModifiedTestGenericCollection/ModifiedTestGenericCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_12/ParameterizedClassExample/Ferry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_12_Genericki_Tipovi/ParameterizedClassExample/Ferry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_12/ParameterizedClassExample/Products/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_12_Genericki_Tipovi/ParameterizedClassExample/Products/Bike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_12/ParameterizedClassExample/Products/Products.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_12/ParameterizedClassExample/Products/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_12_Genericki_Tipovi/ParameterizedClassExample/Products/Wheel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_12/ParameterizedClassExample/TestGenericType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_12_Genericki_Tipovi/ParameterizedClassExample/TestGenericType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_12/ParameterizedClassExample/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_12_Genericki_Tipovi/ParameterizedClassExample/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_12/TestGenericCollection/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_12_Genericki_Tipovi/TestGenericCollection/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_12/TestGenericCollection/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_12_Genericki_Tipovi/TestGenericCollection/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_12/TestGenericCollection/TestGenericCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_12_Genericki_Tipovi/TestGenericCollection/TestGenericCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_12/TryIt/EmployeCopier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_12_Genericki_Tipovi/TryIt/EmployeCopier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_12/TryIt/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_12_Genericki_Tipovi/TryIt/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_12/TryIt/RetiredEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_12_Genericki_Tipovi/TryIt/RetiredEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_13/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_13_Lambda_Izrazi/Frame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_13/FunctionIBiFunctionInterfejsi/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_13_Lambda_Izrazi/FunctionIBiFunctionInterfejsi/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_13/FunctionIBiFunctionInterfejsi/TestPayIncreaseFunctionInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_13_Lambda_Izrazi/FunctionIBiFunctionInterfejsi/TestPayIncreaseFunctionInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_13/ImperativeVsFunctional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_13_Lambda_Izrazi/ImperativeVsFunctional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_13/PristupanjeKolekcijamaPomocuForEachMetoda/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_13_Lambda_Izrazi/PristupanjeKolekcijamaPomocuForEachMetoda/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_13/PristupanjeKolekcijamaPomocuForEachMetoda/TestCollectionForEach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_13_Lambda_Izrazi/PristupanjeKolekcijamaPomocuForEachMetoda/TestCollectionForEach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_13/ProsledjivanjeFunkcijeMetodu/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_13_Lambda_Izrazi/ProsledjivanjeFunkcijeMetodu/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_13/ProsledjivanjeFunkcijeMetodu/TaxFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_13_Lambda_Izrazi/ProsledjivanjeFunkcijeMetodu/TaxFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_13/ProsledjivanjeFunkcijeMetodu/TestTaxLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_13_Lambda_Izrazi/ProsledjivanjeFunkcijeMetodu/TestTaxLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_13/TestPayIncreaseLambda/Payable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_13_Lambda_Izrazi/TestPayIncreaseLambda/Payable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_13/TestPayIncreaseLambda/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_13_Lambda_Izrazi/TestPayIncreaseLambda/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_13/TestPayIncreaseLambda/TestPayIncreaseLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_13_Lambda_Izrazi/TestPayIncreaseLambda/TestPayIncreaseLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_13/TryIt/Payable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_13_Lambda_Izrazi/TryIt/Payable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_13/TryIt/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_13_Lambda_Izrazi/TryIt/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_13/TryIt/TestPayIncreaseLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_13_Lambda_Izrazi/TryIt/TestPayIncreaseLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_14/BaferovaniTokovi/BufferedInputStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_14_IO_Streams/BaferovaniTokovi/BufferedInputStreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_14/BaferovaniTokovi/citanje" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_14_IO_Streams/BaferovaniTokovi/citanje" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_14/DataInputStream/DataInputStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_14_IO_Streams/DataInputStream/DataInputStreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_14/DataInputStream/myFile" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_14_IO_Streams/DataInputStream/myFile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_14/Povezivanje_GUI_i_IO_Tokova/Tax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_14_IO_Streams/Povezivanje_GUI_i_IO_Tokova/Tax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_14/Povezivanje_GUI_i_IO_Tokova/TaxGuiFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_14_IO_Streams/Povezivanje_GUI_i_IO_Tokova/TaxGuiFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_14/TestBufferedReaderNIO/BufferedWritterNIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_14_IO_Streams/TestBufferedReaderNIO/BufferedWritterNIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_14/TestBufferedReaderNIO/TestBufferedReaderNIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_14_IO_Streams/TestBufferedReaderNIO/TestBufferedReaderNIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_14/TestFilesPath/TestFilesPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_14_IO_Streams/TestFilesPath/TestFilesPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_14/TokoviBajtova/FileInputStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_14_IO_Streams/TokoviBajtova/FileInputStreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_14/TokoviBajtova/FileOutputStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_14_IO_Streams/TokoviBajtova/FileOutputStreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_14/TokoviBajtova/citanje" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_14_IO_Streams/TokoviBajtova/citanje" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_14/TokoviBajtova/pisanje" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_14_IO_Streams/TokoviBajtova/pisanje" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_14/TokoviKaraktera/InputStreamReaderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_14_IO_Streams/TokoviKaraktera/InputStreamReaderExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_14/TokoviKaraktera/citanje" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_14_IO_Streams/TokoviKaraktera/citanje" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_14/TryIt_ReadingZipFiles/TestZipInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_14_IO_Streams/TryIt_ReadingZipFiles/TestZipInputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_15/ExtrenalizableInterface/ClassAExternalization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_15_Java_Serijalizacija/ExtrenalizableInterface/ClassAExternalization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_15/ExtrenalizableInterface/ClassBExternalization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_15_Java_Serijalizacija/ExtrenalizableInterface/ClassBExternalization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_15/ExtrenalizableInterface/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_15_Java_Serijalizacija/ExtrenalizableInterface/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_15/ObjectInputStream/ClassB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_15_Java_Serijalizacija/ObjectInputStream/ClassB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_15/ObjectOutputStream/ClassA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_15_Java_Serijalizacija/ObjectOutputStream/ClassA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_15/ObjectOutputStream/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_15_Java_Serijalizacija/ObjectOutputStream/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_15/SerijalizacijaUPoljeBajtova/ClassA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_15_Java_Serijalizacija/SerijalizacijaUPoljeBajtova/ClassA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_15/SerijalizacijaUPoljeBajtova/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_15_Java_Serijalizacija/SerijalizacijaUPoljeBajtova/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_15/TryIt/MyCustomizableGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_15_Java_Serijalizacija/TryIt/MyCustomizableGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_15/TryIt/UserPreferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_15_Java_Serijalizacija/TryIt/UserPreferences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_16/CitanjeSaGoogle/WebSiteReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_16_Osnove_Mreznog_Programiranja/CitanjeSaGoogle/WebSiteReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_16/CitanjeSaGoogle/WebSiteReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_16_Osnove_Mreznog_Programiranja/CitanjeSaGoogle/WebSiteReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_16/FileDownload/FileDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_16_Osnove_Mreznog_Programiranja/FileDownload/FileDownload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_16/ProgramZaBerzanskeKvote/Berza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_16_Osnove_Mreznog_Programiranja/ProgramZaBerzanskeKvote/Berza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_16/ProgramZaBerzanskeKvote/StockQuote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_16_Osnove_Mreznog_Programiranja/ProgramZaBerzanskeKvote/StockQuote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_16/TryIt_Socket/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_16_Osnove_Mreznog_Programiranja/TryIt_Socket/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_16/TryIt_Socket/SocketQuoteServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_16_Osnove_Mreznog_Programiranja/TryIt_Socket/SocketQuoteServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_17/BezNasledjivanje/TestThreadsLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/BezNasledjivanje/TestThreadsLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_17/KlasaThred/MarketNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/KlasaThred/MarketNews.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_17/KlasaThred/Portfolio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/KlasaThred/Portfolio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_17/KlasaThred/TestThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/KlasaThred/TestThreads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_17/PovezivanjeThreadova/TestThreadLambdaJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/PovezivanjeThreadova/TestThreadLambdaJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_17/RunnableInterface/MarketNews2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/RunnableInterface/MarketNews2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_17/RunnableInterface/Portfolio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/RunnableInterface/Portfolio2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_17/RunnableInterface/TestThreads2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/RunnableInterface/TestThreads2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_17/TestLambdaWaitNotify/TestLambdaWaitNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/TestLambdaWaitNotify/TestLambdaWaitNotify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_17/UklanjanjeNiti/KillTheThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/UklanjanjeNiti/KillTheThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_17/UklanjanjeNiti/PortfolioVolatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/UklanjanjeNiti/PortfolioVolatile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_17/UpravljanjeNitimaPomocuExecutorRadnogOkvira/TestCallableThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/UpravljanjeNitimaPomocuExecutorRadnogOkvira/TestCallableThreads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_17/WaitNotifyExample2/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/WaitNotifyExample2/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_17/WaitNotifyExample2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/WaitNotifyExample2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_17/WaitNotifyExample2/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/WaitNotifyExample2/Receiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_17/WaitNotifyExample2/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/WaitNotifyExample2/Sender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_17/ZaustavljanjeIzvrsavanjaNiti/TestThreadsLambda2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_17_Konkurentnost_VisenitnoIzvrsavanje/ZaustavljanjeIzvrsavanjaNiti/TestThreadsLambda2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_20/KoriscenjeStreamAPIInterfejsaSaIOTokovima/WebSiteReaderStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_20_StreamAPI_Interface/KoriscenjeStreamAPIInterfejsaSaIOTokovima/WebSiteReaderStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_20/LazyStreams/Beer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_20_StreamAPI_Interface/LazyStreams/Beer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_20/LazyStreams/LazyStreamsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_20_StreamAPI_Interface/LazyStreams/LazyStreamsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_20/OsnoveTokova/Beer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_20_StreamAPI_Interface/OsnoveTokova/Beer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_20/OsnoveTokova/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_20_StreamAPI_Interface/OsnoveTokova/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_20/OstaliIzvoriRokova/StreamOfDates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_20_StreamAPI_Interface/OstaliIzvoriRokova/StreamOfDates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_20/PrekidanjeIzvrsavanja/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_20_StreamAPI_Interface/PrekidanjeIzvrsavanja/Examples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_20/SortiranjeJavaKolekcija/ComparableInterface/Beer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_20_StreamAPI_Interface/SortiranjeJavaKolekcija/ComparableInterface/Beer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_20/SortiranjeJavaKolekcija/ComparableInterface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_20_StreamAPI_Interface/SortiranjeJavaKolekcija/ComparableInterface/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_20/SortiranjeJavaKolekcija/ComparatorInterface/Beer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_20_StreamAPI_Interface/SortiranjeJavaKolekcija/ComparatorInterface/Beer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_20/SortiranjeJavaKolekcija/ComparatorInterface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_20_StreamAPI_Interface/SortiranjeJavaKolekcija/ComparatorInterface/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_20/SortiranjeTokova/Beer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_20_StreamAPI_Interface/SortiranjeTokova/Beer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_20/SortiranjeTokova/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_20_StreamAPI_Interface/SortiranjeTokova/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_20/TryIt/StreamOfDates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_20_StreamAPI_Interface/TryIt/StreamOfDates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_21/BookList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_21_JDBCDriver/BookList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_21/BookList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_21_JDBCDriver/BookList2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_21/TryIt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_21_JDBCDriver/TryIt/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_21/TryIt/Portfolio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_21_JDBCDriver/TryIt/Portfolio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_4/Tax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_4_Metode_Klase_Konstruktori/Tax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_4/TestTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_4_Metode_Klase_Konstruktori/TestTax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_6/Contractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_6_Paketi_Interfejsi_Enkapsulacija/Contractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_6/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_6_Paketi_Interfejsi_Enkapsulacija/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_6/Payable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_6_Paketi_Interfejsi_Enkapsulacija/Payable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_6/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_6_Paketi_Interfejsi_Enkapsulacija/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_6/TestPayIncrease.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_6_Paketi_Interfejsi_Enkapsulacija/TestPayIncrease.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_7/AbstractClass/Contractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_7_AbstractClasses_Interfaces/AbstractClass/Contractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_7/AbstractClass/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_7_AbstractClasses_Interfaces/AbstractClass/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_7/AbstractClass/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_7_AbstractClasses_Interfaces/AbstractClass/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_7/AbstractClass/TestPayIncrease.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_7_AbstractClasses_Interfaces/AbstractClass/TestPayIncrease.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_7/Interface/Contractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_7_AbstractClasses_Interfaces/Interface/Contractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_7/Interface/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_7_AbstractClasses_Interfaces/Interface/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_7/Interface/Payable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_7_AbstractClasses_Interfaces/Interface/Payable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_7/Interface/TestPayIncreaseInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_7_AbstractClasses_Interfaces/Interface/TestPayIncreaseInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_23_Anotacije_Refleksija/HRBrowser/LibraryBrowser$MyJDBCExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_23_Anotacije_Refleksija/HRBrowser/LibraryBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_23_Anotacije_Refleksija/HRBrowser/LibraryBrowser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lekcija_23_Anotacije_Refleksija/HRBrowser/LibraryBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_23_Anotacije_Refleksija/HRBrowser/LibraryBrowser.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -244,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClassA">
+  <component name="RunManager" selected="Application.LibraryBrowser">
     <configuration name="ClassA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lekcija_15_Java_Serijalizacija.ObjectOutputStream.ClassA" />
       <module name="JavaVezbanje" />
@@ -271,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_21_JDBCDriver.TryIt.Main" />
+    <configuration name="LibraryBrowser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_23_Anotacije_Refleksija.HRBrowser.LibraryBrowser" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_21_JDBCDriver.TryIt.*" />
+          <option name="PATTERN" value="Lekcija_23_Anotacije_Refleksija.HRBrowser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,19 +169,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.SuppressWarningDemo" />
       <item itemvalue="Application.ReflectionSample" />
       <item itemvalue="Application.DBParamProcessor" />
       <item itemvalue="Application.ClassA" />
+      <item itemvalue="Application.LibraryBrowser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LibraryBrowser" />
         <item itemvalue="Application.ClassA" />
         <item itemvalue="Application.DBParamProcessor" />
         <item itemvalue="Application.ReflectionSample" />
         <item itemvalue="Application.SuppressWarningDemo" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
