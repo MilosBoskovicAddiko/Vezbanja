@@ -244,7 +244,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DBParamProcessor">
+  <component name="RunManager" selected="Application.ClassA">
+    <configuration name="ClassA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_15_Java_Serijalizacija.ObjectOutputStream.ClassA" />
+      <module name="JavaVezbanje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lekcija_15_Java_Serijalizacija.ObjectOutputStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DBParamProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lekcija_23_Anotacije_Refleksija.TryIt.DBParamProcessor" />
       <module name="JavaVezbanje" />
@@ -254,13 +267,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="JavaVezbanje" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -305,19 +311,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.SuppressWarningDemo" />
       <item itemvalue="Application.ReflectionSample" />
       <item itemvalue="Application.DBParamProcessor" />
+      <item itemvalue="Application.ClassA" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassA" />
         <item itemvalue="Application.DBParamProcessor" />
         <item itemvalue="Application.ReflectionSample" />
         <item itemvalue="Application.SuppressWarningDemo" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
