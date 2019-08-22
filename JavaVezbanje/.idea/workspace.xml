@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_24_Poziv_Udaljenih_Procedura/RMIexample/Client/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_24_Poziv_Udaljenih_Procedura/RMIexample/Server/StartServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_24_Poziv_Udaljenih_Procedura/RMIexample/Server/StockServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_24_Poziv_Udaljenih_Procedura/RMIexample/Server/StockServerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaVezbanje.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaVezbanje.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_23_Anotacije_Refleksija/HRBrowser/LibraryBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_23_Anotacije_Refleksija/HRBrowser/LibraryBrowser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lekcija_24_Poziv_Udaljenih_Procedura/RMIexample/Client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_24_Poziv_Udaljenih_Procedura/RMIexample/Client/Client.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StartServer">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lekcija_24_Poziv_Udaljenih_Procedura.RMIexample.Client.Client" />
       <module name="JavaVezbanje" />
@@ -179,8 +173,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StartServer" />
         <item itemvalue="Application.Client" />
+        <item itemvalue="Application.StartServer" />
         <item itemvalue="Application.StringVariations" />
         <item itemvalue="Application.JumperPlayVer3" />
         <item itemvalue="Application.LibraryBrowser" />
@@ -243,7 +237,7 @@
       <workItem from="1566301270024" duration="2864000" />
       <workItem from="1566367369514" duration="11270000" />
       <workItem from="1566454037172" duration="303000" />
-      <workItem from="1566454513773" duration="5107000" />
+      <workItem from="1566454513773" duration="5555000" />
     </task>
     <servers />
   </component>

@@ -6,12 +6,15 @@ import java.net.MalformedURLException;
 import java.rmi.Naming;
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
+import java.util.Scanner;
 
 public class Client {
 
     public static void main(String[] args) {
         args = new String[1];
-        args[0] = "YHOO";
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a symbol(APPL, MSFT, YHOO, AMZN): ");
+        args[0] = scanner.nextLine();
         if (args.length == 0) {
             System.out.println("Sample usage: java client.Client AAPL");
             System.exit(0);
