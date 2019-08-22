@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_23_Anotacije_Refleksija/HRBrowser/MyJDBCExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_24_Poziv_Udaljenih_Procedura/RMIexample/Client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_24_Poziv_Udaljenih_Procedura/RMIexample/Server/StartServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_24_Poziv_Udaljenih_Procedura/RMIexample/Server/StockServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_24_Poziv_Udaljenih_Procedura/RMIexample/Server/StockServerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_23_Anotacije_Refleksija/HRBrowser/LibraryBrowser$MyJDBCExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaVezbanje.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaVezbanje.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_23_Anotacije_Refleksija/HRBrowser/LibraryBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaVezbanje/Lekcija_23_Anotacije_Refleksija/HRBrowser/LibraryBrowser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_23_Anotacije_Refleksija/HRBrowser/LibraryBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_23_Anotacije_Refleksija/HRBrowser/LibraryBrowser.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,13 +104,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LibraryBrowser">
-    <configuration name="ClassA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_15_Java_Serijalizacija.ObjectOutputStream.ClassA" />
+  <component name="RunManager" selected="Application.StartServer">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_24_Poziv_Udaljenih_Procedura.RMIexample.Client.Client" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_15_Java_Serijalizacija.ObjectOutputStream.*" />
+          <option name="PATTERN" value="Lekcija_24_Poziv_Udaljenih_Procedura.RMIexample.Server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DBParamProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_23_Anotacije_Refleksija.TryIt.DBParamProcessor" />
+    <configuration name="JumperPlayVer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkockoSlagalicaVerzija3.JumperPlayVer3" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_23_Anotacije_Refleksija.TryIt.*" />
+          <option name="PATTERN" value="SkockoSlagalicaVerzija3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_23_Anotacije_Refleksija.Reflection.ReflectionSample" />
+    <configuration name="StartServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lekcija_24_Poziv_Udaljenih_Procedura.RMIexample.Server.StartServer" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_23_Anotacije_Refleksija.Reflection.*" />
+          <option name="PATTERN" value="Lekcija_24_Poziv_Udaljenih_Procedura.RMIexample.Server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuppressWarningDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_23_Anotacije_Refleksija.SuppressWarningDemo.SuppressWarningDemo" />
+    <configuration name="StringVariations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringVariations.StringVariations" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_23_Anotacije_Refleksija.SuppressWarningDemo.*" />
+          <option name="PATTERN" value="StringVariations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,19 +171,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SuppressWarningDemo" />
-      <item itemvalue="Application.ReflectionSample" />
-      <item itemvalue="Application.DBParamProcessor" />
-      <item itemvalue="Application.ClassA" />
       <item itemvalue="Application.LibraryBrowser" />
+      <item itemvalue="Application.JumperPlayVer3" />
+      <item itemvalue="Application.StringVariations" />
+      <item itemvalue="Application.StartServer" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StartServer" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.StringVariations" />
+        <item itemvalue="Application.JumperPlayVer3" />
         <item itemvalue="Application.LibraryBrowser" />
-        <item itemvalue="Application.ClassA" />
-        <item itemvalue="Application.DBParamProcessor" />
-        <item itemvalue="Application.ReflectionSample" />
-        <item itemvalue="Application.SuppressWarningDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -240,6 +242,8 @@
       <workItem from="1566282981322" duration="6019000" />
       <workItem from="1566301270024" duration="2864000" />
       <workItem from="1566367369514" duration="11270000" />
+      <workItem from="1566454037172" duration="303000" />
+      <workItem from="1566454513773" duration="5107000" />
     </task>
     <servers />
   </component>

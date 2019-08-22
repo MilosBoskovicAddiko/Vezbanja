@@ -28,5 +28,14 @@
     </orderEntry>
     <orderEntry type="library" name="mysql-connector-java-5.1.48" level="project" />
     <orderEntry type="library" name="Hibernate 5.4.3-5.4.3" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/annotations/17.0.0/annotations-17.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
