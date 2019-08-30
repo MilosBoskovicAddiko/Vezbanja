@@ -1,8 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Lekcija_33:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Lekcija_24_Poziv_Udaljenih_Procedura/RMIexample/Client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lekcija_24_Poziv_Udaljenih_Procedura/RMIexample/Client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Vezbanja.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Lekcija_26_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Lekcija_27_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Lekcija_27_war_exploded2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Lekcija_28_Web_Socket_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Lekcija_33_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/untitled_ear_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/untitled_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_json.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_ws_rs_api_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloWorld.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloWorldLogger.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/rotatingFilesLogger.log.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/rotatingFilesLogger.log.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/rotatingFilesLogger.log.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_from_object.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_from_stream.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_26/Lekcija_26.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_26/src/com/milos/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_26/src/com/milos/FindBooksServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_26/src/com/milos/ShoppingCartServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_26/src/com/milos/StockQuoteGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_26/src/com/milos/StockServerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_26/web/ShoppingCart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_26/web/TryIt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_26/web/WEB-INF/faces-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_26/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_26/web/index.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_27/Lekcija_27.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_27/web/MyCalculator.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_27/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_27/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_28/Lekcija_28.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_28/web/HelloWebSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_28/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_28/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_33/JavaToJsonObject/JavaToJsonObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_33/JavaToJsonStream/JavaToJsonStreaming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_33/JavaToJsonStream/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_33/Lekcija_33.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_33/src/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_33/src/StockQuoteApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_33/src/StockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_33/src/StockServiceHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_33/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lekcija_33/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_34_Java_Logovanje_API/HelloWorldGlobalLogger/HelloWorldGlobalLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_34_Java_Logovanje_API/HelloWorldGlobalLogger/demo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_34_Java_Logovanje_API/LogFiltering/StockQuotePublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_34_Java_Logovanje_API/LogFilteringRepeat/StockQuoteRepeat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_34_Java_Logovanje_API/LogFormatter/HelloWorldHandlers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_34_Java_Logovanje_API/LogFormatter/MyFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_34_Java_Logovanje_API/LogFormatterRepeat/HelloWorldHandlersRepeat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_34_Java_Logovanje_API/TryIt/RotatingFilesLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_34_Java_Logovanje_API/TryIt/myLogging.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaVezbanje.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaVezbanje.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +111,7 @@
         <option value="hibernate-configuration-5.2" />
         <option value="hibernate-main-5.2" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -45,12 +119,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="JavaeeView">
+    <option name="showModules" value="false" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="1Ofv1WP7qLyBGBylYVPBRb4j03v" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -59,31 +144,36 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-5.1.48/mysql-connector-java-5.1.48.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Lesson_34_Java_Logovanje_API/TryIt" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_17\WaitNotifyExample2" />
-      <recent name="C:\Users\Milos Boskovic\Downloads\JavaVezbanje\src" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lesson_34_Java_Logovanje_API\HelloWorldGlobalLogger" />
+      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_33\src" />
+      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_28_Web_Socket\web" />
+      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_26\web" />
+      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lesson_34_Java_Logovanje_API.TryIt" />
       <recent name="Lekcija_20.SortiranjeTokova" />
       <recent name="Lekcija_20.SortiranjeJavaKolekcija.ComparatorInterface" />
       <recent name="Lekcija_20.SortiranjeJavaKolekcija.ComparableInterface" />
       <recent name="Lekcija_20.LazyStreams" />
-      <recent name="Lekcija_15.SerijalizacijaUPoljeBajtova" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje" />
-      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_14\TokoviBajtova" />
-      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_10\FinallyClasuse" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lesson_34_Java_Logovanje_API\TryIt" />
+      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_27\web" />
+      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_26\web" />
+      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_26\web\WEB-INF" />
+      <recent name="C:\Users\Milos Boskovic\Documents\Vezbanja\JavaVezbanje\src\Lekcija_17\WaitNotifyExample2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -98,13 +188,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_24_Poziv_Udaljenih_Procedura.RMIexample.Client.Client" />
+  <component name="RunManager">
+    <configuration name="HelloWorldGlobalLogger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_34_Java_Logovanje_API.HelloWorldGlobalLogger.HelloWorldGlobalLogger" />
       <module name="JavaVezbanje" />
+      <option name="VM_PARAMETERS" value="-Djava.util.logging.config.file=&quot;src/Lesson_34_Java_Logovanje_API/HelloWorldGlobalLogger/demo.properties&quot;" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_24_Poziv_Udaljenih_Procedura.RMIexample.Server.*" />
+          <option name="PATTERN" value="Lesson_34_Java_Logovanje_API.HelloWorldGlobalLogger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumperPlayVer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SkockoSlagalicaVerzija3.JumperPlayVer3" />
+    <configuration name="HelloWorldHandlers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_34_Java_Logovanje_API.LogFormatter.HelloWorldHandlers" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SkockoSlagalicaVerzija3.*" />
+          <option name="PATTERN" value="Lesson_34_Java_Logovanje_API.LogFormatter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +216,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryBrowser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_23_Anotacije_Refleksija.HRBrowser.LibraryBrowser" />
+    <configuration name="HelloWorldHandlersRepeat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_34_Java_Logovanje_API.LogFormatterRepeat.HelloWorldHandlersRepeat" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_23_Anotacije_Refleksija.HRBrowser.*" />
+          <option name="PATTERN" value="Lesson_34_Java_Logovanje_API.LogFormatterRepeat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +229,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcija_24_Poziv_Udaljenih_Procedura.RMIexample.Server.StartServer" />
+    <configuration name="RotatingFilesLogger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_34_Java_Logovanje_API.TryIt.RotatingFilesLogger" />
       <module name="JavaVezbanje" />
+      <option name="VM_PARAMETERS" value="-Djava.util.logging.config.file=&quot;src/Lesson_34_Java_Logovanje_API/TryIt/myLogging.properties&quot;" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lekcija_24_Poziv_Udaljenih_Procedura.RMIexample.Server.*" />
+          <option name="PATTERN" value="Lesson_34_Java_Logovanje_API.TryIt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,33 +243,174 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringVariations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringVariations.StringVariations" />
+    <configuration name="StockQuoteRepeat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_34_Java_Logovanje_API.LogFilteringRepeat.StockQuoteRepeat" />
       <module name="JavaVezbanje" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringVariations.*" />
+          <option name="PATTERN" value="Lesson_34_Java_Logovanje_API.LogFilteringRepeat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GlassFish 4.1.2" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.1.2" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Lekcija_33_war_exploded" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="GlassFish" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Lekcija_33:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.24" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Lekcija_26:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Lekcija_26_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_JavaVezbanje" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53067" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Lekcija_26:war exploded" />
+        </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LibraryBrowser" />
-      <item itemvalue="Application.JumperPlayVer3" />
-      <item itemvalue="Application.StringVariations" />
-      <item itemvalue="Application.StartServer" />
-      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.HelloWorldGlobalLogger" />
+      <item itemvalue="Application.RotatingFilesLogger" />
+      <item itemvalue="Application.StockQuoteRepeat" />
+      <item itemvalue="Application.HelloWorldHandlersRepeat" />
+      <item itemvalue="GlassFish Server.GlassFish 4.1.2" />
+      <item itemvalue="Tomcat Server.Tomcat" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.StartServer" />
-        <item itemvalue="Application.StringVariations" />
-        <item itemvalue="Application.JumperPlayVer3" />
-        <item itemvalue="Application.LibraryBrowser" />
+        <item itemvalue="Application.RotatingFilesLogger" />
+        <item itemvalue="Application.HelloWorldGlobalLogger" />
+        <item itemvalue="Application.HelloWorldHandlers" />
+        <item itemvalue="Application.HelloWorldHandlersRepeat" />
+        <item itemvalue="Application.StockQuoteRepeat" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +470,15 @@
       <workItem from="1566301270024" duration="2864000" />
       <workItem from="1566367369514" duration="11270000" />
       <workItem from="1566454037172" duration="303000" />
-      <workItem from="1566454513773" duration="5555000" />
+      <workItem from="1566454513773" duration="13137000" />
+      <workItem from="1566540898746" duration="13306000" />
+      <workItem from="1566800426278" duration="5274000" />
+      <workItem from="1566823823224" duration="47000" />
+      <workItem from="1566910972402" duration="1072000" />
+      <workItem from="1566973064715" duration="4283000" />
+      <workItem from="1567062977373" duration="13096000" />
+      <workItem from="1567086554522" duration="465000" />
+      <workItem from="1567145045313" duration="12965000" />
     </task>
     <servers />
   </component>

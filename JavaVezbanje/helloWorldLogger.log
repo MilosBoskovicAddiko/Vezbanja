@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-30T12:42:58</date>
+  <millis>1567161778611</millis>
+  <sequence>0</sequence>
+  <logger>Lesson_34_Java_Logovanje_API.LogFormatterRepeat.HelloWorldHandlersRepeat</logger>
+  <level>INFO</level>
+  <class>Lesson_34_Java_Logovanje_API.LogFormatterRepeat.HelloWorldHandlersRepeat</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello from INFO world</message>
+</record>
+<record>
+  <date>2019-08-30T12:42:58</date>
+  <millis>1567161778633</millis>
+  <sequence>1</sequence>
+  <logger>Lesson_34_Java_Logovanje_API.LogFormatterRepeat.HelloWorldHandlersRepeat</logger>
+  <level>INFO</level>
+  <class>Lesson_34_Java_Logovanje_API.LogFormatterRepeat.HelloWorldHandlersRepeat</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Try to devide with 0</message>
+</record>
+<record>
+  <date>2019-08-30T12:42:58</date>
+  <millis>1567161778634</millis>
+  <sequence>2</sequence>
+  <logger>Lesson_34_Java_Logovanje_API.LogFormatterRepeat.HelloWorldHandlersRepeat</logger>
+  <level>SEVERE</level>
+  <class>Lesson_34_Java_Logovanje_API.LogFormatterRepeat.HelloWorldHandlersRepeat</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Divided by 0</message>
+</record>
+</log>
