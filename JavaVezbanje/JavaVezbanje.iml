@@ -48,5 +48,16 @@
     </orderEntry>
     <orderEntry type="library" name="javax.json" level="project" />
     <orderEntry type="library" name="javax.ws.rs-api-2.1.1" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
