@@ -24,6 +24,7 @@ Miloš Bošković
 * Lekcija 21 - Yakov Fain - JDBC Driver
 * Lekcija 23 - Yakov Fain - Refleksija i anotacije
 * Lekcija 24 - Yakov Fain - Poziv udaljenih procedura
+* Lekcija 35 - Yakov Fain - JUnit Testovi
 * Jumper
 * Jumper version 2
 * Jumper version 3
@@ -163,6 +164,11 @@ Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 
 #### Lekcija 24
 * Poziv udaljenih procedura
+
+---
+
+#### Lekcija 35
+* JUnit testovi
 
 ---
 
@@ -430,3 +436,5 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 [Lekcija 23 - TryIt](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_23_Anotacije_Refleksija/TryIt)
 
 [Lekcija 24 - Poziv udaljenih procedura](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_24_Poziv_Udaljenih_Procedura/RMIexample)
+
+[Lekcija 35 - JUnit Testovi](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_35_JUnitTest)
