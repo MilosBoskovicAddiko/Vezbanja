@@ -24,6 +24,11 @@ Miloš Bošković
 * Lekcija 21 - Yakov Fain - JDBC Driver
 * Lekcija 23 - Yakov Fain - Refleksija i anotacije
 * Lekcija 24 - Yakov Fain - Poziv udaljenih procedura
+* Lekcija 26 - Yakov Fain - Servleti
+* Lekcija 27 - Yakov Fain - JSP tehnologija
+* Lekcija 28 - Yakov Fain - WebSocketi
+* Lekcija 33 - Yakov Fain - RESTfull web servisi
+* Lekcija 34 - Yakov Fain - Java Logging API interface
 * Lekcija 35 - Yakov Fain - JUnit Testovi
 * Jumper
 * Jumper version 2
@@ -164,6 +169,31 @@ Interfejsi i abstraktne klase. Njihova primena i uporedjivanje.
 
 #### Lekcija 24
 * Poziv udaljenih procedura
+
+---
+
+#### Lekcija 26
+* Servleti
+
+---
+
+#### Lekcija 27
+* JSP Tehnologija
+
+---
+
+#### Lekcija 28
+* Wev Soketi
+
+---
+
+#### Lekcija 33
+* RESTFull Web Serrvisi
+
+---
+
+#### Lekcija 34
+* Java Loggovanje API
 
 ---
 
@@ -436,5 +466,15 @@ Prevedeno, svaki mail koji pocinje sa malim slovom ili cifrom, a u nastavku se m
 [Lekcija 23 - TryIt](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_23_Anotacije_Refleksija/TryIt)
 
 [Lekcija 24 - Poziv udaljenih procedura](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_24_Poziv_Udaljenih_Procedura/RMIexample)
+
+[Lekcija 26 - Servleti](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_26)
+
+[Lekcija 27 - JSP tehnologija](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_27)
+
+[Lekcija 28 - WebSocketi](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_28)
+
+[Lekcija 33 - RESTfull web servisi](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_33)
+
+[Lekcija 34 - Java Logging API interface](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lesson_34_Java_Logovanje_API)
 
 [Lekcija 35 - JUnit Testovi](https://github.com/MilosBoskovicAddiko/Vezbanja/tree/master/JavaVezbanje/src/Lekcija_35_JUnitTest)
