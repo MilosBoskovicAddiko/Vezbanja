@@ -6,17 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/logs/helloWorld.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_35_JUnitTest/tax/Tax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_35_JUnitTest/tax/TaxCommandLineRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_35_JUnitTest/tax/Taxable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_35_JUnitTest/test/AllTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_35_JUnitTest/test/TaxExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lekcija_35_JUnitTest/test/TaxTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaVezbanje.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaVezbanje.iml" afterDir="false" />
-    </list>
+    <list default="true" id="53ad0216-9dcd-4aa6-a7ce-261bbb70d989" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -427,7 +417,7 @@
       <workItem from="1567062977373" duration="13096000" />
       <workItem from="1567086554522" duration="465000" />
       <workItem from="1567145045313" duration="13902000" />
-      <workItem from="1567405238585" duration="7775000" />
+      <workItem from="1567405238585" duration="8232000" />
     </task>
     <servers />
   </component>
